@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "question1.py", line 20, in <module>
+    wandb.log("num_classes",num_classes)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 442, in wrapper
+    return func(self, *args, **kwargs)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 394, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 384, in wrapper
+    return func(self, *args, **kwargs)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1901, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1609, in _log
+    raise ValueError("wandb.log must be passed a dictionary")
+ValueError: wandb.log must be passed a dictionary
+Traceback (most recent call last):
+  File "question1.py", line 20, in <module>
+    wandb.log("num_classes",num_classes)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 442, in wrapper
+    return func(self, *args, **kwargs)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 394, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 384, in wrapper
+    return func(self, *args, **kwargs)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1901, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1609, in _log
+    raise ValueError("wandb.log must be passed a dictionary")
+ValueError: wandb.log must be passed a dictionary

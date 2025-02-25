@@ -1,0 +1,1 @@
+{"_runtime":1.637787065,"_step":1,"fmnist":{"size":23807,"path":"media/images/fmnist_1_effdeb0eafeb5a2ddf91.png","format":"png","width":1500,"height":200,"_type":"image-file","sha256":"effdeb0eafeb5a2ddf91ac277338e00c083078bd11338204aa1bfb3e3fe102aa"},"_wandb":{"runtime":1},"num_classes":10,"_timestamp":1.7404248336736412e+09}

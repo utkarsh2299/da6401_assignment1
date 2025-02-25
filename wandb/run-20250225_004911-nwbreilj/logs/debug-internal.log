@@ -1,0 +1,15 @@
+{"time":"2025-02-25T00:49:11.320445795+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250225_004911-nwbreilj/logs/debug-core.log"}
+{"time":"2025-02-25T00:49:11.428287074+05:30","level":"INFO","msg":"created new stream","id":"nwbreilj"}
+{"time":"2025-02-25T00:49:11.428312495+05:30","level":"INFO","msg":"stream: started","id":"nwbreilj"}
+{"time":"2025-02-25T00:49:11.428334475+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nwbreilj"}
+{"time":"2025-02-25T00:49:11.428358776+05:30","level":"INFO","msg":"sender: started","stream_id":"nwbreilj"}
+{"time":"2025-02-25T00:49:11.428392527+05:30","level":"INFO","msg":"handler: started","stream_id":"nwbreilj"}
+{"time":"2025-02-25T00:49:11.762770287+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-25T00:49:12.043455033+05:30","level":"INFO","msg":"stream: closing","id":"nwbreilj"}
+{"time":"2025-02-25T00:49:12.043497414+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-25T00:49:12.044355137+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-25T00:49:14.343274752+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-25T00:49:14.65456419+05:30","level":"INFO","msg":"handler: closed","stream_id":"nwbreilj"}
+{"time":"2025-02-25T00:49:14.654622172+05:30","level":"INFO","msg":"sender: closed","stream_id":"nwbreilj"}
+{"time":"2025-02-25T00:49:14.654618792+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nwbreilj"}
+{"time":"2025-02-25T00:49:14.654752395+05:30","level":"INFO","msg":"stream: closed","id":"nwbreilj"}

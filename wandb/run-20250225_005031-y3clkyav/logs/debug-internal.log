@@ -1,0 +1,16 @@
+{"time":"2025-02-25T00:50:32.08017876+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250225_005031-y3clkyav/logs/debug-core.log"}
+{"time":"2025-02-25T00:50:32.190866148+05:30","level":"INFO","msg":"created new stream","id":"y3clkyav"}
+{"time":"2025-02-25T00:50:32.19093541+05:30","level":"INFO","msg":"stream: started","id":"y3clkyav"}
+{"time":"2025-02-25T00:50:32.191143365+05:30","level":"INFO","msg":"handler: started","stream_id":"y3clkyav"}
+{"time":"2025-02-25T00:50:32.191188436+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"y3clkyav"}
+{"time":"2025-02-25T00:50:32.191278258+05:30","level":"INFO","msg":"sender: started","stream_id":"y3clkyav"}
+{"time":"2025-02-25T00:50:32.565832563+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-25T00:50:33.715066737+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-25T00:50:33.715967139+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-25T00:50:34.67533674+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/fmnist_1_effdeb0eafeb5a2ddf91.png","runtime_seconds":0.681308354,"progress":"23.2KB/23.2KB"},{"desc":"uploading output.log","runtime_seconds":0.681293194},{"desc":"uploading config.yaml","runtime_seconds":0.328256094,"progress":"523B/523B"}],"total_operations":3}}
+{"time":"2025-02-25T00:50:35.574725386+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-25T00:50:36.923890572+05:30","level":"INFO","msg":"stream: closing","id":"y3clkyav"}
+{"time":"2025-02-25T00:50:36.923938743+05:30","level":"INFO","msg":"handler: closed","stream_id":"y3clkyav"}
+{"time":"2025-02-25T00:50:36.923955883+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"y3clkyav"}
+{"time":"2025-02-25T00:50:36.924018055+05:30","level":"INFO","msg":"sender: closed","stream_id":"y3clkyav"}
+{"time":"2025-02-25T00:50:36.924065016+05:30","level":"INFO","msg":"stream: closed","id":"y3clkyav"}

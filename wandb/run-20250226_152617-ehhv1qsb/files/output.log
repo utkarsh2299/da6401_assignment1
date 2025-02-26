@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "question1.py", line 46, in <module>
+    wandb.log({"fmnist": fig})
+NameError: name 'fig' is not defined
+Traceback (most recent call last):
+  File "question1.py", line 46, in <module>
+    wandb.log({"fmnist": fig})
+NameError: name 'fig' is not defined

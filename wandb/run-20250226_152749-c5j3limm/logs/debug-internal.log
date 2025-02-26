@@ -1,0 +1,16 @@
+{"time":"2025-02-26T15:27:50.20225995+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250226_152749-c5j3limm/logs/debug-core.log"}
+{"time":"2025-02-26T15:27:50.314188514+05:30","level":"INFO","msg":"created new stream","id":"c5j3limm"}
+{"time":"2025-02-26T15:27:50.314233125+05:30","level":"INFO","msg":"stream: started","id":"c5j3limm"}
+{"time":"2025-02-26T15:27:50.314280366+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"c5j3limm"}
+{"time":"2025-02-26T15:27:50.314304186+05:30","level":"INFO","msg":"handler: started","stream_id":"c5j3limm"}
+{"time":"2025-02-26T15:27:50.314386217+05:30","level":"INFO","msg":"sender: started","stream_id":"c5j3limm"}
+{"time":"2025-02-26T15:27:50.750941243+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T15:27:51.55907277+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T15:27:51.559690911+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T15:27:52.525080694+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/fmnist_1_13dd1b7869add7d09f41.png","runtime_seconds":0.696468776,"progress":"556B/556B"},{"desc":"uploading media/images/fmnist_1_afb29cd14cba587dd7a1.png","runtime_seconds":0.696457146,"progress":"342B/342B"},{"desc":"uploading media/images/fmnist_1_1f35177528805f9152a8.png","runtime_seconds":0.696447365,"progress":"576B/576B"},{"desc":"uploading output.log","runtime_seconds":0.696441825},{"desc":"uploading media/images/fmnist_1_ca5ad0600b9173c47c68.png","runtime_seconds":0.696435555,"progress":"550B/550B"},{"desc":"uploading media/images/fmnist_1_86946ee940d602a6316d.png","runtime_seconds":0.696430975,"progress":"360B/360B"},{"desc":"uploading media/images/fmnist_1_eca7a1d74ec712d7314a.png","runtime_seconds":0.696425485,"progress":"472B/472B"},{"desc":"uploading media/images/fmnist_1_9c997cff1bbd9aba3d06.png","runtime_seconds":0.696419455,"progress":"609B/609B"},{"desc":"uploading media/images/fmnist_1_f440c0ca593a7e0bfd30.png","runtime_seconds":0.696414015,"progress":"620B/620B"},{"desc":"uploading media/images/fmnist_1_70fef39aef882b475686.png","runtime_seconds":0.696407615,"progress":"553B/553B"}],"total_operations":13}}
+{"time":"2025-02-26T15:27:53.140019817+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T15:27:54.488709237+05:30","level":"INFO","msg":"stream: closing","id":"c5j3limm"}
+{"time":"2025-02-26T15:27:54.488755268+05:30","level":"INFO","msg":"handler: closed","stream_id":"c5j3limm"}
+{"time":"2025-02-26T15:27:54.488780259+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"c5j3limm"}
+{"time":"2025-02-26T15:27:54.48883463+05:30","level":"INFO","msg":"sender: closed","stream_id":"c5j3limm"}
+{"time":"2025-02-26T15:27:54.488914151+05:30","level":"INFO","msg":"stream: closed","id":"c5j3limm"}

@@ -1,0 +1,9 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with momentum:
+Epoch 1/1 - 2.70s - loss: 2.1639 - acc: 0.5647 - val_loss: 14.8862 - val_acc: 0.5690
+{'train_loss': [2.1638612641602757], 'train_acc': [0.56474], 'val_loss': [14.886212626206508], 'val_acc': [0.569]}
+
+Test accuracy with momentum: 0.5598

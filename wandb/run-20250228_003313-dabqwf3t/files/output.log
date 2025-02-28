@@ -1,0 +1,24 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with sgd:
+Epoch 1/5 - 2.59s - loss: 1.7896 - acc: 0.6314 - val_loss: 12.5618 - val_acc: 0.6363
+Epoch 2/5 - 2.55s - loss: 1.1291 - acc: 0.6768 - val_loss: 11.0800 - val_acc: 0.6792
+Epoch 3/5 - 2.67s - loss: 0.9101 - acc: 0.7105 - val_loss: 9.9230 - val_acc: 0.7127
+Epoch 4/5 - 2.71s - loss: 0.8092 - acc: 0.7387 - val_loss: 9.0112 - val_acc: 0.7391
+Epoch 5/5 - 2.60s - loss: 0.7487 - acc: 0.7584 - val_loss: 8.3826 - val_acc: 0.7573
+
+Test accuracy with sgd: 0.7421
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 101, in main
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 101, in main
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'

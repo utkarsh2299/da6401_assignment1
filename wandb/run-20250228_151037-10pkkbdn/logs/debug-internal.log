@@ -1,0 +1,16 @@
+{"time":"2025-02-28T15:10:37.903391848+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250228_151037-10pkkbdn/logs/debug-core.log"}
+{"time":"2025-02-28T15:10:38.01712239+05:30","level":"INFO","msg":"created new stream","id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:38.01714646+05:30","level":"INFO","msg":"stream: started","id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:38.017237792+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:38.017295333+05:30","level":"INFO","msg":"sender: started","stream_id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:38.017438305+05:30","level":"INFO","msg":"handler: started","stream_id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:38.372280721+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-28T15:10:43.349343974+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-28T15:10:43.35038548+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-28T15:10:44.351618416+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.693810159,"progress":"371B/371B"},{"desc":"uploading media/images/confusion_matrix_3_7579e9170ef95e2647dc.png","runtime_seconds":0.693773659,"progress":"64.8KB/64.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.416433114,"progress":"737B/737B"}],"total_operations":3}}
+{"time":"2025-02-28T15:10:44.938189326+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-28T15:10:46.270455268+05:30","level":"INFO","msg":"stream: closing","id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:46.270482519+05:30","level":"INFO","msg":"handler: closed","stream_id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:46.270498449+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:46.27055241+05:30","level":"INFO","msg":"sender: closed","stream_id":"10pkkbdn"}
+{"time":"2025-02-28T15:10:46.270604621+05:30","level":"INFO","msg":"stream: closed","id":"10pkkbdn"}

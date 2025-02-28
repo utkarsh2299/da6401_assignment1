@@ -1,0 +1,29 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with sgd:
+Epoch 1/5 - 2.55s - loss: 1.7352 - acc: 0.6295 - val_loss: 12.8553 - val_acc: 0.6278
+Epoch 2/5 - 2.53s - loss: 1.1480 - acc: 0.6832 - val_loss: 10.9764 - val_acc: 0.6822
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 65, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 198, in train
+    y_pred = self.forward_pass(X_batch)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 71, in forward_pass
+    z = np.dot(current_activation, self.weights[i]) + self.biases[i]
+  File "<__array_function__ internals>", line 180, in dot
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 65, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 198, in train
+    y_pred = self.forward_pass(X_batch)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 71, in forward_pass
+    z = np.dot(current_activation, self.weights[i]) + self.biases[i]
+  File "<__array_function__ internals>", line 180, in dot
+KeyboardInterrupt

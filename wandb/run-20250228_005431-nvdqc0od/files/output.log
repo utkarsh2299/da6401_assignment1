@@ -1,0 +1,12 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with momentum:
+Epoch 1/5 - 2.78s - loss: 0.8921 - acc: 0.7934 - val_loss: 7.2739 - val_acc: 0.7894
+Epoch 2/5 - 2.67s - loss: 0.5559 - acc: 0.8285 - val_loss: 6.2930 - val_acc: 0.8178
+Epoch 3/5 - 2.77s - loss: 0.4919 - acc: 0.8306 - val_loss: 6.1583 - val_acc: 0.8217
+Epoch 4/5 - 2.59s - loss: 0.4593 - acc: 0.8450 - val_loss: 5.5366 - val_acc: 0.8397
+Epoch 5/5 - 2.84s - loss: 0.4386 - acc: 0.8514 - val_loss: 5.4157 - val_acc: 0.8432
+
+Test accuracy with momentum: 0.8341

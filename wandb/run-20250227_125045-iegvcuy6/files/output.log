@@ -1,0 +1,10 @@
+Epoch 1/10 - Loss: 0.4411, Val Loss: 0.4990, Val Accuracy: 0.8306
+Epoch 2/10 - Loss: 0.4775, Val Loss: 0.4301, Val Accuracy: 0.8453
+Epoch 3/10 - Loss: 0.3213, Val Loss: 0.4587, Val Accuracy: 0.8292
+Epoch 4/10 - Loss: 0.4132, Val Loss: 0.4679, Val Accuracy: 0.8416
+Epoch 5/10 - Loss: 0.3011, Val Loss: 0.4159, Val Accuracy: 0.8592
+Epoch 6/10 - Loss: 0.3210, Val Loss: 0.3880, Val Accuracy: 0.8600
+Epoch 7/10 - Loss: 0.1204, Val Loss: 0.3781, Val Accuracy: 0.8700
+Epoch 8/10 - Loss: 0.6631, Val Loss: 0.3769, Val Accuracy: 0.8663
+Epoch 9/10 - Loss: 0.5018, Val Loss: 0.3794, Val Accuracy: 0.8682
+Epoch 10/10 - Loss: 0.1749, Val Loss: 0.3881, Val Accuracy: 0.8600

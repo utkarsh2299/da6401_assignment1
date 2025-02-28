@@ -1,0 +1,29 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with sgd:
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 65, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 208, in train
+    self.update_parameters(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 130, in update_parameters
+    optimizer_func = get_optimizer(optimizer)
+  File "/speech/utkarsh/da6401_assignment1/optimizers/optimizers.py", line 216, in get_optimizer
+    'sgd': SGD,
+NameError: name 'SGD' is not defined
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 65, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 208, in train
+    self.update_parameters(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 130, in update_parameters
+    optimizer_func = get_optimizer(optimizer)
+  File "/speech/utkarsh/da6401_assignment1/optimizers/optimizers.py", line 216, in get_optimizer
+    'sgd': SGD,
+NameError: name 'SGD' is not defined

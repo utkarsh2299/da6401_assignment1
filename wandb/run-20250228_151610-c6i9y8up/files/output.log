@@ -1,0 +1,39 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with sgd:
+Epoch 1/1 - 2.91s - loss: 2.1892 - acc: 0.5406 - val_loss: 15.8637 - val_acc: 0.5407
+{'train_loss': [2.1892088386012216], 'train_acc': [0.54064], 'val_loss': [15.863659998182477], 'val_acc': [0.5407]}
+
+Test accuracy with momentum: 0.5422
+
+Training with momentum:
+Epoch 1/1 - 2.76s - loss: 1.8158 - acc: 0.6221 - val_loss: 12.7172 - val_acc: 0.6318
+{'train_loss': [1.8157508785799137], 'train_acc': [0.62212], 'val_loss': [12.717177468606113], 'val_acc': [0.6318]}
+
+Test accuracy with momentum: 0.6187
+
+Training with nesterov:
+Epoch 1/1 - 2.73s - loss: 1.4692 - acc: 0.6547 - val_loss: 11.6154 - val_acc: 0.6637
+{'train_loss': [1.469228273994531], 'train_acc': [0.65466], 'val_loss': [11.615390501608465], 'val_acc': [0.6637]}
+
+Test accuracy with momentum: 0.6537
+
+Training with rmsprop:
+Epoch 1/1 - 2.59s - loss: 1.2417 - acc: 0.6643 - val_loss: 11.3114 - val_acc: 0.6725
+{'train_loss': [1.241678283899316], 'train_acc': [0.66428], 'val_loss': [11.311449269333247], 'val_acc': [0.6725]}
+
+Test accuracy with momentum: 0.6590
+
+Training with adam:
+Epoch 1/1 - 2.57s - loss: 1.0903 - acc: 0.6900 - val_loss: 10.4652 - val_acc: 0.6970
+{'train_loss': [1.0903210995631594], 'train_acc': [0.69], 'val_loss': [10.465249247657939], 'val_acc': [0.697]}
+
+Test accuracy with momentum: 0.6835
+
+Training with nadam:
+Epoch 1/1 - 2.59s - loss: 0.9842 - acc: 0.6991 - val_loss: 10.2960 - val_acc: 0.7019
+{'train_loss': [0.9842179252453013], 'train_acc': [0.69914], 'val_loss': [10.296009243322874], 'val_acc': [0.7019]}
+
+Test accuracy with momentum: 0.6920

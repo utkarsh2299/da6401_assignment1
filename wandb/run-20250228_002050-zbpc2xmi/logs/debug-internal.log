@@ -1,0 +1,15 @@
+{"time":"2025-02-28T00:20:50.573972628+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250228_002050-zbpc2xmi/logs/debug-core.log"}
+{"time":"2025-02-28T00:20:50.687006299+05:30","level":"INFO","msg":"created new stream","id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:50.68706791+05:30","level":"INFO","msg":"stream: started","id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:50.687310554+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:50.687404056+05:30","level":"INFO","msg":"handler: started","stream_id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:50.687468467+05:30","level":"INFO","msg":"sender: started","stream_id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:51.062400899+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-28T00:20:52.074148302+05:30","level":"INFO","msg":"stream: closing","id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:52.074175182+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-28T00:20:52.074819783+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-28T00:20:53.673649921+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-28T00:20:54.010706882+05:30","level":"INFO","msg":"handler: closed","stream_id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:54.010785623+05:30","level":"INFO","msg":"sender: closed","stream_id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:54.010764373+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zbpc2xmi"}
+{"time":"2025-02-28T00:20:54.010890035+05:30","level":"INFO","msg":"stream: closed","id":"zbpc2xmi"}

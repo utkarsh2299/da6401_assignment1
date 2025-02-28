@@ -1,0 +1,31 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with momentum:
+Epoch 1/5 - 2.71s - loss: 0.8775 - acc: 0.7826 - val_loss: 7.5122 - val_acc: 0.7825
+Epoch 2/5 - 2.62s - loss: 0.5675 - acc: 0.8222 - val_loss: 6.2826 - val_acc: 0.8181
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 65, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 208, in train
+    self.update_parameters(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 133, in update_parameters
+    optimizer_func(
+  File "/speech/utkarsh/da6401_assignment1/optimizers/optimizers.py", line 251, in momentum
+    weights[i] += optimization_params['velocity_w'][i]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main_new.py", line 124, in <module>
+    main()
+  File "main_new.py", line 65, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 208, in train
+    self.update_parameters(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 133, in update_parameters
+    optimizer_func(
+  File "/speech/utkarsh/da6401_assignment1/optimizers/optimizers.py", line 251, in momentum
+    weights[i] += optimization_params['velocity_w'][i]
+KeyboardInterrupt

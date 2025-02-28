@@ -1,0 +1,16 @@
+{"time":"2025-02-28T00:54:31.349151932+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250228_005431-nvdqc0od/logs/debug-core.log"}
+{"time":"2025-02-28T00:54:31.465627386+05:30","level":"INFO","msg":"created new stream","id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:31.465673797+05:30","level":"INFO","msg":"stream: started","id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:31.465776818+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:31.465815029+05:30","level":"INFO","msg":"handler: started","stream_id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:31.465951001+05:30","level":"INFO","msg":"sender: started","stream_id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:31.855040865+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-28T00:54:47.245591049+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-28T00:54:47.246715098+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-28T00:54:48.246153782+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_6_e44f5b3de0f6a32ffe4c.png","runtime_seconds":0.509601425,"progress":"21.7KB/21.7KB"},{"desc":"uploading output.log","runtime_seconds":0.509584144,"progress":"591B/591B"},{"desc":"uploading config.yaml","runtime_seconds":0.180856512,"progress":"735B/735B"}],"total_operations":3}}
+{"time":"2025-02-28T00:54:49.14661961+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-28T00:54:50.44815675+05:30","level":"INFO","msg":"stream: closing","id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:50.448181371+05:30","level":"INFO","msg":"handler: closed","stream_id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:50.448192371+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:50.448256182+05:30","level":"INFO","msg":"sender: closed","stream_id":"nvdqc0od"}
+{"time":"2025-02-28T00:54:50.448298663+05:30","level":"INFO","msg":"stream: closed","id":"nvdqc0od"}

@@ -1,0 +1,15 @@
+{"time":"2025-02-27T12:50:07.302049699+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250227_125007-issov74p/logs/debug-core.log"}
+{"time":"2025-02-27T12:50:07.417310322+05:30","level":"INFO","msg":"created new stream","id":"issov74p"}
+{"time":"2025-02-27T12:50:07.417347263+05:30","level":"INFO","msg":"stream: started","id":"issov74p"}
+{"time":"2025-02-27T12:50:07.417418014+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"issov74p"}
+{"time":"2025-02-27T12:50:07.417455994+05:30","level":"INFO","msg":"handler: started","stream_id":"issov74p"}
+{"time":"2025-02-27T12:50:07.417431614+05:30","level":"INFO","msg":"sender: started","stream_id":"issov74p"}
+{"time":"2025-02-27T12:50:07.773389232+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-27T12:50:08.143036077+05:30","level":"INFO","msg":"stream: closing","id":"issov74p"}
+{"time":"2025-02-27T12:50:08.143066978+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-27T12:50:08.143748547+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-27T12:50:09.69615659+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-27T12:50:10.079780339+05:30","level":"INFO","msg":"handler: closed","stream_id":"issov74p"}
+{"time":"2025-02-27T12:50:10.079822329+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"issov74p"}
+{"time":"2025-02-27T12:50:10.07984436+05:30","level":"INFO","msg":"sender: closed","stream_id":"issov74p"}
+{"time":"2025-02-27T12:50:10.079918351+05:30","level":"INFO","msg":"stream: closed","id":"issov74p"}

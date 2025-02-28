@@ -1,0 +1,12 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with sgd:
+Epoch 1/5 - 2.55s - loss: 1.7678 - acc: 0.6252 - val_loss: 12.7655 - val_acc: 0.6304
+Epoch 2/5 - 2.53s - loss: 1.1938 - acc: 0.6763 - val_loss: 11.1077 - val_acc: 0.6784
+Epoch 3/5 - 2.48s - loss: 0.9593 - acc: 0.7018 - val_loss: 10.3375 - val_acc: 0.7007
+Epoch 4/5 - 2.45s - loss: 0.8461 - acc: 0.7270 - val_loss: 9.4291 - val_acc: 0.7270
+Epoch 5/5 - 2.42s - loss: 0.7782 - acc: 0.7434 - val_loss: 9.0077 - val_acc: 0.7392
+
+Test accuracy with sgd: 0.7318

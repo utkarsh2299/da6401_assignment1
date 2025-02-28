@@ -1,0 +1,29 @@
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_setup.py:_flush():68] Configure stats pid to 1670054
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_init.py:_log_setup():523] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250228_143556-3b3zv1d3/logs/debug.log
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_init.py:_log_setup():524] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250228_143556-3b3zv1d3/logs/debug-internal.log
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_init.py:init():641] calling init triggers
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {'hidden_layers': [128, 64], 'activation': 'sigmoid', 'optimizer': 'momentum', 'learning_rate': 0.001, 'batch_size': 64, 'epochs': 5}
+2025-02-28 14:35:56,618 INFO    MainThread:1670054 [wandb_init.py:init():674] starting backend
+2025-02-28 14:35:56,845 INFO    MainThread:1670054 [wandb_init.py:init():678] sending inform_init request
+2025-02-28 14:35:56,862 INFO    MainThread:1670054 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-28 14:35:56,863 INFO    MainThread:1670054 [wandb_init.py:init():693] backend started and connected
+2025-02-28 14:35:56,866 INFO    MainThread:1670054 [wandb_init.py:init():786] updated telemetry
+2025-02-28 14:35:56,890 INFO    MainThread:1670054 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-02-28 14:35:57,459 INFO    MainThread:1670054 [wandb_init.py:init():868] starting run threads in backend
+2025-02-28 14:35:57,682 INFO    MainThread:1670054 [wandb_run.py:_console_start():2415] atexit reg
+2025-02-28 14:35:57,682 INFO    MainThread:1670054 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-02-28 14:35:57,683 INFO    MainThread:1670054 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-02-28 14:35:57,683 INFO    MainThread:1670054 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-02-28 14:35:57,685 INFO    MainThread:1670054 [wandb_init.py:init():910] run started, returning control to user process
+2025-02-28 14:36:13,235 INFO    MainThread:1670054 [wandb_run.py:_finish():2140] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/3b3zv1d3
+2025-02-28 14:36:13,236 INFO    MainThread:1670054 [wandb_run.py:_atexit_cleanup():2380] got exitcode: 0
+2025-02-28 14:36:13,236 INFO    MainThread:1670054 [wandb_run.py:_restore():2362] restore
+2025-02-28 14:36:13,236 INFO    MainThread:1670054 [wandb_run.py:_restore():2368] restore done
+2025-02-28 14:36:15,632 INFO    MainThread:1670054 [wandb_run.py:_footer_history_summary_info():3984] rendering history
+2025-02-28 14:36:15,633 INFO    MainThread:1670054 [wandb_run.py:_footer_history_summary_info():4016] rendering summary
+2025-02-28 14:36:15,639 INFO    MainThread:1670054 [wandb_run.py:_footer_sync_info():3945] logging synced files

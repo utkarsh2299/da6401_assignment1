@@ -1,0 +1,19 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+
+Training with sgd:
+Traceback (most recent call last):
+  File "/speech/utkarsh/da6401_assignment1/main_new.py", line 125, in <module>
+    main()
+  File "/speech/utkarsh/da6401_assignment1/main_new.py", line 66, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 253, in train
+    y_pred_train = self.predict(X_train)  # Get class predictions
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 316, in predict
+    y_pred = self.forward_pass(X)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network.py", line 92, in forward_pass
+    current_activation = self.activation(a)
+  File "/speech/utkarsh/da6401_assignment1/utils/activations.py", line 61, in tanh
+    return np.tanh(z)
+KeyboardInterrupt

@@ -16,7 +16,7 @@ class_labels = {0: "T-shirt/top",
           8: "Bag",
           9: "Ankle boot"}
 
-wandb.init(project="BackPropogation")
+wandb.init(project="neural-network-fashion-mnist")
 num_classes = len(class_labels)
 
 wandb.log({"num_classes": num_classes}) 

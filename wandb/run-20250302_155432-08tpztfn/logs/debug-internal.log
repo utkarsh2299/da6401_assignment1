@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:54:32.40653211+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_155432-08tpztfn/logs/debug-core.log"}
+{"time":"2025-03-02T15:54:32.524243043+05:30","level":"INFO","msg":"created new stream","id":"08tpztfn"}
+{"time":"2025-03-02T15:54:32.524272174+05:30","level":"INFO","msg":"stream: started","id":"08tpztfn"}
+{"time":"2025-03-02T15:54:32.524354455+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"08tpztfn"}
+{"time":"2025-03-02T15:54:32.524633657+05:30","level":"INFO","msg":"handler: started","stream_id":"08tpztfn"}
+{"time":"2025-03-02T15:54:32.524684318+05:30","level":"INFO","msg":"sender: started","stream_id":"08tpztfn"}
+{"time":"2025-03-02T15:54:32.841911211+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:54:51.540748984+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:54:51.542032497+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:54:52.540975635+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.69396568,"progress":"546B/546B"},{"desc":"uploading media/images/confusion_matrix_12_d718fd620d48d3de254b.png","runtime_seconds":0.69394231,"progress":"46.9KB/46.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.36459627,"progress":"870B/870B"}],"total_operations":3}}
+{"time":"2025-03-02T15:54:53.425426227+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:54:54.758162673+05:30","level":"INFO","msg":"stream: closing","id":"08tpztfn"}
+{"time":"2025-03-02T15:54:54.758204064+05:30","level":"INFO","msg":"handler: closed","stream_id":"08tpztfn"}
+{"time":"2025-03-02T15:54:54.758222684+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"08tpztfn"}
+{"time":"2025-03-02T15:54:54.758301055+05:30","level":"INFO","msg":"sender: closed","stream_id":"08tpztfn"}
+{"time":"2025-03-02T15:54:54.758368305+05:30","level":"INFO","msg":"stream: closed","id":"08tpztfn"}

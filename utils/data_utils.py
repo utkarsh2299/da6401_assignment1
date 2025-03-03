@@ -1,9 +1,11 @@
 import numpy as np
 from keras.datasets import fashion_mnist
+from tensorflow.keras.datasets import fashion_mnist
+import numpy as np
 
 def preprocess_data():
     """
-    Load and preprocess the Fashion-MNIST dataset.
+    Load and preprocess the Fashion-MNIST dataset with 10% of the training data set aside for validation.
     
     Returns:
     - X_train: Training data
@@ -20,14 +22,21 @@ def preprocess_data():
     X_train = X_train.reshape(X_train.shape[0], -1).astype('float32') / 255.0
     X_test = X_test.reshape(X_test.shape[0], -1).astype('float32') / 255.0
     
+    # validation size (10% of training data)
+    val_size = int(0.1 * X_train.shape[0])  # 10% of the training data
+    
+    # Shuffle data before splitting
+    indices = np.arange(X_train.shape[0])
+    np.random.shuffle(indices)
+
+    X_train, y_train = X_train[indices], y_train[indices]
+    
     # Split training set to create validation set
-    val_size = 10000
-    X_val = X_train[-val_size:]
-    y_val = y_train[-val_size:]
-    X_train = X_train[:-val_size]
-    y_train = y_train[:-val_size]
+    X_val, y_val = X_train[:val_size], y_train[:val_size]
+    X_train, y_train = X_train[val_size:], y_train[val_size:]
     
     return X_train, y_train, X_val, y_val, X_test, y_test
+
 
 def one_hot_encode(y, num_classes=10):
     """

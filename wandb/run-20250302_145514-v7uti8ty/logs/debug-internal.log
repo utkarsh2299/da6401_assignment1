@@ -1,0 +1,16 @@
+{"time":"2025-03-02T14:55:14.285617919+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_145514-v7uti8ty/logs/debug-core.log"}
+{"time":"2025-03-02T14:55:14.399188708+05:30","level":"INFO","msg":"created new stream","id":"v7uti8ty"}
+{"time":"2025-03-02T14:55:14.399217349+05:30","level":"INFO","msg":"stream: started","id":"v7uti8ty"}
+{"time":"2025-03-02T14:55:14.399287421+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v7uti8ty"}
+{"time":"2025-03-02T14:55:14.399383603+05:30","level":"INFO","msg":"sender: started","stream_id":"v7uti8ty"}
+{"time":"2025-03-02T14:55:14.399475255+05:30","level":"INFO","msg":"handler: started","stream_id":"v7uti8ty"}
+{"time":"2025-03-02T14:55:14.737082015+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T14:56:33.83951527+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T14:56:33.840199385+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T14:56:34.842256794+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_12_1d3c764c5acddc574815.png","runtime_seconds":0.701089913,"progress":"62.4KB/62.4KB"},{"desc":"uploading output.log","runtime_seconds":0.40925201,"progress":"989B/989B"},{"desc":"uploading config.yaml","runtime_seconds":0.142149082,"progress":"873B/873B"}],"total_operations":3}}
+{"time":"2025-03-02T14:56:35.035032118+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T14:56:36.351335181+05:30","level":"INFO","msg":"stream: closing","id":"v7uti8ty"}
+{"time":"2025-03-02T14:56:36.351365422+05:30","level":"INFO","msg":"handler: closed","stream_id":"v7uti8ty"}
+{"time":"2025-03-02T14:56:36.351383012+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v7uti8ty"}
+{"time":"2025-03-02T14:56:36.351437413+05:30","level":"INFO","msg":"sender: closed","stream_id":"v7uti8ty"}
+{"time":"2025-03-02T14:56:36.351537235+05:30","level":"INFO","msg":"stream: closed","id":"v7uti8ty"}

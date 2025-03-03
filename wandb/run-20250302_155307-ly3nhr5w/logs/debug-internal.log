@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:53:07.13132058+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_155307-ly3nhr5w/logs/debug-core.log"}
+{"time":"2025-03-02T15:53:07.250049041+05:30","level":"INFO","msg":"created new stream","id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:07.250136602+05:30","level":"INFO","msg":"stream: started","id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:07.250169982+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:07.250227943+05:30","level":"INFO","msg":"handler: started","stream_id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:07.250255463+05:30","level":"INFO","msg":"sender: started","stream_id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:07.555026211+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:53:24.424707876+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:53:24.425474413+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:53:25.427570746+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_d718fd620d48d3de254b.png","runtime_seconds":0.701189113,"progress":"46.9KB/46.9KB"},{"desc":"uploading output.log","runtime_seconds":0.701175043,"progress":"558B/558B"},{"desc":"uploading config.yaml","runtime_seconds":0.436736032,"progress":"866B/866B"}],"total_operations":3}}
+{"time":"2025-03-02T15:53:26.288584361+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:53:27.608383215+05:30","level":"INFO","msg":"stream: closing","id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:27.608424126+05:30","level":"INFO","msg":"handler: closed","stream_id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:27.608442776+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:27.608517937+05:30","level":"INFO","msg":"sender: closed","stream_id":"ly3nhr5w"}
+{"time":"2025-03-02T15:53:27.608588747+05:30","level":"INFO","msg":"stream: closed","id":"ly3nhr5w"}

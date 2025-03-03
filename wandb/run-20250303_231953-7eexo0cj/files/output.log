@@ -1,0 +1,20 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py:298: RuntimeWarning: overflow encountered in square
+  l2_reg += np.sum(w ** 2)
+/speech/utkarsh/da6401_assignment1/utils/activations.py:73: RuntimeWarning: overflow encountered in power
+  return 1 - np.power(a, 2)
+/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py:207: RuntimeWarning: overflow encountered in multiply
+  delta = np.dot(delta, self.weights[l+1].T) * self.activation_derivative(layer_inputs[l])
+/speech/utkarsh/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/speech/utkarsh/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+Epoch 1/2 - 5.04s - loss: nan - acc: 0.0999 - val_loss: nan - val_acc: 0.1040
+Epoch 2/2 - 4.67s - loss: nan - acc: 0.0996 - val_loss: nan - val_acc: 0.1040
+Training completed in 9.72s
+Traceback (most recent call last):
+  File "main_sweep.py", line 65, in train
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'

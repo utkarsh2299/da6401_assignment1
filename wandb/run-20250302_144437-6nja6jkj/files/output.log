@@ -1,0 +1,7 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+Traceback (most recent call last):
+  File "/speech/utkarsh/da6401_assignment1/main_sweep.py", line 74, in train
+    model = FeedforwardNeuralNetwork(
+TypeError: FeedforwardNeuralNetwork.__init__() got an unexpected keyword argument 'weight_init'

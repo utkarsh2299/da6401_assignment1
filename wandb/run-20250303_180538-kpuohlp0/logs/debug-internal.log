@@ -1,0 +1,16 @@
+{"time":"2025-03-03T18:05:38.012880696+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_180538-kpuohlp0/logs/debug-core.log"}
+{"time":"2025-03-03T18:05:38.134479994+05:30","level":"INFO","msg":"created new stream","id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:38.134537955+05:30","level":"INFO","msg":"stream: started","id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:38.134586065+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:38.134626716+05:30","level":"INFO","msg":"handler: started","stream_id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:38.134683316+05:30","level":"INFO","msg":"sender: started","stream_id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:38.451440227+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T18:05:51.15164739+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T18:05:51.152607449+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T18:05:52.133590826+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T18:05:52.154054808+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-4, summary, console lines 3-5","runtime_seconds":0.02023657}],"total_operations":1}}
+{"time":"2025-03-03T18:05:53.452946752+05:30","level":"INFO","msg":"stream: closing","id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:53.452977422+05:30","level":"INFO","msg":"handler: closed","stream_id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:53.452991302+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:53.453006912+05:30","level":"INFO","msg":"sender: closed","stream_id":"kpuohlp0"}
+{"time":"2025-03-03T18:05:53.453117963+05:30","level":"INFO","msg":"stream: closed","id":"kpuohlp0"}

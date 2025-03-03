@@ -1,0 +1,17 @@
+{"time":"2025-03-03T23:17:55.767880542+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_231755-pk0i0ilk/logs/debug-core.log"}
+{"time":"2025-03-03T23:17:55.886492726+05:30","level":"INFO","msg":"created new stream","id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:55.886543078+05:30","level":"INFO","msg":"stream: started","id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:55.88663163+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:55.88665224+05:30","level":"INFO","msg":"handler: started","stream_id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:55.886910906+05:30","level":"INFO","msg":"sender: started","stream_id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:56.23702165+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T23:17:56.919853016+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T23:17:56.920538082+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T23:17:57.920561736+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.022801031,"progress":"558B/558B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.02278964,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-03-03T23:17:58.515643015+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T23:17:58.841185512+05:30","level":"INFO","msg":"stream: closing","id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:58.841255554+05:30","level":"INFO","msg":"handler: closed","stream_id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:58.841283595+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:58.841358547+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-03-03T23:17:58.841382547+05:30","level":"INFO","msg":"sender: closed","stream_id":"pk0i0ilk"}
+{"time":"2025-03-03T23:17:58.841461989+05:30","level":"INFO","msg":"stream: closed","id":"pk0i0ilk"}

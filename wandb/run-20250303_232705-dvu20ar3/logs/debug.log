@@ -1,0 +1,30 @@
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_setup.py:_flush():68] Configure stats pid to 2038399
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_init.py:_log_setup():523] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_232705-dvu20ar3/logs/debug.log
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_init.py:_log_setup():524] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_232705-dvu20ar3/logs/debug-internal.log
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_init.py:init():641] calling init triggers
+2025-03-03 23:27:05,751 INFO    Thread-2  :2038399 [wandb_init.py:init():647] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 2, 'hidden_layer_size': 32, 'hidden_layers_count': 3, 'learning_rate': 0.0001, 'optimizer': 'momentum', 'weight_decay': 0, 'weight_init': 'xavier'}
+config: {}
+2025-03-03 23:27:05,752 INFO    Thread-2  :2038399 [wandb_init.py:init():674] starting backend
+2025-03-03 23:27:05,982 INFO    Thread-2  :2038399 [wandb_init.py:init():678] sending inform_init request
+2025-03-03 23:27:06,002 INFO    Thread-2  :2038399 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-03 23:27:06,002 INFO    Thread-2  :2038399 [wandb_init.py:init():693] backend started and connected
+2025-03-03 23:27:06,003 INFO    Thread-2  :2038399 [wandb_run.py:_config_callback():1283] config_cb None None {'activation': 'relu', 'batch_size': 16, 'epochs': 2, 'hidden_layer_size': 32, 'hidden_layers_count': 3, 'learning_rate': 0.0001, 'optimizer': 'momentum', 'weight_decay': 0, 'weight_init': 'xavier'}
+2025-03-03 23:27:06,005 INFO    Thread-2  :2038399 [wandb_init.py:init():786] updated telemetry
+2025-03-03 23:27:06,032 INFO    Thread-2  :2038399 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-03-03 23:27:06,452 INFO    Thread-2  :2038399 [wandb_init.py:init():868] starting run threads in backend
+2025-03-03 23:27:06,695 INFO    Thread-2  :2038399 [wandb_run.py:_console_start():2415] atexit reg
+2025-03-03 23:27:06,696 INFO    Thread-2  :2038399 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-03-03 23:27:06,696 INFO    Thread-2  :2038399 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-03-03 23:27:06,696 INFO    Thread-2  :2038399 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-03-03 23:27:06,698 INFO    Thread-2  :2038399 [wandb_init.py:init():910] run started, returning control to user process
+2025-03-03 23:27:14,186 INFO    Thread-2  :2038399 [wandb_run.py:_finish():2140] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/dvu20ar3
+2025-03-03 23:27:14,187 INFO    Thread-2  :2038399 [wandb_run.py:_atexit_cleanup():2380] got exitcode: 0
+2025-03-03 23:27:14,187 INFO    Thread-2  :2038399 [wandb_run.py:_restore():2362] restore
+2025-03-03 23:27:14,188 INFO    Thread-2  :2038399 [wandb_run.py:_restore():2368] restore done
+2025-03-03 23:27:16,682 INFO    Thread-2  :2038399 [wandb_run.py:_footer_history_summary_info():3984] rendering history
+2025-03-03 23:27:16,683 INFO    Thread-2  :2038399 [wandb_run.py:_footer_history_summary_info():4016] rendering summary
+2025-03-03 23:27:16,687 INFO    Thread-2  :2038399 [wandb_run.py:_footer_sync_info():3945] logging synced files

@@ -1,0 +1,46 @@
+2025-03-03 23:27:21,753 INFO    Thread-5  :2038399 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-03-03 23:27:21,753 INFO    Thread-5  :2038399 [wandb_setup.py:_flush():68] Configure stats pid to 2038399
+2025-03-03 23:27:21,753 INFO    Thread-5  :2038399 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-03 23:27:21,753 INFO    Thread-5  :2038399 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-03 23:27:21,753 INFO    Thread-5  :2038399 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-03-03 23:27:21,753 INFO    Thread-5  :2038399 [wandb_init.py:_log_setup():523] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_232721-uhg7i2gt/logs/debug.log
+2025-03-03 23:27:21,753 INFO    Thread-5  :2038399 [wandb_init.py:_log_setup():524] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_232721-uhg7i2gt/logs/debug-internal.log
+2025-03-03 23:27:21,754 INFO    Thread-5  :2038399 [wandb_init.py:init():641] calling init triggers
+2025-03-03 23:27:21,754 INFO    Thread-5  :2038399 [wandb_init.py:init():647] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 32, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 5, 'learning_rate': 0.0001, 'optimizer': 'adam', 'weight_decay': 0.5, 'weight_init': 'random'}
+config: {}
+2025-03-03 23:27:21,754 INFO    Thread-5  :2038399 [wandb_init.py:init():674] starting backend
+2025-03-03 23:27:21,987 INFO    Thread-5  :2038399 [wandb_init.py:init():678] sending inform_init request
+2025-03-03 23:27:21,996 INFO    Thread-5  :2038399 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-03 23:27:21,997 INFO    Thread-5  :2038399 [wandb_init.py:init():693] backend started and connected
+2025-03-03 23:27:21,998 INFO    Thread-5  :2038399 [wandb_run.py:_config_callback():1283] config_cb None None {'activation': 'tanh', 'batch_size': 32, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 5, 'learning_rate': 0.0001, 'optimizer': 'adam', 'weight_decay': 0.5, 'weight_init': 'random'}
+2025-03-03 23:27:22,002 INFO    Thread-5  :2038399 [wandb_init.py:init():786] updated telemetry
+2025-03-03 23:27:22,043 INFO    Thread-5  :2038399 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-03-03 23:27:22,436 INFO    Thread-5  :2038399 [wandb_init.py:init():868] starting run threads in backend
+2025-03-03 23:27:22,674 INFO    Thread-5  :2038399 [wandb_run.py:_console_start():2415] atexit reg
+2025-03-03 23:27:22,674 INFO    Thread-5  :2038399 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-03-03 23:27:22,675 INFO    Thread-5  :2038399 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-03-03 23:27:22,675 INFO    Thread-5  :2038399 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-03-03 23:27:22,676 INFO    Thread-5  :2038399 [wandb_init.py:init():910] run started, returning control to user process
+2025-03-03 23:27:45,685 INFO    Thread-5  :2038399 [wandb_run.py:_finish():2140] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/uhg7i2gt
+2025-03-03 23:27:45,685 INFO    Thread-5  :2038399 [wandb_run.py:_atexit_cleanup():2380] got exitcode: 0
+2025-03-03 23:27:45,685 INFO    Thread-5  :2038399 [wandb_run.py:_restore():2362] restore
+2025-03-03 23:27:45,686 INFO    Thread-5  :2038399 [wandb_run.py:_restore():2368] restore done
+2025-03-03 23:27:47,978 INFO    Thread-5  :2038399 [wandb_run.py:_restore():2362] restore
+2025-03-03 23:27:47,978 INFO    Thread-5  :2038399 [wandb_run.py:_restore():2368] restore done
+2025-03-03 23:27:47,978 ERROR   Thread-5  :2038399 [wandb_run.py:_atexit_cleanup():2401] Problem finishing run
+Traceback (most recent call last):
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2392, in _atexit_cleanup
+    self._on_finish()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2683, in _on_finish
+    self._backend.cleanup()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 213, in cleanup
+    self.interface.join()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 562, in join
+    self._router.join()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/interface/router.py", line 98, in join
+    self._thread.join()
+  File "/usr/lib/python3.8/threading.py", line 1011, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.8/threading.py", line 1027, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+Exception

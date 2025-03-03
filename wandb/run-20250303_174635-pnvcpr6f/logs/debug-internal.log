@@ -1,0 +1,16 @@
+{"time":"2025-03-03T17:46:35.306286239+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_174635-pnvcpr6f/logs/debug-core.log"}
+{"time":"2025-03-03T17:46:35.42800157+05:30","level":"INFO","msg":"created new stream","id":"pnvcpr6f"}
+{"time":"2025-03-03T17:46:35.428072141+05:30","level":"INFO","msg":"stream: started","id":"pnvcpr6f"}
+{"time":"2025-03-03T17:46:35.428114442+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pnvcpr6f"}
+{"time":"2025-03-03T17:46:35.428193343+05:30","level":"INFO","msg":"sender: started","stream_id":"pnvcpr6f"}
+{"time":"2025-03-03T17:46:35.428170793+05:30","level":"INFO","msg":"handler: started","stream_id":"pnvcpr6f"}
+{"time":"2025-03-03T17:46:35.915606355+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T17:49:00.270694889+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T17:49:00.271435627+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T17:49:01.272800354+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_12_683ff0514019567ad03f.png","runtime_seconds":0.697584456,"progress":"57.8KB/57.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.697555466,"progress":"576B/576B"},{"desc":"uploading config.yaml","runtime_seconds":0.39154705,"progress":"832B/832B"}],"total_operations":3}}
+{"time":"2025-03-03T17:49:02.204001643+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T17:49:03.513460254+05:30","level":"INFO","msg":"stream: closing","id":"pnvcpr6f"}
+{"time":"2025-03-03T17:49:03.513497613+05:30","level":"INFO","msg":"handler: closed","stream_id":"pnvcpr6f"}
+{"time":"2025-03-03T17:49:03.513514643+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pnvcpr6f"}
+{"time":"2025-03-03T17:49:03.513551063+05:30","level":"INFO","msg":"sender: closed","stream_id":"pnvcpr6f"}
+{"time":"2025-03-03T17:49:03.513618822+05:30","level":"INFO","msg":"stream: closed","id":"pnvcpr6f"}

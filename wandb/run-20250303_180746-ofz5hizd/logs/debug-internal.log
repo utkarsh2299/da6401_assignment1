@@ -1,0 +1,16 @@
+{"time":"2025-03-03T18:07:46.030966399+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_180746-ofz5hizd/logs/debug-core.log"}
+{"time":"2025-03-03T18:07:46.150686789+05:30","level":"INFO","msg":"created new stream","id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:46.15079927+05:30","level":"INFO","msg":"stream: started","id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:46.150883151+05:30","level":"INFO","msg":"sender: started","stream_id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:46.150875131+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:46.150904791+05:30","level":"INFO","msg":"handler: started","stream_id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:46.458478634+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T18:07:54.210580446+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T18:07:54.211356494+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T18:07:55.213169919+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_4_ff58f4423366424cda9b.png","runtime_seconds":0.694157356,"progress":"60.7KB/60.7KB"},{"desc":"uploading output.log","runtime_seconds":0.694140666,"progress":"303B/303B"},{"desc":"uploading config.yaml","runtime_seconds":0.425998812,"progress":"873B/873B"}],"total_operations":3}}
+{"time":"2025-03-03T18:07:56.213501945+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T18:07:57.515186396+05:30","level":"INFO","msg":"stream: closing","id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:57.515211496+05:30","level":"INFO","msg":"handler: closed","stream_id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:57.515222666+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:57.515274577+05:30","level":"INFO","msg":"sender: closed","stream_id":"ofz5hizd"}
+{"time":"2025-03-03T18:07:57.515348347+05:30","level":"INFO","msg":"stream: closed","id":"ofz5hizd"}

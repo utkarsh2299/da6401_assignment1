@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:18:16.035548512+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_151816-d3ddto36/logs/debug-core.log"}
+{"time":"2025-03-02T15:18:16.156107435+05:30","level":"INFO","msg":"created new stream","id":"d3ddto36"}
+{"time":"2025-03-02T15:18:16.156177946+05:30","level":"INFO","msg":"stream: started","id":"d3ddto36"}
+{"time":"2025-03-02T15:18:16.156277398+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"d3ddto36"}
+{"time":"2025-03-02T15:18:16.156329429+05:30","level":"INFO","msg":"handler: started","stream_id":"d3ddto36"}
+{"time":"2025-03-02T15:18:16.156426181+05:30","level":"INFO","msg":"sender: started","stream_id":"d3ddto36"}
+{"time":"2025-03-02T15:18:16.462330727+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:18:24.675844879+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:18:24.676711696+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:18:25.678595255+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_c1aed1956b77efc14e5b.png","runtime_seconds":0.698906772,"progress":"58.6KB/58.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.430625862,"progress":"865B/865B"}],"total_operations":2}}
+{"time":"2025-03-02T15:18:26.302291825+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:18:27.763868829+05:30","level":"INFO","msg":"stream: closing","id":"d3ddto36"}
+{"time":"2025-03-02T15:18:27.763906509+05:30","level":"INFO","msg":"handler: closed","stream_id":"d3ddto36"}
+{"time":"2025-03-02T15:18:27.7639213+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"d3ddto36"}
+{"time":"2025-03-02T15:18:27.763991681+05:30","level":"INFO","msg":"sender: closed","stream_id":"d3ddto36"}
+{"time":"2025-03-02T15:18:27.764088153+05:30","level":"INFO","msg":"stream: closed","id":"d3ddto36"}

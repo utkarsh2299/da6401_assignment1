@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:14:47.827892306+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_151447-myodbrc3/logs/debug-core.log"}
+{"time":"2025-03-02T15:14:47.948134157+05:30","level":"INFO","msg":"created new stream","id":"myodbrc3"}
+{"time":"2025-03-02T15:14:47.948184898+05:30","level":"INFO","msg":"stream: started","id":"myodbrc3"}
+{"time":"2025-03-02T15:14:47.948309191+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"myodbrc3"}
+{"time":"2025-03-02T15:14:47.948446144+05:30","level":"INFO","msg":"handler: started","stream_id":"myodbrc3"}
+{"time":"2025-03-02T15:14:47.948317251+05:30","level":"INFO","msg":"sender: started","stream_id":"myodbrc3"}
+{"time":"2025-03-02T15:14:48.251051088+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:15:04.125320185+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:15:04.126817346+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:15:05.12782979+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:15:05.128582706+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 12-12, summary","runtime_seconds":0.000574871}],"total_operations":1}}
+{"time":"2025-03-02T15:15:06.445606794+05:30","level":"INFO","msg":"stream: closing","id":"myodbrc3"}
+{"time":"2025-03-02T15:15:06.445647034+05:30","level":"INFO","msg":"handler: closed","stream_id":"myodbrc3"}
+{"time":"2025-03-02T15:15:06.445664235+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"myodbrc3"}
+{"time":"2025-03-02T15:15:06.445738316+05:30","level":"INFO","msg":"sender: closed","stream_id":"myodbrc3"}
+{"time":"2025-03-02T15:15:06.445796297+05:30","level":"INFO","msg":"stream: closed","id":"myodbrc3"}

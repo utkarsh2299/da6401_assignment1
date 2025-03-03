@@ -1,0 +1,17 @@
+{"time":"2025-03-03T17:49:08.277621986+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_174908-nm4pitce/logs/debug-core.log"}
+{"time":"2025-03-03T17:49:08.393680997+05:30","level":"INFO","msg":"created new stream","id":"nm4pitce"}
+{"time":"2025-03-03T17:49:08.393721217+05:30","level":"INFO","msg":"stream: started","id":"nm4pitce"}
+{"time":"2025-03-03T17:49:08.393794125+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nm4pitce"}
+{"time":"2025-03-03T17:49:08.393831095+05:30","level":"INFO","msg":"sender: started","stream_id":"nm4pitce"}
+{"time":"2025-03-03T17:49:08.393906504+05:30","level":"INFO","msg":"handler: started","stream_id":"nm4pitce"}
+{"time":"2025-03-03T17:49:08.73393054+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T17:49:09.206870588+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T17:49:09.207571248+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T17:49:10.208866014+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":1.106776981,"progress":"2.9KB/2.9KB"},{"desc":"uploading wandb-metadata.json","runtime_seconds":0.791794154,"progress":"2.0KB/2.0KB"},{"desc":"uploading output.log","runtime_seconds":0.089977501,"progress":"620B/620B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.089960401,"progress":"24B/24B"}],"total_operations":4}}
+{"time":"2025-03-03T17:49:10.78953441+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T17:49:11.439017133+05:30","level":"INFO","msg":"stream: closing","id":"nm4pitce"}
+{"time":"2025-03-03T17:49:11.439082892+05:30","level":"INFO","msg":"handler: closed","stream_id":"nm4pitce"}
+{"time":"2025-03-03T17:49:11.439101762+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nm4pitce"}
+{"time":"2025-03-03T17:49:11.439179651+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-03-03T17:49:11.439193721+05:30","level":"INFO","msg":"sender: closed","stream_id":"nm4pitce"}
+{"time":"2025-03-03T17:49:11.439209641+05:30","level":"INFO","msg":"stream: closed","id":"nm4pitce"}

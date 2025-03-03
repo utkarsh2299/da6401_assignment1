@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:07:15.372785284+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_150715-l92s21l9/logs/debug-core.log"}
+{"time":"2025-03-02T15:07:15.492128572+05:30","level":"INFO","msg":"created new stream","id":"l92s21l9"}
+{"time":"2025-03-02T15:07:15.492202293+05:30","level":"INFO","msg":"stream: started","id":"l92s21l9"}
+{"time":"2025-03-02T15:07:15.492222984+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"l92s21l9"}
+{"time":"2025-03-02T15:07:15.492317956+05:30","level":"INFO","msg":"sender: started","stream_id":"l92s21l9"}
+{"time":"2025-03-02T15:07:15.492363467+05:30","level":"INFO","msg":"handler: started","stream_id":"l92s21l9"}
+{"time":"2025-03-02T15:07:15.846152852+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:08:23.532541028+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:08:23.533233442+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:08:24.535758589+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_12_fd907cdc5f59637f83ab.png","runtime_seconds":0.699349903,"progress":"59.1KB/59.1KB"},{"desc":"uploading output.log","runtime_seconds":0.403995589,"progress":"989B/989B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.403974328,"progress":"549B/549B"},{"desc":"uploading config.yaml","runtime_seconds":0.120290481,"progress":"872B/872B"}],"total_operations":4}}
+{"time":"2025-03-02T15:08:25.473189424+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:08:26.780233279+05:30","level":"INFO","msg":"stream: closing","id":"l92s21l9"}
+{"time":"2025-03-02T15:08:26.7802729+05:30","level":"INFO","msg":"handler: closed","stream_id":"l92s21l9"}
+{"time":"2025-03-02T15:08:26.78029508+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"l92s21l9"}
+{"time":"2025-03-02T15:08:26.780346391+05:30","level":"INFO","msg":"sender: closed","stream_id":"l92s21l9"}
+{"time":"2025-03-02T15:08:26.780507775+05:30","level":"INFO","msg":"stream: closed","id":"l92s21l9"}

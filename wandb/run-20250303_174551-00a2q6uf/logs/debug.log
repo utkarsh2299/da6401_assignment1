@@ -1,0 +1,100 @@
+2025-03-03 17:45:51,169 INFO    Thread-2 (_run_job):2002010 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-03 17:45:51,169 INFO    Thread-2 (_run_job):2002010 [wandb_setup.py:_flush():67] Configure stats pid to 2002010
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_174551-00a2q6uf/logs/debug.log
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_174551-00a2q6uf/logs/debug-internal.log
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():761] calling init triggers
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 64, 'epochs': 10, 'hidden_layer_size': 64, 'hidden_layers_count': 3, 'learning_rate': 0.0001, 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'xavier'}
+config: {'_wandb': {}}
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():784] starting backend
+2025-03-03 17:45:51,170 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():788] sending inform_init request
+2025-03-03 17:45:51,175 INFO    Thread-2 (_run_job):2002010 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-03 17:45:51,176 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():803] backend started and connected
+2025-03-03 17:45:51,176 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'tanh', 'batch_size': 64, 'epochs': 10, 'hidden_layer_size': 64, 'hidden_layers_count': 3, 'learning_rate': 0.0001, 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'xavier'}
+2025-03-03 17:45:51,177 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():896] updated telemetry
+2025-03-03 17:45:51,182 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-03 17:45:51,590 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():995] starting run threads in backend
+2025-03-03 17:45:51,683 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-03 17:45:51,684 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-03 17:45:51,684 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-03 17:45:51,684 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-03 17:45:51,685 INFO    Thread-2 (_run_job):2002010 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-03 17:45:52,068 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/00a2q6uf
+2025-03-03 17:45:52,069 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 1
+2025-03-03 17:45:52,069 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_restore():2324] restore
+2025-03-03 17:45:52,069 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_restore():2330] restore done
+2025-03-03 17:45:54,315 WARNING MsgRouterThr:2002010 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 270, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 70, in message_loop
+    msg = self._read_message()
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-03 17:45:54,315 INFO    MsgRouterThr:2002010 [mailbox.py:close():115] Closing mailbox, abandoning 2 handles.
+2025-03-03 17:45:54,316 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_restore():2324] restore
+2025-03-03 17:45:54,316 INFO    Thread-2 (_run_job):2002010 [wandb_run.py:_restore():2330] restore done
+2025-03-03 17:45:54,316 ERROR   Thread-2 (_run_job):2002010 [wandb_run.py:_atexit_cleanup():2363] Problem finishing run
+Traceback (most recent call last):
+  File "/speech/utkarsh/da6401_assignment1/main_sweep.py", line 44, in train
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 344, in train
+    self.backward(X_batch, y_batch, activations, layer_inputs, optimizer, learning_rate)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 187, in backward
+    self.t += 1
+AttributeError: 'FeedforwardNeuralNetwork' object has no attribute 't'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2354, in _atexit_cleanup
+    self._on_finish()
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2611, in _on_finish
+    wait_with_progress(
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 86, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 74, in run
+    return asyncio.run(self._run_or_cancel(fn))
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 98, in _run_or_cancel
+    return fn_task.result()
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 81, in progress_loop_with_timeout
+    return await _wait_handles_async(
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 129, in _wait_handles_async
+    async with asyncio_compat.open_task_group() as task_group:
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/contextlib.py", line 206, in __aexit__
+    await anext(self.gen)
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 190, in open_task_group
+    await task_group._wait_all()
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 159, in _wait_all
+    raise exc
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 127, in wait_single
+    results[index] = await handle.wait_async(timeout=timeout)
+  File "/speech/utkarsh/miniconda3/envs/valle/lib/python3.10/site-packages/wandb/sdk/mailbox/handles.py", line 160, in wait_async
+    raise HandleAbandonedError()
+wandb.sdk.mailbox.handles.HandleAbandonedError

@@ -1,0 +1,11 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+Traceback (most recent call last):
+  File "/speech/utkarsh/da6401_assignment1/main_sweep.py", line 44, in train
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 344, in train
+    self.backward(X_batch, y_batch, activations, layer_inputs, optimizer, learning_rate)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 187, in backward
+    self.t += 1
+AttributeError: 'FeedforwardNeuralNetwork' object has no attribute 't'

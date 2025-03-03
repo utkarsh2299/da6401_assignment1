@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:56:13.172602381+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_155613-rvk4d7dr/logs/debug-core.log"}
+{"time":"2025-03-02T15:56:13.284283992+05:30","level":"INFO","msg":"created new stream","id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:13.284327183+05:30","level":"INFO","msg":"stream: started","id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:13.284442834+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:13.284579275+05:30","level":"INFO","msg":"handler: started","stream_id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:13.284474504+05:30","level":"INFO","msg":"sender: started","stream_id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:13.674032324+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:56:28.102871533+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:56:28.104047856+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:56:29.105156318+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_cafdf11e7be47e4b491d.png","runtime_seconds":0.693787337,"progress":"62.4KB/62.4KB"},{"desc":"uploading output.log","runtime_seconds":0.693771867,"progress":"558B/558B"},{"desc":"uploading config.yaml","runtime_seconds":0.427899835,"progress":"868B/868B"}],"total_operations":3}}
+{"time":"2025-03-02T15:56:30.083888329+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:56:31.390043094+05:30","level":"INFO","msg":"stream: closing","id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:31.390082894+05:30","level":"INFO","msg":"handler: closed","stream_id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:31.390101404+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:31.390150225+05:30","level":"INFO","msg":"sender: closed","stream_id":"rvk4d7dr"}
+{"time":"2025-03-02T15:56:31.390223645+05:30","level":"INFO","msg":"stream: closed","id":"rvk4d7dr"}

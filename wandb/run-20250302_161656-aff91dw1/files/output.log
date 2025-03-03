@@ -1,0 +1,9 @@
+Training set: (50000, 784), (50000,)
+Validation set: (10000, 784), (10000,)
+Test set: (10000, 784), (10000,)
+Epoch 1/5 - 1.91s - loss: 0.5656 - acc: 0.8143 - val_loss: 0.4806 - val_acc: 0.8273
+Epoch 2/5 - 1.63s - loss: 0.3855 - acc: 0.8615 - val_loss: 0.3846 - val_acc: 0.8625
+Epoch 3/5 - 1.59s - loss: 0.3506 - acc: 0.8736 - val_loss: 0.3691 - val_acc: 0.8649
+Epoch 4/5 - 1.60s - loss: 0.3288 - acc: 0.8806 - val_loss: 0.3797 - val_acc: 0.8644
+Epoch 5/5 - 1.59s - loss: 0.3130 - acc: 0.8864 - val_loss: 0.3475 - val_acc: 0.8724
+Training completed in 8.33s

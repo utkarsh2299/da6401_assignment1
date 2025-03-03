@@ -1,0 +1,16 @@
+{"time":"2025-03-03T18:10:28.061897832+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_181028-zro11hoi/logs/debug-core.log"}
+{"time":"2025-03-03T18:10:28.175963643+05:30","level":"INFO","msg":"created new stream","id":"zro11hoi"}
+{"time":"2025-03-03T18:10:28.175983843+05:30","level":"INFO","msg":"stream: started","id":"zro11hoi"}
+{"time":"2025-03-03T18:10:28.176069764+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zro11hoi"}
+{"time":"2025-03-03T18:10:28.176129324+05:30","level":"INFO","msg":"handler: started","stream_id":"zro11hoi"}
+{"time":"2025-03-03T18:10:28.176177445+05:30","level":"INFO","msg":"sender: started","stream_id":"zro11hoi"}
+{"time":"2025-03-03T18:10:28.506277662+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T18:10:33.597636437+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T18:10:33.598616478+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T18:10:34.585793188+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T18:10:34.599740363+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-4, summary, console lines 3-5","runtime_seconds":0.013696822}],"total_operations":1}}
+{"time":"2025-03-03T18:10:35.89848156+05:30","level":"INFO","msg":"stream: closing","id":"zro11hoi"}
+{"time":"2025-03-03T18:10:35.898557801+05:30","level":"INFO","msg":"handler: closed","stream_id":"zro11hoi"}
+{"time":"2025-03-03T18:10:35.898600801+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zro11hoi"}
+{"time":"2025-03-03T18:10:35.898650112+05:30","level":"INFO","msg":"sender: closed","stream_id":"zro11hoi"}
+{"time":"2025-03-03T18:10:35.898832864+05:30","level":"INFO","msg":"stream: closed","id":"zro11hoi"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:18:32.183938677+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_151832-oaovcyfr/logs/debug-core.log"}
+{"time":"2025-03-02T15:18:32.304407877+05:30","level":"INFO","msg":"created new stream","id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:32.304459218+05:30","level":"INFO","msg":"stream: started","id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:32.304534609+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:32.304614151+05:30","level":"INFO","msg":"handler: started","stream_id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:32.304744323+05:30","level":"INFO","msg":"sender: started","stream_id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:32.624564919+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:18:51.863438091+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:18:51.864624485+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:18:52.865647022+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_12_8ca95fba50275973dc87.png","runtime_seconds":0.691808605,"progress":"59.3KB/59.3KB"}],"total_operations":1}}
+{"time":"2025-03-02T15:18:53.04629595+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:18:54.367241122+05:30","level":"INFO","msg":"stream: closing","id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:54.367272573+05:30","level":"INFO","msg":"handler: closed","stream_id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:54.367290723+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:54.367362015+05:30","level":"INFO","msg":"sender: closed","stream_id":"oaovcyfr"}
+{"time":"2025-03-02T15:18:54.367422506+05:30","level":"INFO","msg":"stream: closed","id":"oaovcyfr"}

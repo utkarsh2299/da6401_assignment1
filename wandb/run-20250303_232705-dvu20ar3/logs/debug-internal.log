@@ -1,0 +1,16 @@
+{"time":"2025-03-03T23:27:06.008800191+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_232705-dvu20ar3/logs/debug-core.log"}
+{"time":"2025-03-03T23:27:06.127850111+05:30","level":"INFO","msg":"created new stream","id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:06.127895922+05:30","level":"INFO","msg":"stream: started","id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:06.128000134+05:30","level":"INFO","msg":"handler: started","stream_id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:06.127990104+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:06.128074666+05:30","level":"INFO","msg":"sender: started","stream_id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:06.464563265+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T23:27:14.188547007+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T23:27:14.189667041+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T23:27:15.189666995+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_4_2f030a60cc4b8a35ce43.png","runtime_seconds":0.699926035,"progress":"60.2KB/60.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.399635001,"progress":"870B/870B"}],"total_operations":2}}
+{"time":"2025-03-03T23:27:15.361842293+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T23:27:16.688601435+05:30","level":"INFO","msg":"stream: closing","id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:16.688640955+05:30","level":"INFO","msg":"handler: closed","stream_id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:16.688665786+05:30","level":"INFO","msg":"sender: closed","stream_id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:16.688665986+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dvu20ar3"}
+{"time":"2025-03-03T23:27:16.6888318+05:30","level":"INFO","msg":"stream: closed","id":"dvu20ar3"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-02T16:13:23.243648324+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_161323-belwgnqi/logs/debug-core.log"}
+{"time":"2025-03-02T16:13:23.360383969+05:30","level":"INFO","msg":"created new stream","id":"belwgnqi"}
+{"time":"2025-03-02T16:13:23.360433839+05:30","level":"INFO","msg":"stream: started","id":"belwgnqi"}
+{"time":"2025-03-02T16:13:23.36051311+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"belwgnqi"}
+{"time":"2025-03-02T16:13:23.36056943+05:30","level":"INFO","msg":"handler: started","stream_id":"belwgnqi"}
+{"time":"2025-03-02T16:13:23.36067585+05:30","level":"INFO","msg":"sender: started","stream_id":"belwgnqi"}
+{"time":"2025-03-02T16:13:23.66073704+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T16:13:58.314918838+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T16:13:58.315922032+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T16:13:59.318446683+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_fa4d94549740b4ac0a99.png","runtime_seconds":0.699127515,"progress":"60.0KB/60.0KB"}],"total_operations":1}}
+{"time":"2025-03-02T16:13:59.510714545+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T16:14:00.813637976+05:30","level":"INFO","msg":"stream: closing","id":"belwgnqi"}
+{"time":"2025-03-02T16:14:00.813684246+05:30","level":"INFO","msg":"handler: closed","stream_id":"belwgnqi"}
+{"time":"2025-03-02T16:14:00.813706176+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"belwgnqi"}
+{"time":"2025-03-02T16:14:00.813775407+05:30","level":"INFO","msg":"sender: closed","stream_id":"belwgnqi"}
+{"time":"2025-03-02T16:14:00.813839477+05:30","level":"INFO","msg":"stream: closed","id":"belwgnqi"}

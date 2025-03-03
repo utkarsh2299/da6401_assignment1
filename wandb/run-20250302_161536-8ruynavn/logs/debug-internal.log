@@ -1,0 +1,16 @@
+{"time":"2025-03-02T16:15:36.332092172+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_161536-8ruynavn/logs/debug-core.log"}
+{"time":"2025-03-02T16:15:36.450899805+05:30","level":"INFO","msg":"created new stream","id":"8ruynavn"}
+{"time":"2025-03-02T16:15:36.450988675+05:30","level":"INFO","msg":"stream: started","id":"8ruynavn"}
+{"time":"2025-03-02T16:15:36.451059936+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"8ruynavn"}
+{"time":"2025-03-02T16:15:36.451098416+05:30","level":"INFO","msg":"sender: started","stream_id":"8ruynavn"}
+{"time":"2025-03-02T16:15:36.451136196+05:30","level":"INFO","msg":"handler: started","stream_id":"8ruynavn"}
+{"time":"2025-03-02T16:15:36.775000025+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T16:15:59.433954928+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T16:15:59.434663781+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T16:16:00.437321631+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_eb5f6569f6424fe317cd.png","runtime_seconds":0.695761436,"progress":"59.5KB/59.5KB"}],"total_operations":1}}
+{"time":"2025-03-02T16:16:00.617088939+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T16:16:01.922682458+05:30","level":"INFO","msg":"stream: closing","id":"8ruynavn"}
+{"time":"2025-03-02T16:16:01.922710188+05:30","level":"INFO","msg":"handler: closed","stream_id":"8ruynavn"}
+{"time":"2025-03-02T16:16:01.922726738+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"8ruynavn"}
+{"time":"2025-03-02T16:16:01.922785768+05:30","level":"INFO","msg":"sender: closed","stream_id":"8ruynavn"}
+{"time":"2025-03-02T16:16:01.922883119+05:30","level":"INFO","msg":"stream: closed","id":"8ruynavn"}

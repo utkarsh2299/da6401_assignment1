@@ -1,0 +1,5 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+Epoch 1/10 - 2.43s - loss: 1.0435 - acc: 0.5647 - val_loss: 0.8721 - val_acc: 0.6955
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

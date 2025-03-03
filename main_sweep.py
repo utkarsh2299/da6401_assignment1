@@ -1,50 +1,9 @@
 import wandb
-from wandb.keras import WandbCallback
 import numpy as np
-from keras.datasets import fashion_mnist
-import argparse
-import os
-from models.neural_network import FeedforwardNeuralNetwork
+from models.neural_network_sweep import FeedforwardNeuralNetwork
 from utils.data_utils import preprocess_data, one_hot_encode
-
-# Define the sweep configuration
-sweep_config = {
-    'method': 'bayes',  # Bayesian optimization
-    'metric': {
-        'name': 'val_accuracy',
-        'goal': 'maximize'
-    },
-    'parameters': {
-        'epochs': {
-            'values': [5, 10]
-        },
-        'hidden_layers_count': {
-            'values': [3, 4, 5]
-        },
-        'hidden_layer_size': {
-            'values': [32, 64, 128]
-        },
-        'weight_decay': {
-            'values': [0, 0.0005, 0.5]
-        },
-        'learning_rate': {
-            'values': [1e-3, 1e-4]
-        },
-        'optimizer': {
-            'values': ['sgd', 'momentum', 'nesterov', 'rmsprop', 'adam', 'nadam']
-        },
-        'batch_size': {
-            'values': [16, 32, 64]
-        },
-        'weight_init': {
-            'values': ['random', 'xavier']
-        },
-        'activation': {
-            'values': ['sigmoid', 'tanh', 'relu']
-        }
-    }
-}
-
+from configs.sweep_config import sweep_config  # Import sweep configuration
+# print(sweep_config)
 def train():
     # Initialize a new wandb run
     with wandb.init() as run:
@@ -67,6 +26,7 @@ def train():
         hidden_layers = [config.hidden_layer_size] * config.hidden_layers_count
         
         # Create model name for tracking
+        #hl_{hidden_layers_count}_sz_{hidden_layer_size}_bs_{batch_size}_act_{activation}_opt_{optimizer}_lr_{learning_rate}_wd_{weight_decay}_init_{weight_init}
         model_name = f"hl_{config.hidden_layers_count}_sz_{config.hidden_layer_size}_bs_{config.batch_size}_act_{config.activation}_opt_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_init_{config.weight_init}"
         wandb.run.name = model_name
         

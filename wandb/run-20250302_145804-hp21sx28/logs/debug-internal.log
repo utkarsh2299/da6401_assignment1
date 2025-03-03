@@ -1,0 +1,16 @@
+{"time":"2025-03-02T14:58:04.038445006+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_145804-hp21sx28/logs/debug-core.log"}
+{"time":"2025-03-02T14:58:04.148779112+05:30","level":"INFO","msg":"created new stream","id":"hp21sx28"}
+{"time":"2025-03-02T14:58:04.148831694+05:30","level":"INFO","msg":"stream: started","id":"hp21sx28"}
+{"time":"2025-03-02T14:58:04.148887995+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hp21sx28"}
+{"time":"2025-03-02T14:58:04.148936776+05:30","level":"INFO","msg":"sender: started","stream_id":"hp21sx28"}
+{"time":"2025-03-02T14:58:04.149057298+05:30","level":"INFO","msg":"handler: started","stream_id":"hp21sx28"}
+{"time":"2025-03-02T14:58:04.451059599+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T14:58:56.13641729+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T14:58:56.13736642+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T14:58:57.139479902+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.698011797,"progress":"989B/989B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.698007737,"progress":"550B/550B"},{"desc":"uploading config.yaml","runtime_seconds":0.416198728,"progress":"875B/875B"}],"total_operations":3}}
+{"time":"2025-03-02T14:58:57.724432525+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T14:58:59.036093132+05:30","level":"INFO","msg":"stream: closing","id":"hp21sx28"}
+{"time":"2025-03-02T14:58:59.036122343+05:30","level":"INFO","msg":"handler: closed","stream_id":"hp21sx28"}
+{"time":"2025-03-02T14:58:59.036137723+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hp21sx28"}
+{"time":"2025-03-02T14:58:59.036222845+05:30","level":"INFO","msg":"sender: closed","stream_id":"hp21sx28"}
+{"time":"2025-03-02T14:58:59.036302717+05:30","level":"INFO","msg":"stream: closed","id":"hp21sx28"}

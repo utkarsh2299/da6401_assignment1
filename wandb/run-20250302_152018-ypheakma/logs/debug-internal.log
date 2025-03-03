@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:20:18.062122088+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_152018-ypheakma/logs/debug-core.log"}
+{"time":"2025-03-02T15:20:18.180700458+05:30","level":"INFO","msg":"created new stream","id":"ypheakma"}
+{"time":"2025-03-02T15:20:18.180752229+05:30","level":"INFO","msg":"stream: started","id":"ypheakma"}
+{"time":"2025-03-02T15:20:18.180850961+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ypheakma"}
+{"time":"2025-03-02T15:20:18.180908583+05:30","level":"INFO","msg":"handler: started","stream_id":"ypheakma"}
+{"time":"2025-03-02T15:20:18.181026185+05:30","level":"INFO","msg":"sender: started","stream_id":"ypheakma"}
+{"time":"2025-03-02T15:20:18.506437597+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:20:34.293029644+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:20:34.293945713+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:20:35.295981214+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_12_31d26005e2dfe7129c9c.png","runtime_seconds":0.697610832,"progress":"59.4KB/59.4KB"},{"desc":"uploading output.log","runtime_seconds":0.697585691,"progress":"989B/989B"},{"desc":"uploading config.yaml","runtime_seconds":0.39505918,"progress":"866B/866B"}],"total_operations":3}}
+{"time":"2025-03-02T15:20:35.536656714+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:20:36.838005402+05:30","level":"INFO","msg":"stream: closing","id":"ypheakma"}
+{"time":"2025-03-02T15:20:36.838053473+05:30","level":"INFO","msg":"handler: closed","stream_id":"ypheakma"}
+{"time":"2025-03-02T15:20:36.838077734+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ypheakma"}
+{"time":"2025-03-02T15:20:36.838131195+05:30","level":"INFO","msg":"sender: closed","stream_id":"ypheakma"}
+{"time":"2025-03-02T15:20:36.838223667+05:30","level":"INFO","msg":"stream: closed","id":"ypheakma"}

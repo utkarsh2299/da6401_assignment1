@@ -1,0 +1,16 @@
+{"time":"2025-03-02T16:12:29.885633155+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_161229-1siilvil/logs/debug-core.log"}
+{"time":"2025-03-02T16:12:29.99809082+05:30","level":"INFO","msg":"created new stream","id":"1siilvil"}
+{"time":"2025-03-02T16:12:29.99815327+05:30","level":"INFO","msg":"stream: started","id":"1siilvil"}
+{"time":"2025-03-02T16:12:29.99818767+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1siilvil"}
+{"time":"2025-03-02T16:12:29.99821489+05:30","level":"INFO","msg":"sender: started","stream_id":"1siilvil"}
+{"time":"2025-03-02T16:12:29.99830904+05:30","level":"INFO","msg":"handler: started","stream_id":"1siilvil"}
+{"time":"2025-03-02T16:12:30.309898295+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T16:12:39.715660334+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T16:12:39.716474106+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T16:12:40.718207592+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_26c14c3fa373e60bf7c9.png","runtime_seconds":0.696564718,"progress":"61.3KB/61.3KB"}],"total_operations":1}}
+{"time":"2025-03-02T16:12:40.785333731+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T16:12:42.11399608+05:30","level":"INFO","msg":"stream: closing","id":"1siilvil"}
+{"time":"2025-03-02T16:12:42.11402591+05:30","level":"INFO","msg":"handler: closed","stream_id":"1siilvil"}
+{"time":"2025-03-02T16:12:42.11404317+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"1siilvil"}
+{"time":"2025-03-02T16:12:42.11409615+05:30","level":"INFO","msg":"sender: closed","stream_id":"1siilvil"}
+{"time":"2025-03-02T16:12:42.1141672+05:30","level":"INFO","msg":"stream: closed","id":"1siilvil"}

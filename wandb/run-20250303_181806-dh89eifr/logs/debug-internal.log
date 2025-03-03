@@ -1,0 +1,16 @@
+{"time":"2025-03-03T18:18:06.055194535+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_181806-dh89eifr/logs/debug-core.log"}
+{"time":"2025-03-03T18:18:06.17078655+05:30","level":"INFO","msg":"created new stream","id":"dh89eifr"}
+{"time":"2025-03-03T18:18:06.17083148+05:30","level":"INFO","msg":"stream: started","id":"dh89eifr"}
+{"time":"2025-03-03T18:18:06.170953672+05:30","level":"INFO","msg":"sender: started","stream_id":"dh89eifr"}
+{"time":"2025-03-03T18:18:06.170938562+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dh89eifr"}
+{"time":"2025-03-03T18:18:06.171042093+05:30","level":"INFO","msg":"handler: started","stream_id":"dh89eifr"}
+{"time":"2025-03-03T18:18:06.497647098+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T18:18:19.22426711+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T18:18:19.224844178+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T18:18:20.227008355+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_4_a857d7d42b7856ac134f.png","runtime_seconds":0.686343119,"progress":"59.1KB/59.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.376767728,"progress":"866B/866B"}],"total_operations":2}}
+{"time":"2025-03-03T18:18:20.40589479+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T18:18:21.739427283+05:30","level":"INFO","msg":"stream: closing","id":"dh89eifr"}
+{"time":"2025-03-03T18:18:21.739454473+05:30","level":"INFO","msg":"handler: closed","stream_id":"dh89eifr"}
+{"time":"2025-03-03T18:18:21.739466674+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dh89eifr"}
+{"time":"2025-03-03T18:18:21.739517794+05:30","level":"INFO","msg":"sender: closed","stream_id":"dh89eifr"}
+{"time":"2025-03-03T18:18:21.739599965+05:30","level":"INFO","msg":"stream: closed","id":"dh89eifr"}

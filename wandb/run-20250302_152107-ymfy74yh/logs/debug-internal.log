@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:21:07.15014454+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_152107-ymfy74yh/logs/debug-core.log"}
+{"time":"2025-03-02T15:21:07.273815701+05:30","level":"INFO","msg":"created new stream","id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:07.273876453+05:30","level":"INFO","msg":"stream: started","id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:07.274003525+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:07.274038036+05:30","level":"INFO","msg":"handler: started","stream_id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:07.274160878+05:30","level":"INFO","msg":"sender: started","stream_id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:07.61263937+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:21:30.522728404+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:21:30.524345306+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:21:31.525841619+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_12_bd5b86f239e5cf68cca9.png","runtime_seconds":0.703349121,"progress":"60.9KB/60.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.407400614,"progress":"867B/867B"}],"total_operations":2}}
+{"time":"2025-03-02T15:21:32.299842347+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:21:33.626709318+05:30","level":"INFO","msg":"stream: closing","id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:33.626783159+05:30","level":"INFO","msg":"handler: closed","stream_id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:33.62680725+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:33.62682017+05:30","level":"INFO","msg":"sender: closed","stream_id":"ymfy74yh"}
+{"time":"2025-03-02T15:21:33.627016654+05:30","level":"INFO","msg":"stream: closed","id":"ymfy74yh"}

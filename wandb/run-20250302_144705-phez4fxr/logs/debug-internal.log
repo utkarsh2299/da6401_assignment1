@@ -1,0 +1,16 @@
+{"time":"2025-03-02T14:47:05.389488578+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_144705-phez4fxr/logs/debug-core.log"}
+{"time":"2025-03-02T14:47:05.50605465+05:30","level":"INFO","msg":"created new stream","id":"phez4fxr"}
+{"time":"2025-03-02T14:47:05.506092011+05:30","level":"INFO","msg":"stream: started","id":"phez4fxr"}
+{"time":"2025-03-02T14:47:05.506180493+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"phez4fxr"}
+{"time":"2025-03-02T14:47:05.50649001+05:30","level":"INFO","msg":"handler: started","stream_id":"phez4fxr"}
+{"time":"2025-03-02T14:47:05.506536772+05:30","level":"INFO","msg":"sender: started","stream_id":"phez4fxr"}
+{"time":"2025-03-02T14:47:05.833825928+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T14:47:23.200698231+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T14:47:23.201812708+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T14:47:24.203692114+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_d718fd620d48d3de254b.png","runtime_seconds":0.699915764,"progress":"46.9KB/46.9KB"}],"total_operations":1}}
+{"time":"2025-03-02T14:47:24.209706135+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T14:47:25.506512206+05:30","level":"INFO","msg":"stream: closing","id":"phez4fxr"}
+{"time":"2025-03-02T14:47:25.506548307+05:30","level":"INFO","msg":"handler: closed","stream_id":"phez4fxr"}
+{"time":"2025-03-02T14:47:25.506566567+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"phez4fxr"}
+{"time":"2025-03-02T14:47:25.506595388+05:30","level":"INFO","msg":"sender: closed","stream_id":"phez4fxr"}
+{"time":"2025-03-02T14:47:25.50669817+05:30","level":"INFO","msg":"stream: closed","id":"phez4fxr"}

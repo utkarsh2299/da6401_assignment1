@@ -1,0 +1,16 @@
+{"time":"2025-03-03T23:26:23.749056141+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_232623-ef40legz/logs/debug-core.log"}
+{"time":"2025-03-03T23:26:23.867946998+05:30","level":"INFO","msg":"created new stream","id":"ef40legz"}
+{"time":"2025-03-03T23:26:23.868002199+05:30","level":"INFO","msg":"stream: started","id":"ef40legz"}
+{"time":"2025-03-03T23:26:23.86805577+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ef40legz"}
+{"time":"2025-03-03T23:26:23.868119051+05:30","level":"INFO","msg":"handler: started","stream_id":"ef40legz"}
+{"time":"2025-03-03T23:26:23.868227044+05:30","level":"INFO","msg":"sender: started","stream_id":"ef40legz"}
+{"time":"2025-03-03T23:26:24.190018599+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T23:26:28.194109886+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T23:26:28.194831011+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T23:26:29.022010979+05:30","level":"INFO","msg":"stream: closing","id":"ef40legz"}
+{"time":"2025-03-03T23:26:29.02206254+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-03-03T23:26:29.908660867+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T23:26:30.237954453+05:30","level":"INFO","msg":"handler: closed","stream_id":"ef40legz"}
+{"time":"2025-03-03T23:26:30.238023434+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ef40legz"}
+{"time":"2025-03-03T23:26:30.238197008+05:30","level":"INFO","msg":"sender: closed","stream_id":"ef40legz"}
+{"time":"2025-03-03T23:26:30.238229419+05:30","level":"INFO","msg":"stream: closed","id":"ef40legz"}

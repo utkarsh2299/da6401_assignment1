@@ -1,0 +1,16 @@
+{"time":"2025-03-02T14:44:17.60797514+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_144417-smbss7gv/logs/debug-core.log"}
+{"time":"2025-03-02T14:44:17.719828958+05:30","level":"INFO","msg":"created new stream","id":"smbss7gv"}
+{"time":"2025-03-02T14:44:17.719874229+05:30","level":"INFO","msg":"stream: started","id":"smbss7gv"}
+{"time":"2025-03-02T14:44:17.71991782+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"smbss7gv"}
+{"time":"2025-03-02T14:44:17.720004172+05:30","level":"INFO","msg":"handler: started","stream_id":"smbss7gv"}
+{"time":"2025-03-02T14:44:17.720095884+05:30","level":"INFO","msg":"sender: started","stream_id":"smbss7gv"}
+{"time":"2025-03-02T14:44:18.06620889+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T14:44:18.499193086+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T14:44:18.499966825+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T14:44:19.463655454+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":0.669586516,"progress":"2.0KB/2.0KB"},{"desc":"uploading output.log","runtime_seconds":0.029910977,"progress":"355B/355B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.029890547,"progress":"24B/24B"}],"total_operations":3}}
+{"time":"2025-03-02T14:44:20.24946896+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T14:44:21.546196269+05:30","level":"INFO","msg":"stream: closing","id":"smbss7gv"}
+{"time":"2025-03-02T14:44:21.546256491+05:30","level":"INFO","msg":"handler: closed","stream_id":"smbss7gv"}
+{"time":"2025-03-02T14:44:21.546281862+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"smbss7gv"}
+{"time":"2025-03-02T14:44:21.546353073+05:30","level":"INFO","msg":"sender: closed","stream_id":"smbss7gv"}
+{"time":"2025-03-02T14:44:21.546430445+05:30","level":"INFO","msg":"stream: closed","id":"smbss7gv"}

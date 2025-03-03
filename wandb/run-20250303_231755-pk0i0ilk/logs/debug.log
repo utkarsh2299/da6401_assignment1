@@ -1,0 +1,58 @@
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_setup.py:_flush():68] Configure stats pid to 2036612
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_init.py:_log_setup():523] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_231755-pk0i0ilk/logs/debug.log
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_init.py:_log_setup():524] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_231755-pk0i0ilk/logs/debug-internal.log
+2025-03-03 23:17:55,492 INFO    Thread-2  :2036612 [wandb_init.py:init():641] calling init triggers
+2025-03-03 23:17:55,493 INFO    Thread-2  :2036612 [wandb_init.py:init():647] wandb.init called with sweep_config: {'activation': 'sigmoid', 'batch_size': 32, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 4, 'learning_rate': 0.001, 'optimizer': 'adam', 'weight_decay': 0.0005, 'weight_init': 'random'}
+config: {}
+2025-03-03 23:17:55,493 INFO    Thread-2  :2036612 [wandb_init.py:init():674] starting backend
+2025-03-03 23:17:55,739 INFO    Thread-2  :2036612 [wandb_init.py:init():678] sending inform_init request
+2025-03-03 23:17:55,760 INFO    Thread-2  :2036612 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-03 23:17:55,761 INFO    Thread-2  :2036612 [wandb_init.py:init():693] backend started and connected
+2025-03-03 23:17:55,762 INFO    Thread-2  :2036612 [wandb_run.py:_config_callback():1283] config_cb None None {'activation': 'sigmoid', 'batch_size': 32, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 4, 'learning_rate': 0.001, 'optimizer': 'adam', 'weight_decay': 0.0005, 'weight_init': 'random'}
+2025-03-03 23:17:55,766 INFO    Thread-2  :2036612 [wandb_init.py:init():786] updated telemetry
+2025-03-03 23:17:55,814 INFO    Thread-2  :2036612 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-03-03 23:17:56,224 INFO    Thread-2  :2036612 [wandb_init.py:init():868] starting run threads in backend
+2025-03-03 23:17:56,467 INFO    Thread-2  :2036612 [wandb_run.py:_console_start():2415] atexit reg
+2025-03-03 23:17:56,467 INFO    Thread-2  :2036612 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-03-03 23:17:56,468 INFO    Thread-2  :2036612 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-03-03 23:17:56,468 INFO    Thread-2  :2036612 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-03-03 23:17:56,471 INFO    Thread-2  :2036612 [wandb_init.py:init():910] run started, returning control to user process
+2025-03-03 23:17:56,918 INFO    Thread-2  :2036612 [wandb_run.py:_finish():2140] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/pk0i0ilk
+2025-03-03 23:17:56,918 INFO    Thread-2  :2036612 [wandb_run.py:_atexit_cleanup():2380] got exitcode: 1
+2025-03-03 23:17:56,919 INFO    Thread-2  :2036612 [wandb_run.py:_restore():2362] restore
+2025-03-03 23:17:56,919 INFO    Thread-2  :2036612 [wandb_run.py:_restore():2368] restore done
+2025-03-03 23:17:58,839 INFO    Thread-2  :2036612 [wandb_run.py:_restore():2362] restore
+2025-03-03 23:17:58,839 INFO    Thread-2  :2036612 [wandb_run.py:_restore():2368] restore done
+2025-03-03 23:17:58,840 ERROR   Thread-2  :2036612 [wandb_run.py:_atexit_cleanup():2401] Problem finishing run
+Traceback (most recent call last):
+  File "main_sweep.py", line 44, in train
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 286, in train
+    activations, layer_inputs = self.forward(X_batch)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 163, in forward
+    a = self.softmax(z)
+AttributeError: 'FeedforwardNeuralNetwork' object has no attribute 'softmax'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2392, in _atexit_cleanup
+    self._on_finish()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2644, in _on_finish
+    _ = exit_handle.wait(
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 279, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 122, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception
+2025-03-03 23:17:58,842 WARNING MsgRouterThr:2036612 [router.py:message_loop():75] message_loop has been closed

@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:49:51.532368754+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_154951-1ekeppba/logs/debug-core.log"}
+{"time":"2025-03-02T15:49:51.647654331+05:30","level":"INFO","msg":"created new stream","id":"1ekeppba"}
+{"time":"2025-03-02T15:49:51.647698451+05:30","level":"INFO","msg":"stream: started","id":"1ekeppba"}
+{"time":"2025-03-02T15:49:51.647798832+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1ekeppba"}
+{"time":"2025-03-02T15:49:51.647802252+05:30","level":"INFO","msg":"handler: started","stream_id":"1ekeppba"}
+{"time":"2025-03-02T15:49:51.647892602+05:30","level":"INFO","msg":"sender: started","stream_id":"1ekeppba"}
+{"time":"2025-03-02T15:49:52.003761405+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:50:52.371118846+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:50:52.372132764+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:50:53.333965815+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.421563327,"progress":"989B/989B"},{"desc":"uploading media/images/confusion_matrix_12_adb801647d430cb4f241.png","runtime_seconds":0.421524737,"progress":"46.9KB/46.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.119003322,"progress":"830B/830B"}],"total_operations":3}}
+{"time":"2025-03-02T15:50:54.475153228+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:50:55.771640065+05:30","level":"INFO","msg":"stream: closing","id":"1ekeppba"}
+{"time":"2025-03-02T15:50:55.771684306+05:30","level":"INFO","msg":"handler: closed","stream_id":"1ekeppba"}
+{"time":"2025-03-02T15:50:55.771705676+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"1ekeppba"}
+{"time":"2025-03-02T15:50:55.771771066+05:30","level":"INFO","msg":"sender: closed","stream_id":"1ekeppba"}
+{"time":"2025-03-02T15:50:55.771909267+05:30","level":"INFO","msg":"stream: closed","id":"1ekeppba"}

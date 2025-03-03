@@ -1,0 +1,34 @@
+2025-03-03 23:20:09,297 INFO    Thread-5  :2037143 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_setup.py:_flush():68] Configure stats pid to 2037143
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_init.py:_log_setup():523] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_232009-5e9ycffd/logs/debug.log
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_init.py:_log_setup():524] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_232009-5e9ycffd/logs/debug-internal.log
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_init.py:init():641] calling init triggers
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_init.py:init():647] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 64, 'hidden_layers_count': 5, 'learning_rate': 0.0001, 'optimizer': 'adam', 'weight_decay': 0.0005, 'weight_init': 'xavier'}
+config: {}
+2025-03-03 23:20:09,298 INFO    Thread-5  :2037143 [wandb_init.py:init():674] starting backend
+2025-03-03 23:20:09,547 ERROR   Thread-5  :2037143 [wandb_init.py:init():1299] error in wandb.init()
+Traceback (most recent call last):
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1289, in init
+    return wi.init()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 677, in init
+    service = self._wl.ensure_service()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_setup.py", line 280, in ensure_service
+    self._connection = service_connection.connect_to_service(self._settings)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/service_connection.py", line 40, in connect_to_service
+    return _start_and_connect_service(settings)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/service_connection.py", line 75, in _start_and_connect_service
+    proc.start()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/service/service.py", line 232, in start
+    self._launch_server()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/service/service.py", line 226, in _launch_server
+    _sentry.reraise(e)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/analytics/sentry.py", line 156, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/service/service.py", line 224, in _launch_server
+    self._wait_for_ports(fname, proc=internal_proc)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/service/service.py", line 105, in _wait_for_ports
+    time.sleep(0.2)
+Exception

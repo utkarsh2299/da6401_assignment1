@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:59:08.534111269+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_155908-gql8qnil/logs/debug-core.log"}
+{"time":"2025-03-02T15:59:08.649240677+05:30","level":"INFO","msg":"created new stream","id":"gql8qnil"}
+{"time":"2025-03-02T15:59:08.649262728+05:30","level":"INFO","msg":"stream: started","id":"gql8qnil"}
+{"time":"2025-03-02T15:59:08.649371839+05:30","level":"INFO","msg":"sender: started","stream_id":"gql8qnil"}
+{"time":"2025-03-02T15:59:08.649359449+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gql8qnil"}
+{"time":"2025-03-02T15:59:08.649525041+05:30","level":"INFO","msg":"handler: started","stream_id":"gql8qnil"}
+{"time":"2025-03-02T15:59:08.987826824+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T16:00:28.333496741+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T16:00:28.334470573+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T16:00:29.336463815+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.431072815,"progress":"989B/989B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.431047765,"progress":"549B/549B"},{"desc":"uploading config.yaml","runtime_seconds":0.15592674,"progress":"870B/870B"}],"total_operations":3}}
+{"time":"2025-03-02T16:00:30.245751688+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T16:00:31.561316953+05:30","level":"INFO","msg":"stream: closing","id":"gql8qnil"}
+{"time":"2025-03-02T16:00:31.561354404+05:30","level":"INFO","msg":"handler: closed","stream_id":"gql8qnil"}
+{"time":"2025-03-02T16:00:31.561373374+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gql8qnil"}
+{"time":"2025-03-02T16:00:31.561435575+05:30","level":"INFO","msg":"sender: closed","stream_id":"gql8qnil"}
+{"time":"2025-03-02T16:00:31.561534056+05:30","level":"INFO","msg":"stream: closed","id":"gql8qnil"}

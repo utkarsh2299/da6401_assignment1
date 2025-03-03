@@ -70,7 +70,9 @@ def tanh_derivative(a):
     Returns:
     - Derivative: 1 - a^2
     """
-    return 1 - np.power(a, 2)
+    # return 1 - np.power(a, 2)
+    return 1 - np.tanh(a)**2
+
 
 def softmax(z):
     """

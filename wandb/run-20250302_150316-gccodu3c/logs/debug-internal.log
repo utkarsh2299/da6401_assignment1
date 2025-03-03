@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:03:16.501379261+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_150316-gccodu3c/logs/debug-core.log"}
+{"time":"2025-03-02T15:03:16.615901243+05:30","level":"INFO","msg":"created new stream","id":"gccodu3c"}
+{"time":"2025-03-02T15:03:16.615925784+05:30","level":"INFO","msg":"stream: started","id":"gccodu3c"}
+{"time":"2025-03-02T15:03:16.616019786+05:30","level":"INFO","msg":"handler: started","stream_id":"gccodu3c"}
+{"time":"2025-03-02T15:03:16.616065377+05:30","level":"INFO","msg":"sender: started","stream_id":"gccodu3c"}
+{"time":"2025-03-02T15:03:16.616030636+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gccodu3c"}
+{"time":"2025-03-02T15:03:16.930876762+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:04:05.074051675+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:04:05.074984304+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:04:06.076794811+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_12_8b02dbc27afe035efba5.png","runtime_seconds":0.696100363,"progress":"63.4KB/63.4KB"}],"total_operations":1}}
+{"time":"2025-03-02T15:04:06.145197123+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:04:07.46377965+05:30","level":"INFO","msg":"stream: closing","id":"gccodu3c"}
+{"time":"2025-03-02T15:04:07.463807841+05:30","level":"INFO","msg":"handler: closed","stream_id":"gccodu3c"}
+{"time":"2025-03-02T15:04:07.463828731+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gccodu3c"}
+{"time":"2025-03-02T15:04:07.463838502+05:30","level":"INFO","msg":"sender: closed","stream_id":"gccodu3c"}
+{"time":"2025-03-02T15:04:07.463967354+05:30","level":"INFO","msg":"stream: closed","id":"gccodu3c"}

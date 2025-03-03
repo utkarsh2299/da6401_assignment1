@@ -1,0 +1,11 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+Traceback (most recent call last):
+  File "main_sweep.py", line 44, in train
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 286, in train
+    activations, layer_inputs = self.forward(X_batch)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 148, in forward
+    z = np.dot(X, self.weights[0]) + self.biases[0]
+IndexError: list index out of range

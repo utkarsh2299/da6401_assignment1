@@ -1,0 +1,11 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+Traceback (most recent call last):
+  File "/speech/utkarsh/da6401_assignment1/main_sweep.py", line 44, in train
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 344, in train
+    val_y_pred = val_activations[-1]
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 191, in backward
+    #         self.biases[l] -= learning_rate * bias_gradients[l]
+TypeError: momentum() takes from 5 to 7 positional arguments but 9 were given

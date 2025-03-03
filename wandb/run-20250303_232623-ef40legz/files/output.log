@@ -1,0 +1,18 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+/speech/utkarsh/da6401_assignment1/utils/activations.py:25: RuntimeWarning: overflow encountered in multiply
+  return a * (1 - a)
+/speech/utkarsh/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+Epoch 1/2 - 2.49s - loss: nan - acc: 0.0997 - val_loss: nan - val_acc: 0.1003
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Traceback (most recent call last):
+  File "main_sweep.py", line 44, in train
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 288, in train
+    activations, layer_inputs = self.forward(X_batch)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 156, in forward
+    z = np.dot(activations[-1], self.weights[i]) + self.biases[i]
+  File "<__array_function__ internals>", line 200, in dot
+Exception

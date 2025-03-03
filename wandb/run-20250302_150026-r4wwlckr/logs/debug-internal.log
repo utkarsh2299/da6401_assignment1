@@ -1,0 +1,16 @@
+{"time":"2025-03-02T15:00:26.891054422+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250302_150026-r4wwlckr/logs/debug-core.log"}
+{"time":"2025-03-02T15:00:27.006716943+05:30","level":"INFO","msg":"created new stream","id":"r4wwlckr"}
+{"time":"2025-03-02T15:00:27.006786054+05:30","level":"INFO","msg":"stream: started","id":"r4wwlckr"}
+{"time":"2025-03-02T15:00:27.006867276+05:30","level":"INFO","msg":"handler: started","stream_id":"r4wwlckr"}
+{"time":"2025-03-02T15:00:27.006846506+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"r4wwlckr"}
+{"time":"2025-03-02T15:00:27.007011609+05:30","level":"INFO","msg":"sender: started","stream_id":"r4wwlckr"}
+{"time":"2025-03-02T15:00:27.304252727+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-02T15:01:01.254317129+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T15:01:01.255212708+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T15:01:02.257506058+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/confusion_matrix_7_e8d8af053b9e26640ebd.png","runtime_seconds":0.692477407,"progress":"60.0KB/60.0KB"},{"desc":"uploading output.log","runtime_seconds":0.692462616,"progress":"558B/558B"},{"desc":"uploading config.yaml","runtime_seconds":0.428317688,"progress":"874B/874B"}],"total_operations":3}}
+{"time":"2025-03-02T15:01:02.878591835+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T15:01:04.202429659+05:30","level":"INFO","msg":"stream: closing","id":"r4wwlckr"}
+{"time":"2025-03-02T15:01:04.20245867+05:30","level":"INFO","msg":"handler: closed","stream_id":"r4wwlckr"}
+{"time":"2025-03-02T15:01:04.20247118+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"r4wwlckr"}
+{"time":"2025-03-02T15:01:04.202493141+05:30","level":"INFO","msg":"sender: closed","stream_id":"r4wwlckr"}
+{"time":"2025-03-02T15:01:04.202590163+05:30","level":"INFO","msg":"stream: closed","id":"r4wwlckr"}

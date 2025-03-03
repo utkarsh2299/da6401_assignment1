@@ -1,0 +1,11 @@
+{"time":"2025-03-03T17:57:56.534701453+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250303_175756-hewrm4rv/logs/debug-core.log"}
+{"time":"2025-03-03T17:57:56.652918043+05:30","level":"INFO","msg":"created new stream","id":"hewrm4rv"}
+{"time":"2025-03-03T17:57:56.653008213+05:30","level":"INFO","msg":"stream: started","id":"hewrm4rv"}
+{"time":"2025-03-03T17:57:56.653026373+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hewrm4rv"}
+{"time":"2025-03-03T17:57:56.653111813+05:30","level":"INFO","msg":"sender: started","stream_id":"hewrm4rv"}
+{"time":"2025-03-03T17:57:56.653138013+05:30","level":"INFO","msg":"handler: started","stream_id":"hewrm4rv"}
+{"time":"2025-03-03T17:57:57.001602512+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T17:57:57.619642792+05:30","level":"INFO","msg":"stream: closing","id":"hewrm4rv"}
+{"time":"2025-03-03T17:57:57.619687923+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T17:57:57.620387055+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T17:57:59.094553158+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

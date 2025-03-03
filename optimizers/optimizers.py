@@ -9,7 +9,9 @@ def sgd(weights, biases, delta_weights, delta_biases, optimization_params, learn
         biases[i] -= learning_rate * delta_biases[i]
 
 def momentum(weights, biases, delta_weights, delta_biases, optimization_params, learning_rate=0.01, momentum=0.9, **kwargs):
-    """Momentum-based gradient descent update."""
+    """Momentum-based gradient descent update.
+    vt​=βv_t−1​+(1−β)∇L
+    """
     if 'velocity_w' not in optimization_params:
         optimization_params['velocity_w'] = [np.zeros_like(w) for w in weights]
         optimization_params['velocity_b'] = [np.zeros_like(b) for b in biases]
@@ -39,7 +41,8 @@ def nesterov(weights, biases, delta_weights, delta_biases, optimization_params, 
         biases[i] += -momentum * old_velocity_b + (1 + momentum) * optimization_params['velocity_b'][i]
 
 def rmsprop(weights, biases, delta_weights, delta_biases, optimization_params, learning_rate=0.001, decay_rate=0.9, epsilon=1e-8, **kwargs):
-    """RMSprop update rule."""
+    """RMSprop update rule.
+        st​=βs_t−1​+(1−β)(∇L)^2"""
     if 'cache_w' not in optimization_params:
         optimization_params['cache_w'] = [np.zeros_like(w) for w in weights]
         optimization_params['cache_b'] = [np.zeros_like(b) for b in biases]
@@ -54,7 +57,10 @@ def rmsprop(weights, biases, delta_weights, delta_biases, optimization_params, l
         biases[i] -= learning_rate * delta_biases[i] / (np.sqrt(optimization_params['cache_b'][i]) + epsilon)
 
 def adam(weights, biases, delta_weights, delta_biases, optimization_params, learning_rate=0.001, beta1=0.9, beta2=0.999, epsilon=1e-8, **kwargs):
-    """Adam optimizer update rule."""
+    """Adam optimizer update rule.
+    mt​=β1​m_t−1​+(1−β1​)∇L
+    vt​=β2​v_t−1​+(1−β2​)(∇L)^2
+    """
     if 't' not in optimization_params:
         optimization_params['t'] = 0
         optimization_params['m_w'] = [np.zeros_like(w) for w in weights]

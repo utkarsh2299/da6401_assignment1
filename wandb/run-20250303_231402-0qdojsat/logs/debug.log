@@ -1,0 +1,35 @@
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_setup.py:_flush():68] Configure stats pid to 2035874
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_setup.py:_flush():68] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_init.py:_log_setup():523] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_231402-0qdojsat/logs/debug.log
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_init.py:_log_setup():524] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250303_231402-0qdojsat/logs/debug-internal.log
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_init.py:init():641] calling init triggers
+2025-03-03 23:14:02,369 INFO    Thread-5  :2035874 [wandb_init.py:init():647] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 5, 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0.5, 'weight_init': 'random'}
+config: {}
+2025-03-03 23:14:02,370 INFO    Thread-5  :2035874 [wandb_init.py:init():674] starting backend
+2025-03-03 23:14:02,610 INFO    Thread-5  :2035874 [wandb_init.py:init():678] sending inform_init request
+2025-03-03 23:14:02,619 INFO    Thread-5  :2035874 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-03 23:14:02,620 INFO    Thread-5  :2035874 [wandb_init.py:init():693] backend started and connected
+2025-03-03 23:14:02,621 INFO    Thread-5  :2035874 [wandb_run.py:_config_callback():1283] config_cb None None {'activation': 'tanh', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 5, 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0.5, 'weight_init': 'random'}
+2025-03-03 23:14:02,625 INFO    Thread-5  :2035874 [wandb_init.py:init():786] updated telemetry
+2025-03-03 23:14:02,671 INFO    Thread-5  :2035874 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-03-03 23:14:03,046 ERROR   Thread-5  :2035874 [wandb_init.py:init():1299] error in wandb.init()
+Traceback (most recent call last):
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1289, in init
+    return wi.init()
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 821, in init
+    result = run_init_handle.wait(
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 279, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/speech/utkarsh/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 122, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception
+2025-03-03 23:14:03,074 WARNING MsgRouterThr:2035874 [router.py:message_loop():75] message_loop has been closed

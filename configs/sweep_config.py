@@ -10,10 +10,10 @@ sweep_config = {
             'values': [2]
         },
         'hidden_layers_count': {
-            'values': [3, 4, 5]
+            'values': [2]
         },
         'hidden_layer_size': {
-            'values': [32, 64, 128]
+            'values': [32]
         },
         'weight_decay': {
             'values': [0, 0.0005, 0.5]

@@ -1,0 +1,10 @@
+{"time":"2025-03-04T23:02:49.595068327+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250304_230249-tbhcss6e/logs/debug-core.log"}
+{"time":"2025-03-04T23:02:49.852606772+05:30","level":"INFO","msg":"created new stream","id":"tbhcss6e"}
+{"time":"2025-03-04T23:02:49.852667013+05:30","level":"INFO","msg":"stream: started","id":"tbhcss6e"}
+{"time":"2025-03-04T23:02:49.85474845+05:30","level":"INFO","msg":"sender: started","stream_id":"tbhcss6e"}
+{"time":"2025-03-04T23:02:49.854821101+05:30","level":"INFO","msg":"handler: started","stream_id":"tbhcss6e"}
+{"time":"2025-03-04T23:02:49.854849491+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tbhcss6e"}
+{"time":"2025-03-04T23:02:50.306416644+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T23:05:44.587094411+05:30","level":"INFO","msg":"stream: closing","id":"tbhcss6e"}
+{"time":"2025-03-04T23:05:44.587150822+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T23:05:44.589375444+05:30","level":"INFO","msg":"Stopped system monitor"}

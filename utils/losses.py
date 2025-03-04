@@ -1,6 +1,6 @@
 import numpy as np
 
-def cross_entropy_loss(y_pred, y_true):
+def cross_entropy_loss(y_pred, y_true, X_batch):
     """
     Calculate cross-entropy loss.
     
@@ -12,10 +12,10 @@ def cross_entropy_loss(y_pred, y_true):
     - Cross-entropy loss value
     """
     # Add small epsilon to avoid log(0)
-    epsilon = 1e-15
-    y_pred = np.clip(y_pred, epsilon, 1 - epsilon)
+    # epsilon = 1e-15
+    # y_pred = np.clip(y_pred, epsilon, 1 - epsilon)
     # Calculate cross-entropy loss
-    loss = -np.sum(y_true * np.log(y_pred)) / y_pred.shape[0]
+    loss = -np.sum(y_true * np.log(y_pred + 1e-10)) / X_batch.shape[0]
     return loss
 
 def mean_squared_error(y_pred, y_true):

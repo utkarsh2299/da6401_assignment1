@@ -1,7 +1,7 @@
 import wandb
-import numpy as np
-from models.neural_network_sweep import FeedforwardNeuralNetwork
-from utils.data_utils import preprocess_data, one_hot_encode
+# import numpy as np
+from models.neural_network_sweep_orig import FeedforwardNeuralNetwork
+from utils.data_utils import preprocess_data
 from configs.sweep_config import sweep_config  # Import sweep configuration
 # print(sweep_config)
 def train():
@@ -25,7 +25,7 @@ def train():
         # Create hidden layers configuration based on count and size
         hidden_layers = [config.hidden_layer_size] * config.hidden_layers_count
         
-        # Create model name for tracking
+        # model name for tracking
         #hl_{hidden_layers_count}_sz_{hidden_layer_size}_bs_{batch_size}_act_{activation}_opt_{optimizer}_lr_{learning_rate}_wd_{weight_decay}_init_{weight_init}
         model_name = f"hl_{config.hidden_layers_count}_sz_{config.hidden_layer_size}_bs_{config.batch_size}_act_{config.activation}_opt_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_init_{config.weight_init}"
         wandb.run.name = model_name
@@ -60,22 +60,25 @@ def train():
                        'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
                        
         # Make predictions on test set and create confusion matrix
-        from sklearn.metrics import confusion_matrix
-        import matplotlib.pyplot as plt
-        import seaborn as sns
+        # from sklearn.metrics import confusion_matrix
+        # import matplotlib.pyplot as plt
+        # import seaborn as sns
         
         y_pred = model.predict(X_test)
-        cm = confusion_matrix(y_test, y_pred)
+        # cm = confusion_matrix(y_test, y_pred)
         
-        # Plot and log confusion matrix
-        fig, ax = plt.subplots(figsize=(10, 8))
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=class_names, yticklabels=class_names)
-        plt.xlabel('Predicted')
-        plt.ylabel('True')
-        plt.title('Confusion Matrix')
-        wandb.log({"confusion_matrix": wandb.Image(fig)})
-        plt.close(fig)
-
+        # # Plot and log confusion matrix
+        # fig, ax = plt.subplots(figsize=(10, 8))
+        # sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=class_names, yticklabels=class_names)
+        # plt.xlabel('Predicted')
+        # plt.ylabel('True')
+        # plt.title('Confusion Matrix')
+        # wandb.log({"confusion_matrix": wandb.Image(fig)})
+        # plt.close(fig)
+        wandb.log({"confusion_matrix": wandb.plot.confusion_matrix(probs=None, 
+                                                            y_true=y_test, 
+                                                            preds=y_pred, 
+                                                            class_names=class_names)})
 # Initialize the sweep
 sweep_id = wandb.sweep(sweep_config, project="fashion-mnist-hyperparameter-sweep")
 

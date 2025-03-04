@@ -1,0 +1,10 @@
+{"time":"2025-03-04T23:06:00.287647875+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250304_230600-rt52rz7f/logs/debug-core.log"}
+{"time":"2025-03-04T23:06:00.612833507+05:30","level":"INFO","msg":"created new stream","id":"rt52rz7f"}
+{"time":"2025-03-04T23:06:00.612893218+05:30","level":"INFO","msg":"stream: started","id":"rt52rz7f"}
+{"time":"2025-03-04T23:06:00.612974209+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rt52rz7f"}
+{"time":"2025-03-04T23:06:00.61303547+05:30","level":"INFO","msg":"sender: started","stream_id":"rt52rz7f"}
+{"time":"2025-03-04T23:06:00.613175422+05:30","level":"INFO","msg":"handler: started","stream_id":"rt52rz7f"}
+{"time":"2025-03-04T23:06:01.026318146+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T23:12:13.625432167+05:30","level":"INFO","msg":"stream: closing","id":"rt52rz7f"}
+{"time":"2025-03-04T23:12:13.625500638+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T23:12:13.648184932+05:30","level":"INFO","msg":"Stopped system monitor"}

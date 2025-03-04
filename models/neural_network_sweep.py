@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import time
 import wandb
 from utils.activations import get_activation_function, get_activation_derivative
+from utils.losses import cross_entropy_loss
 
 class FeedforwardNeuralNetwork:
     def __init__(self, input_size, hidden_layers, output_size, activation='relu', weight_init='xavier', weight_decay=0):
@@ -26,7 +27,7 @@ class FeedforwardNeuralNetwork:
         self.activation_derivative = get_activation_derivative(activation)  # Used during backpropagation
         self.softmax=get_activation_function("softmax")
         # Initialize weights and biases
-        self.initialize_parameters()
+        self.initialize_parameters(weight_init)
         
         # self.weights = []
         # self.biases = []
@@ -86,50 +87,6 @@ class FeedforwardNeuralNetwork:
             
             # Initialize biases with zeros
             self.biases.append(np.zeros((1, output_dim)))
-
-            
-    #     # Activation function
-    #     if activation == 'relu':
-    #         self.activation_fn = self.relu
-    #         self.activation_derivative = self.relu_derivative
-    #     elif activation == 'sigmoid':
-    #         self.activation_fn = self.sigmoid
-    #         self.activation_derivative = self.sigmoid_derivative
-    #     elif activation == 'tanh':
-    #         self.activation_fn = self.tanh
-    #         self.activation_derivative = self.tanh_derivative
-    #     else:
-    #         raise ValueError("Activation function must be 'relu', 'sigmoid', or 'tanh'")
-    
-    # def relu(self, x):
-    #     """ReLU activation function"""
-    #     return np.maximum(0, x)
-    
-    # def relu_derivative(self, x):
-    #     """Derivative of ReLU"""
-    #     return np.where(x > 0, 1, 0)
-    
-    # def sigmoid(self, x):
-    #     """Sigmoid activation function"""
-    #     return 1 / (1 + np.exp(-np.clip(x, -500, 500)))
-    
-    # def sigmoid_derivative(self, x):
-    #     """Derivative of sigmoid"""
-    #     s = self.sigmoid(x)
-    #     return s * (1 - s)
-    
-    # def tanh(self, x):
-    #     """Tanh activation function"""
-    #     return np.tanh(x)
-    
-    # def tanh_derivative(self, x):
-    #     """Derivative of tanh"""
-    #     return 1 - np.tanh(x)**2
-    
-    # def softmax(self, x):
-    #     """Softmax function for output layer"""
-    #     exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))
-    #     return exp_x / np.sum(exp_x, axis=1, keepdims=True)
     
     def forward(self, X):
         """
@@ -289,8 +246,8 @@ class FeedforwardNeuralNetwork:
                 
                 # Calculate loss
                 y_pred = activations[-1]
-                batch_loss = -np.sum(y_batch * np.log(y_pred + 1e-10)) / X_batch.shape[0]
-                
+                # batch_loss = -np.sum(y_batch * np.log(y_pred + 1e-10)) / X_batch.shape[0]
+                batch_loss = cross_entropy_loss(y_pred, y_batch, X_batch)
                 # Add L2 regularization to loss
                 if self.weight_decay > 0:
                     l2_reg = 0
@@ -317,7 +274,8 @@ class FeedforwardNeuralNetwork:
             val_y_pred = val_activations[-1]
             val_y_true = one_hot_encode(y_val, self.output_size)
             
-            val_loss = -np.sum(val_y_true * np.log(val_y_pred + 1e-10)) / X_val.shape[0]
+            # val_loss = -np.sum(val_y_true * np.log(val_y_pred + 1e-10)) / X_val.shape[0]
+            val_loss = cross_entropy_loss(val_y_pred, val_y_true, X_val)
             if self.weight_decay > 0:
                 l2_reg = 0
                 for w in self.weights:

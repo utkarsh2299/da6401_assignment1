@@ -1,6 +1,6 @@
 import numpy as np
 from keras.datasets import fashion_mnist
-from tensorflow.keras.datasets import fashion_mnist
+# from tensorflow.keras.datasets import fashion_mnist
 import numpy as np
 
 def preprocess_data():
@@ -54,25 +54,3 @@ def one_hot_encode(y, num_classes=10):
         encoded[i, label] = 1
     return encoded
 
-# def data_generator(X, y, batch_size):
-#     """
-#     Generate batches of data for training.
-    
-#     Parameters:
-#     - X: Input data
-#     - y: Target labels
-#     - batch_size: Size of each batch
-    
-#     Yields:
-#     - X_batch: Batch of input data
-#     - y_batch: Batch of target labels
-#     """
-#     num_samples = X.shape[0]
-#     indices = np.arange(num_samples)
-#     np.random.shuffle(indices)
-    
-#     for start_idx in range(0, num_samples, batch_size):
-#         end_idx = min(start_idx + batch_size, num_samples)
-#         batch_indices = indices[start_idx:end_idx]
-        
-#         yield X[batch_indices], y[batch_indices]

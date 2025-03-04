@@ -1,0 +1,9 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Exception ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

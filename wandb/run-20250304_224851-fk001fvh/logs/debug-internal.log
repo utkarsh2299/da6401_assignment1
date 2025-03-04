@@ -1,0 +1,10 @@
+{"time":"2025-03-04T22:48:51.456133486+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250304_224851-fk001fvh/logs/debug-core.log"}
+{"time":"2025-03-04T22:48:51.889235055+05:30","level":"INFO","msg":"created new stream","id":"fk001fvh"}
+{"time":"2025-03-04T22:48:51.889305447+05:30","level":"INFO","msg":"stream: started","id":"fk001fvh"}
+{"time":"2025-03-04T22:48:51.889402609+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fk001fvh"}
+{"time":"2025-03-04T22:48:51.889575212+05:30","level":"INFO","msg":"handler: started","stream_id":"fk001fvh"}
+{"time":"2025-03-04T22:48:51.889614533+05:30","level":"INFO","msg":"sender: started","stream_id":"fk001fvh"}
+{"time":"2025-03-04T22:48:52.291059289+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-04T22:54:09.683017258+05:30","level":"INFO","msg":"stream: closing","id":"fk001fvh"}
+{"time":"2025-03-04T22:54:09.683078969+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-04T22:54:09.734963261+05:30","level":"INFO","msg":"Stopped system monitor"}

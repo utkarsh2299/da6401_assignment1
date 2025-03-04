@@ -1,0 +1,15 @@
+Training set: (54000, 784), (54000,)
+Validation set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py:299: RuntimeWarning: overflow encountered in square
+  l2_reg += np.sum(w ** 2)
+/speech/utkarsh/da6401_assignment1/utils/activations.py:25: RuntimeWarning: overflow encountered in multiply
+  return a * (1 - a)
+/speech/utkarsh/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Exception ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

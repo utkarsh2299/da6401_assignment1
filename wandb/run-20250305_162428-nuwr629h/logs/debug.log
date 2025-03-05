@@ -1,0 +1,11 @@
+2025-03-05 16:24:28,393 INFO    Thread-3  :196179 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_162428-nuwr629h/logs/debug.log
+2025-03-05 16:24:28,393 INFO    Thread-3  :196179 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_162428-nuwr629h/logs/debug-internal.log
+2025-03-05 16:24:28,394 INFO    Thread-3  :196179 [wandb_init.py:init():761] calling init triggers
+2025-03-05 16:24:28,394 INFO    Thread-3  :196179 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'mean_squared_error', 'optimizer': 'rmsprop', 'weight_decay': 0.0005, 'weight_init': 'xavier'}
+config: {'_wandb': {}}
+2025-03-05 16:24:28,394 INFO    Thread-3  :196179 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-05 16:24:43,183 INFO    MainThread:196179 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/nuwr629h
+2025-03-05 16:24:43,186 INFO    MainThread:196179 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-05 16:24:43,185 INFO    Thread-3  :196179 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/nuwr629h
+2025-03-05 16:24:43,191 INFO    MainThread:196179 [wandb_run.py:_restore():2324] restore
+2025-03-05 16:24:43,192 INFO    MainThread:196179 [wandb_run.py:_restore():2330] restore done

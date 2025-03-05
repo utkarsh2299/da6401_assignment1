@@ -1,0 +1,16 @@
+{"time":"2025-03-05T15:31:00.458474865+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_153100-wl5m43xs/logs/debug-core.log"}
+{"time":"2025-03-05T15:31:00.577623345+05:30","level":"INFO","msg":"created new stream","id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:00.577695864+05:30","level":"INFO","msg":"stream: started","id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:00.577824164+05:30","level":"INFO","msg":"handler: started","stream_id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:00.577826564+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:00.577903853+05:30","level":"INFO","msg":"sender: started","stream_id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:00.935617122+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T15:31:01.047184621+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T15:31:01.048108695+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T15:31:02.020162614+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.712931024,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-metadata.json","runtime_seconds":0.328772746,"progress":"2.3KB/2.3KB"},{"desc":"creating run","runtime_seconds":0.241181272}],"total_operations":3}}
+{"time":"2025-03-05T15:31:03.248620405+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T15:31:04.568252795+05:30","level":"INFO","msg":"stream: closing","id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:04.568286575+05:30","level":"INFO","msg":"handler: closed","stream_id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:04.568308075+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:04.568336145+05:30","level":"INFO","msg":"sender: closed","stream_id":"wl5m43xs"}
+{"time":"2025-03-05T15:31:04.568437424+05:30","level":"INFO","msg":"stream: closed","id":"wl5m43xs"}

@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 import wandb
 import argparse
 from models.neural_network_sweep import FeedforwardNeuralNetwork
@@ -30,9 +30,10 @@ def main(args: argparse.Namespace):
     input_size = 784  # 28x28 pixels
     output_size = 10  # 10 classes in MNIST/ F-MNIST
     
-    print(args.use_wandb)
+    # print(args.use_wandb)
     
     def train():
+        print("inside train")
         with wandb.init() as run:
         # Access all hyperparameters through wandb.config
             config = wandb.config
@@ -77,7 +78,7 @@ def main(args: argparse.Namespace):
                                                             preds=y_pred, 
                                                             class_names=class_names)})
             
-    if args.use_wandb == "true": 
+    if args.use_wandb_sweep == "True": 
         wandb.login()
         print("In if con")
         # Initialize the sweep
@@ -132,15 +133,17 @@ def main(args: argparse.Namespace):
 
         
     
-        wandb.finish()
+        # wandb.finish()
 
 if __name__ == "__main__":
         
     parser = argparse.ArgumentParser(description="Train a Neural Network with different settings")
 
     # Arguments for Weights & Biases logging
-    parser.add_argument("-uw", "--use_wandb", type=str, default="false",
+    parser.add_argument("-uw", "--use_wandb", type=str, default="True",
                         help="Set this to 'true' if you want to track training using Weights & Biases and do the sweep on various hyperparameters")
+    parser.add_argument("-uw_s", "--use_wandb_sweep", type=str, default="false",
+                        help="Set this to 'true' if you want to do the sweep on various hyperparameters in config")
 
     parser.add_argument("-wp", "--wandb_project", type=str, default="fashion-mnist-hyperparameter-sweep",
                         help="Name of the WandB project where training details will be logged")

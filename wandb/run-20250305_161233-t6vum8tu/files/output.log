@@ -1,0 +1,9 @@
+Epoch 1/10 - 48.95s - loss: 0.5751 - acc: 0.7989 - val_loss: 0.5013 - val_acc: 0.8152
+Traceback (most recent call last):
+  File "train_nn.py", line 209, in <module>
+    main(args)
+  File "train_nn.py", line 111, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 254, in train
+    X_shuffled = X_train[indices]
+KeyboardInterrupt

@@ -26,7 +26,40 @@ class FeedforwardNeuralNetwork:
         self.activation_derivative = get_activation_derivative(activation)  # Used during backpropagation
         self.softmax=get_activation_function("softmax")
         # Initialize weights and biases
-        self.initialize_parameters(weight_init)
+        self.weights = []  # List to store weight matrices
+        self.biases = []   # List to store bias vectors       
+        
+        # self.initialize_parameters(weight_init)
+        # Input layer to first hidden layer
+        if weight_init == 'xavier':
+            self.weights.append(np.random.randn(input_size, hidden_layers[0]) * np.sqrt(1.0 / input_size))
+        elif weight_init == 'he':
+            self.weights.append(np.random.randn(input_size, hidden_layers[0]) * np.sqrt(2.0 / input_size))
+        else:  # random
+            self.weights.append(np.random.randn(input_size, hidden_layers[0]) * 0.01)
+        self.biases.append(np.zeros((1, hidden_layers[0])))
+
+        # Hidden layers
+        for i in range(1, len(hidden_layers)):
+            if weight_init == 'xavier':
+                self.weights.append(np.random.randn(hidden_layers[i-1], hidden_layers[i]) * np.sqrt(1.0 / hidden_layers[i-1]))
+            elif weight_init == 'he':
+                self.weights.append(np.random.randn(hidden_layers[i-1], hidden_layers[i]) * np.sqrt(2.0 / hidden_layers[i-1]))
+            else:  # random
+                self.weights.append(np.random.randn(hidden_layers[i-1], hidden_layers[i]) * 0.01)
+            self.biases.append(np.zeros((1, hidden_layers[i])))
+
+        # Last hidden layer to output layer
+        if weight_init == 'xavier':
+            self.weights.append(np.random.randn(hidden_layers[-1], output_size) * np.sqrt(1.0 / hidden_layers[-1]))
+        elif weight_init == 'he':
+            self.weights.append(np.random.randn(hidden_layers[-1], output_size) * np.sqrt(2.0 / hidden_layers[-1]))
+        else:  # random
+            self.weights.append(np.random.randn(hidden_layers[-1], output_size) * 0.01)
+        self.biases.append(np.zeros((1, output_size)))
+                
+        
+        
         self.loss_function = get_loss_function(loss)
         # if self.loss_function=="cross_entropy_loss":
         #     self.loss_function = get_loss_function("cross_entropy_loss")
@@ -57,6 +90,8 @@ class FeedforwardNeuralNetwork:
         layer_sizes = [self.input_size] + self.hidden_layers + [self.output_size]
         
         # Initialize weights and biases for each layer
+        # Use Xavier for Sigmoid/Tanh networks (balanced activations). Add to report
+        # Use He for ReLU-based networks (avoids shrinking activations).
         for i in range(len(layer_sizes) - 1):
             input_dim = layer_sizes[i]
             output_dim = layer_sizes[i + 1]

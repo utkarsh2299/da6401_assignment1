@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "train_nn.py", line 211, in <module>
+    main(args)
+  File "train_nn.py", line 111, in main
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 288, in train
+    self.backward(X_batch, y_batch, activations, layer_inputs, optimizer, learning_rate)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 186, in backward
+    weight_gradients[l] = np.dot(activations[l].T, delta) / m
+  File "<__array_function__ internals>", line 200, in dot
+KeyboardInterrupt

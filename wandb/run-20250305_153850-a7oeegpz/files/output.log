@@ -1,0 +1,3 @@
+Epoch 1/2 - 59.28s - loss: 0.6505 - acc: 0.7606 - val_loss: 0.5840 - val_acc: 0.7863
+Epoch 2/2 - 60.93s - loss: 0.5026 - acc: 0.8234 - val_loss: 0.4974 - val_acc: 0.8255
+Training completed in 120.21s

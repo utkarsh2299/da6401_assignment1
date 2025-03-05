@@ -1,0 +1,87 @@
+2025-03-05 15:41:03,542 INFO    Thread-9  :190524 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154103-deapbday/logs/debug.log
+2025-03-05 15:41:03,542 INFO    Thread-9  :190524 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154103-deapbday/logs/debug-internal.log
+2025-03-05 15:41:03,543 INFO    Thread-9  :190524 [wandb_init.py:init():761] calling init triggers
+2025-03-05 15:41:03,543 INFO    Thread-9  :190524 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'sigmoid', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 32, 'hidden_layers_count': 3, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'adam', 'weight_decay': 0.005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-05 15:41:03,543 INFO    Thread-9  :190524 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-05 15:41:25,132 INFO    Thread-9  :190524 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-05 15:41:25,462 INFO    Thread-9  :190524 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/deapbday
+2025-03-05 15:41:25,462 INFO    Thread-9  :190524 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-05 15:41:25,463 INFO    Thread-9  :190524 [wandb_run.py:_restore():2324] restore
+2025-03-05 15:41:25,463 INFO    Thread-9  :190524 [wandb_run.py:_restore():2330] restore done
+2025-03-05 15:41:29,367 INFO    MsgRouterThr:190524 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-05 15:41:29,369 INFO    Thread-9  :190524 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-05 15:41:29,369 INFO    Thread-9  :190524 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-05 15:41:29,370 INFO    Thread-9  :190524 [wandb_run.py:_footer_sync_info():3919] logging synced files
+2025-03-05 15:41:34,901 INFO    Thread-12 :190524 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-05 15:41:34,901 INFO    Thread-12 :190524 [wandb_setup.py:_flush():67] Configure stats pid to 190524
+2025-03-05 15:41:34,901 INFO    Thread-12 :190524 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-05 15:41:34,902 INFO    Thread-12 :190524 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-05 15:41:34,902 INFO    Thread-12 :190524 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-05 15:41:34,902 INFO    Thread-12 :190524 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154134-ksoolimp/logs/debug.log
+2025-03-05 15:41:34,903 INFO    Thread-12 :190524 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154134-ksoolimp/logs/debug-internal.log
+2025-03-05 15:41:34,903 INFO    Thread-12 :190524 [wandb_init.py:init():761] calling init triggers
+2025-03-05 15:41:34,903 INFO    Thread-12 :190524 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'optimizer': 'adam', 'weight_decay': 0.005, 'weight_init': 'xavier'}
+config: {'_wandb': {}}
+2025-03-05 15:41:34,904 INFO    Thread-12 :190524 [wandb_init.py:init():784] starting backend
+2025-03-05 15:41:34,904 INFO    Thread-12 :190524 [wandb_init.py:init():788] sending inform_init request
+2025-03-05 15:41:34,906 INFO    Thread-12 :190524 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-05 15:41:34,906 INFO    Thread-12 :190524 [wandb_init.py:init():803] backend started and connected
+2025-03-05 15:41:34,908 INFO    Thread-12 :190524 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'optimizer': 'adam', 'weight_decay': 0.005, 'weight_init': 'xavier'}
+2025-03-05 15:41:34,913 INFO    Thread-12 :190524 [wandb_init.py:init():896] updated telemetry
+2025-03-05 15:41:34,955 INFO    Thread-12 :190524 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-05 15:41:35,354 INFO    Thread-12 :190524 [wandb_init.py:init():995] starting run threads in backend
+2025-03-05 15:41:35,436 INFO    Thread-12 :190524 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-05 15:41:35,437 INFO    Thread-12 :190524 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-05 15:41:35,437 INFO    Thread-12 :190524 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-05 15:41:35,437 INFO    Thread-12 :190524 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-05 15:41:35,438 INFO    Thread-12 :190524 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-05 15:41:35,452 INFO    Thread-12 :190524 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154135-ksoolimp/logs/debug.log
+2025-03-05 15:41:35,452 INFO    Thread-12 :190524 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154135-ksoolimp/logs/debug-internal.log
+2025-03-05 15:41:35,453 INFO    Thread-12 :190524 [wandb_init.py:init():761] calling init triggers
+2025-03-05 15:41:35,453 INFO    Thread-12 :190524 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'optimizer': 'adam', 'weight_decay': 0.005, 'weight_init': 'xavier'}
+config: {'_wandb': {}}
+2025-03-05 15:41:35,453 INFO    Thread-12 :190524 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-05 15:43:18,525 INFO    Thread-12 :190524 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-05 15:43:18,824 INFO    Thread-12 :190524 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/ksoolimp
+2025-03-05 15:43:18,824 INFO    Thread-12 :190524 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-05 15:43:18,824 INFO    Thread-12 :190524 [wandb_run.py:_restore():2324] restore
+2025-03-05 15:43:18,825 INFO    Thread-12 :190524 [wandb_run.py:_restore():2330] restore done
+2025-03-05 15:43:22,666 INFO    MsgRouterThr:190524 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-05 15:43:22,668 INFO    Thread-12 :190524 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-05 15:43:22,669 INFO    Thread-12 :190524 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-05 15:43:22,670 INFO    Thread-12 :190524 [wandb_run.py:_footer_sync_info():3919] logging synced files
+2025-03-05 15:43:26,047 INFO    Thread-15 :190524 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-05 15:43:26,047 INFO    Thread-15 :190524 [wandb_setup.py:_flush():67] Configure stats pid to 190524
+2025-03-05 15:43:26,047 INFO    Thread-15 :190524 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-05 15:43:26,048 INFO    Thread-15 :190524 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-05 15:43:26,048 INFO    Thread-15 :190524 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-05 15:43:26,049 INFO    Thread-15 :190524 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154326-gtsdlp53/logs/debug.log
+2025-03-05 15:43:26,049 INFO    Thread-15 :190524 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154326-gtsdlp53/logs/debug-internal.log
+2025-03-05 15:43:26,049 INFO    Thread-15 :190524 [wandb_init.py:init():761] calling init triggers
+2025-03-05 15:43:26,050 INFO    Thread-15 :190524 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 2, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'optimizer': 'rmsprop', 'weight_decay': 0.005, 'weight_init': 'xavier'}
+config: {'_wandb': {}}
+2025-03-05 15:43:26,050 INFO    Thread-15 :190524 [wandb_init.py:init():784] starting backend
+2025-03-05 15:43:26,050 INFO    Thread-15 :190524 [wandb_init.py:init():788] sending inform_init request
+2025-03-05 15:43:26,052 INFO    Thread-15 :190524 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-05 15:43:26,053 INFO    Thread-15 :190524 [wandb_init.py:init():803] backend started and connected
+2025-03-05 15:43:26,054 INFO    Thread-15 :190524 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 32, 'epochs': 2, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'optimizer': 'rmsprop', 'weight_decay': 0.005, 'weight_init': 'xavier'}
+2025-03-05 15:43:26,061 INFO    Thread-15 :190524 [wandb_init.py:init():896] updated telemetry
+2025-03-05 15:43:26,101 INFO    Thread-15 :190524 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-05 15:43:26,490 INFO    Thread-15 :190524 [wandb_init.py:init():995] starting run threads in backend
+2025-03-05 15:43:26,575 INFO    Thread-15 :190524 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-05 15:43:26,576 INFO    Thread-15 :190524 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-05 15:43:26,576 INFO    Thread-15 :190524 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-05 15:43:26,577 INFO    Thread-15 :190524 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-05 15:43:26,578 INFO    Thread-15 :190524 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-05 15:43:26,593 INFO    Thread-15 :190524 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154326-gtsdlp53/logs/debug.log
+2025-03-05 15:43:26,594 INFO    Thread-15 :190524 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_154326-gtsdlp53/logs/debug-internal.log
+2025-03-05 15:43:26,594 INFO    Thread-15 :190524 [wandb_init.py:init():761] calling init triggers
+2025-03-05 15:43:26,594 INFO    Thread-15 :190524 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 2, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'optimizer': 'rmsprop', 'weight_decay': 0.005, 'weight_init': 'xavier'}
+config: {'_wandb': {}}
+2025-03-05 15:43:26,594 INFO    Thread-15 :190524 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-05 15:45:36,864 INFO    MainThread:190524 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/gtsdlp53
+2025-03-05 15:45:36,865 INFO    MainThread:190524 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-05 15:45:36,865 INFO    MainThread:190524 [wandb_run.py:_restore():2324] restore
+2025-03-05 15:45:36,866 INFO    MainThread:190524 [wandb_run.py:_restore():2330] restore done
+2025-03-05 15:45:36,871 INFO    Thread-15 :190524 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/fashion-mnist-hyperparameter-sweep/gtsdlp53

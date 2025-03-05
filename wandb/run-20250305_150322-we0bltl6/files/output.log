@@ -1,0 +1,6 @@
+Epoch 1/10 - 266.52s - loss: 0.5495 - acc: 0.8006 - val_loss: 0.4327 - val_acc: 0.8435
+Epoch 2/10 - 343.10s - loss: 0.4428 - acc: 0.8389 - val_loss: 0.4444 - val_acc: 0.8422
+Epoch 3/10 - 284.75s - loss: 0.4113 - acc: 0.8514 - val_loss: 0.3820 - val_acc: 0.8612
+Epoch 4/10 - 254.72s - loss: 0.3941 - acc: 0.8571 - val_loss: 0.4179 - val_acc: 0.8548
+Epoch 5/10 - 250.31s - loss: 0.3793 - acc: 0.8615 - val_loss: 0.3697 - val_acc: 0.8645
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

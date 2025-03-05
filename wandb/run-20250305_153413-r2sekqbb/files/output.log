@@ -1,0 +1,2 @@
+Epoch 1/5 - 30.91s - loss: 2.9049 - acc: 0.1004 - val_loss: 2.3162 - val_acc: 0.0992
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

@@ -1,0 +1,10 @@
+{"time":"2025-03-05T15:43:26.056562716+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_154326-gtsdlp53/logs/debug-core.log"}
+{"time":"2025-03-05T15:43:26.178305175+05:30","level":"INFO","msg":"created new stream","id":"gtsdlp53"}
+{"time":"2025-03-05T15:43:26.178412324+05:30","level":"INFO","msg":"stream: started","id":"gtsdlp53"}
+{"time":"2025-03-05T15:43:26.178434904+05:30","level":"INFO","msg":"handler: started","stream_id":"gtsdlp53"}
+{"time":"2025-03-05T15:43:26.178490353+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gtsdlp53"}
+{"time":"2025-03-05T15:43:26.178466253+05:30","level":"INFO","msg":"sender: started","stream_id":"gtsdlp53"}
+{"time":"2025-03-05T15:43:26.494417361+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T15:45:36.904992612+05:30","level":"INFO","msg":"stream: closing","id":"gtsdlp53"}
+{"time":"2025-03-05T15:45:36.905057201+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T15:45:36.907326916+05:30","level":"INFO","msg":"Stopped system monitor"}

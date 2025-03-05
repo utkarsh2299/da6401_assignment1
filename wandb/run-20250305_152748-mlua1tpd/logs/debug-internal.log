@@ -1,0 +1,15 @@
+{"time":"2025-03-05T15:27:48.99044591+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_152748-mlua1tpd/logs/debug-core.log"}
+{"time":"2025-03-05T15:27:49.110240676+05:30","level":"INFO","msg":"created new stream","id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:49.110321465+05:30","level":"INFO","msg":"stream: started","id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:49.110346875+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:49.110412185+05:30","level":"INFO","msg":"sender: started","stream_id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:49.110506104+05:30","level":"INFO","msg":"handler: started","stream_id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:49.439235982+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T15:27:51.590024375+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T15:27:51.590066065+05:30","level":"INFO","msg":"stream: closing","id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:51.590975419+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T15:27:52.511373697+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T15:27:52.90160341+05:30","level":"INFO","msg":"handler: closed","stream_id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:52.90165448+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:52.901799739+05:30","level":"INFO","msg":"sender: closed","stream_id":"mlua1tpd"}
+{"time":"2025-03-05T15:27:52.901845689+05:30","level":"INFO","msg":"stream: closed","id":"mlua1tpd"}

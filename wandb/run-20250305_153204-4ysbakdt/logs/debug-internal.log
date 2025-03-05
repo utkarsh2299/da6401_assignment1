@@ -1,0 +1,11 @@
+{"time":"2025-03-05T15:32:04.131459741+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_153204-4ysbakdt/logs/debug-core.log"}
+{"time":"2025-03-05T15:32:04.255867019+05:30","level":"INFO","msg":"created new stream","id":"4ysbakdt"}
+{"time":"2025-03-05T15:32:04.255956118+05:30","level":"INFO","msg":"stream: started","id":"4ysbakdt"}
+{"time":"2025-03-05T15:32:04.256034148+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4ysbakdt"}
+{"time":"2025-03-05T15:32:04.256089357+05:30","level":"INFO","msg":"sender: started","stream_id":"4ysbakdt"}
+{"time":"2025-03-05T15:32:04.256140227+05:30","level":"INFO","msg":"handler: started","stream_id":"4ysbakdt"}
+{"time":"2025-03-05T15:32:04.574406291+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T15:34:02.667971244+05:30","level":"INFO","msg":"stream: closing","id":"4ysbakdt"}
+{"time":"2025-03-05T15:34:02.668056854+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T15:34:02.677492441+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T15:34:03.899197288+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

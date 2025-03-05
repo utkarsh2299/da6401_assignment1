@@ -10,22 +10,22 @@ sweep_config = {
     },
     'parameters': {
         'epochs': {
-            'values': [5,10,15]
+            'values': [2]
         },
         'hidden_layers_count': {
-            'values': [2, 3, 4, 5]
+            'values': [2, 3, 4]
         },
         'hidden_layer_size': {
             'values': [32, 64, 128, 256]
         },
         'weight_decay': {
-            'values': [0, 0.0005, 0.005, 0.5]
+            'values': [0, 0.0005, 0.005]
         },
         'loss':{
             'values':['cross_entropy_loss', 'mean_squared_error']
         },
         'learning_rate': {
-            'values': [1e-3, 1e-4]
+            'values': [1e-1,1e-2,1e-3]
         },
         'optimizer': {
             'values': ['sgd', 'momentum', 'nesterov', 'rmsprop', 'adam', 'nadam']

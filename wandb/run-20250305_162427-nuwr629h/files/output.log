@@ -1,0 +1,10 @@
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Traceback (most recent call last):
+  File "train_nn.py", line 60, in train
+    history = model.train(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 271, in train
+    activations, layer_inputs = self.forward(X_batch)
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 134, in forward
+    z = np.dot(activations[-1], self.weights[i]) + self.biases[i]
+  File "<__array_function__ internals>", line 200, in dot
+Exception

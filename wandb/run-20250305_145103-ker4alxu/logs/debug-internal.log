@@ -1,0 +1,16 @@
+{"time":"2025-03-05T14:51:03.083488889+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_145103-ker4alxu/logs/debug-core.log"}
+{"time":"2025-03-05T14:51:03.202987154+05:30","level":"INFO","msg":"created new stream","id":"ker4alxu"}
+{"time":"2025-03-05T14:51:03.203075383+05:30","level":"INFO","msg":"stream: started","id":"ker4alxu"}
+{"time":"2025-03-05T14:51:03.203822604+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ker4alxu"}
+{"time":"2025-03-05T14:51:03.203955763+05:30","level":"INFO","msg":"sender: started","stream_id":"ker4alxu"}
+{"time":"2025-03-05T14:51:03.203909103+05:30","level":"INFO","msg":"handler: started","stream_id":"ker4alxu"}
+{"time":"2025-03-05T14:51:03.513743732+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T15:03:13.864130939+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T15:03:13.866417336+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T15:03:14.852895094+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ker4alxu-confusion_matrix_table","runtime_seconds":1.028876044},{"desc":"uploading media/table/confusion_matrix_table_13_9b3969f88adfb0058642.table.json","runtime_seconds":0.671973519,"progress":"2.8KB/2.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.671952819,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.374043013,"progress":"2.1KB/2.1KB"}],"total_operations":4}}
+{"time":"2025-03-05T15:03:16.508579352+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T15:03:18.016831596+05:30","level":"INFO","msg":"stream: closing","id":"ker4alxu"}
+{"time":"2025-03-05T15:03:18.016885607+05:30","level":"INFO","msg":"handler: closed","stream_id":"ker4alxu"}
+{"time":"2025-03-05T15:03:18.016912927+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ker4alxu"}
+{"time":"2025-03-05T15:03:18.016941097+05:30","level":"INFO","msg":"sender: closed","stream_id":"ker4alxu"}
+{"time":"2025-03-05T15:03:18.017085548+05:30","level":"INFO","msg":"stream: closed","id":"ker4alxu"}

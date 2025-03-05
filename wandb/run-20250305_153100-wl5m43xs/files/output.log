@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train_nn.py", line 49, in train
+    model = FeedforwardNeuralNetwork(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 38, in __init__
+    self.weights.append(np.random.randn(input_size, hidden_layers[0]) * 0.01)
+AttributeError: 'FeedforwardNeuralNetwork' object has no attribute 'weights'

@@ -1,0 +1,16 @@
+{"time":"2025-03-05T14:49:06.747161499+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_144906-tug004j5/logs/debug-core.log"}
+{"time":"2025-03-05T14:49:06.872041327+05:30","level":"INFO","msg":"created new stream","id":"tug004j5"}
+{"time":"2025-03-05T14:49:06.872165225+05:30","level":"INFO","msg":"stream: started","id":"tug004j5"}
+{"time":"2025-03-05T14:49:06.872209045+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tug004j5"}
+{"time":"2025-03-05T14:49:06.872232395+05:30","level":"INFO","msg":"sender: started","stream_id":"tug004j5"}
+{"time":"2025-03-05T14:49:06.872276444+05:30","level":"INFO","msg":"handler: started","stream_id":"tug004j5"}
+{"time":"2025-03-05T14:49:07.222619312+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T14:50:57.014816783+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T14:50:57.016142777+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T14:50:58.020104721+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tug004j5-confusion_matrix_table","runtime_seconds":1.5561447510000002},{"desc":"uploading output.log","runtime_seconds":0.696871354,"progress":"455B/455B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.696864014,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.423542687,"progress":"2.1KB/2.1KB"}],"total_operations":4}}
+{"time":"2025-03-05T14:50:59.361737265+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T14:51:00.758943074+05:30","level":"INFO","msg":"stream: closing","id":"tug004j5"}
+{"time":"2025-03-05T14:51:00.759007323+05:30","level":"INFO","msg":"handler: closed","stream_id":"tug004j5"}
+{"time":"2025-03-05T14:51:00.759041192+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tug004j5"}
+{"time":"2025-03-05T14:51:00.75924092+05:30","level":"INFO","msg":"sender: closed","stream_id":"tug004j5"}
+{"time":"2025-03-05T14:51:00.75928308+05:30","level":"INFO","msg":"stream: closed","id":"tug004j5"}

@@ -1,0 +1,10 @@
+{"time":"2025-03-05T15:35:06.239877449+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_153506-28s4a0ct/logs/debug-core.log"}
+{"time":"2025-03-05T15:35:06.360243896+05:30","level":"INFO","msg":"created new stream","id":"28s4a0ct"}
+{"time":"2025-03-05T15:35:06.360321346+05:30","level":"INFO","msg":"stream: started","id":"28s4a0ct"}
+{"time":"2025-03-05T15:35:06.360354065+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"28s4a0ct"}
+{"time":"2025-03-05T15:35:06.360424265+05:30","level":"INFO","msg":"handler: started","stream_id":"28s4a0ct"}
+{"time":"2025-03-05T15:35:06.360515104+05:30","level":"INFO","msg":"sender: started","stream_id":"28s4a0ct"}
+{"time":"2025-03-05T15:35:06.677774739+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T15:35:14.675271253+05:30","level":"INFO","msg":"stream: closing","id":"28s4a0ct"}
+{"time":"2025-03-05T15:35:14.675363013+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T15:35:14.679426176+05:30","level":"INFO","msg":"Stopped system monitor"}

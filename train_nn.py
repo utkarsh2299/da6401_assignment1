@@ -142,8 +142,8 @@ if __name__ == "__main__":
     # Arguments for Weights & Biases logging
     parser.add_argument("-uw", "--use_wandb", type=str, default="True",
                         help="Set this to 'true' if you want to track training using Weights & Biases and do the sweep on various hyperparameters")
-    parser.add_argument("-uw_s", "--use_wandb_sweep", type=str, default="false",
-                        help="Set this to 'true' if you want to do the sweep on various hyperparameters in config")
+    parser.add_argument("-uw_s", "--use_wandb_sweep", type=str, default="False",
+                        help="Set this to 'True' if you want to do the sweep on various hyperparameters in config")
 
     parser.add_argument("-wp", "--wandb_project", type=str, default="fashion-mnist-hyperparameter-sweep",
                         help="Name of the WandB project where training details will be logged")

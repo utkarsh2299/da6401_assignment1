@@ -97,21 +97,9 @@ python train_nn.py --epochs 20 --batch_size 64 --optimizer adam --activation ReL
 python train_nn.py --epochs 30 --batch_size 32 --optimizer momentum --momentum 0.9 --weight_init Xavier
 ```
 
-### Train Using WandB for Experiment Tracking
+### Train Using WandB and WandB Sweeps for Experiment Tracking
 ```bash
-python train_nn.py --use_wandb true --wandb_project "my_project" --wandb_entity "my_username"
+python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_project" --wandb_entity "my_username"
 ```
 
-## Logging with Weights & Biases
-1. To track experiments, create an account on [Weights & Biases](https://wandb.ai/).
-2. Set up your API key:
-   ```bash
-   wandb login
-   ```
-3. Run training with `--use_wandb true` to log results automatically.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contact
-For any issues or improvements, feel free to open an issue in the repository or contact the author.

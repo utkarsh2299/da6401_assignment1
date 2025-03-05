@@ -113,12 +113,7 @@ def main():
         wandb.log({"confusion_matrix": wandb.Image(fig)})
         plt.close(fig)
     
-    # Save model as artifact
-    # model_artifact = wandb.Artifact("fashion_mnist_model", type="model")
-    # model.save("model.pkl")
-    # model_artifact.add_file("model.pkl")
-    # wandb.log_artifact(model_artifact)
-    
+   
     wandb.finish()
 
 if __name__ == "__main__":

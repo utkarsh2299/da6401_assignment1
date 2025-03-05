@@ -1,0 +1,10 @@
+{"time":"2025-03-05T14:09:39.436362501+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_140939-acxe76xe/logs/debug-core.log"}
+{"time":"2025-03-05T14:09:39.557968489+05:30","level":"INFO","msg":"created new stream","id":"acxe76xe"}
+{"time":"2025-03-05T14:09:39.558052069+05:30","level":"INFO","msg":"stream: started","id":"acxe76xe"}
+{"time":"2025-03-05T14:09:39.558125198+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"acxe76xe"}
+{"time":"2025-03-05T14:09:39.558178468+05:30","level":"INFO","msg":"sender: started","stream_id":"acxe76xe"}
+{"time":"2025-03-05T14:09:39.558197898+05:30","level":"INFO","msg":"handler: started","stream_id":"acxe76xe"}
+{"time":"2025-03-05T14:09:39.906346768+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T14:10:46.725277713+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T14:10:46.726581066+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T14:10:46.790986384+05:30","level":"INFO","msg":"stream: closing","id":"acxe76xe"}

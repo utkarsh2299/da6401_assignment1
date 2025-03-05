@@ -1,0 +1,16 @@
+{"time":"2025-03-05T02:07:13.124230014+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_020713-kcmidch4/logs/debug-core.log"}
+{"time":"2025-03-05T02:07:13.371040193+05:30","level":"INFO","msg":"created new stream","id":"kcmidch4"}
+{"time":"2025-03-05T02:07:13.37162361+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kcmidch4"}
+{"time":"2025-03-05T02:07:13.372124858+05:30","level":"INFO","msg":"handler: started","stream_id":"kcmidch4"}
+{"time":"2025-03-05T02:07:13.373756791+05:30","level":"INFO","msg":"sender: started","stream_id":"kcmidch4"}
+{"time":"2025-03-05T02:07:13.374551617+05:30","level":"INFO","msg":"stream: started","id":"kcmidch4"}
+{"time":"2025-03-05T02:07:13.781701896+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T02:07:13.98416757+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T02:07:13.985753113+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T02:07:14.96910512+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.04319893}],"total_operations":1}}
+{"time":"2025-03-05T02:07:15.870779248+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T02:07:17.20187567+05:30","level":"INFO","msg":"stream: closing","id":"kcmidch4"}
+{"time":"2025-03-05T02:07:17.20193806+05:30","level":"INFO","msg":"handler: closed","stream_id":"kcmidch4"}
+{"time":"2025-03-05T02:07:17.202007329+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kcmidch4"}
+{"time":"2025-03-05T02:07:17.202057439+05:30","level":"INFO","msg":"sender: closed","stream_id":"kcmidch4"}
+{"time":"2025-03-05T02:07:17.202519127+05:30","level":"INFO","msg":"stream: closed","id":"kcmidch4"}

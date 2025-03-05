@@ -1,0 +1,5 @@
+Epoch 1/1 - 2.26s - loss: 2.1628 - acc: 0.2216 - val_loss: 2.0119 - val_acc: 0.2882
+Training completed in 2.26s
+{'train_loss': [2.1628223982417834], 'train_acc': [0.22164814814814815], 'val_loss': [2.0118833260896376], 'val_acc': [0.2881666666666667]}
+
+Test accuracy with sgd: 0.2884

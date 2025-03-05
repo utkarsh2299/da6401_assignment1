@@ -1,0 +1,8 @@
+/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py:243: RuntimeWarning: overflow encountered in square
+  l2_reg += np.sum(w ** 2)
+/speech/utkarsh/da6401_assignment1/utils/activations.py:25: RuntimeWarning: overflow encountered in multiply
+  return a * (1 - a)
+/speech/utkarsh/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+Epoch 1/10 - 59.48s - loss: nan - acc: 0.0999 - val_loss: nan - val_acc: 0.1018
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

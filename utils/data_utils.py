@@ -1,9 +1,9 @@
 import numpy as np
-from keras.datasets import fashion_mnist
+from keras.datasets import fashion_mnist, mnist
 # from tensorflow.keras.datasets import fashion_mnist
 import numpy as np
 
-def preprocess_data():
+def preprocess_data(dataset="fashion_mnist"):
     """
     Load and preprocess the Fashion-MNIST dataset with 10% of the training data set aside for validation.
     
@@ -16,7 +16,10 @@ def preprocess_data():
     - y_test: Test labels
     """
     # Load Fashion-MNIST data
-    (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
+    if dataset=="fashion_mnist":
+        (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
+    if dataset=="mnist":
+        (X_train, y_train), (X_test, y_test) = mnist.load_data()
     
     # Reshape and normalize data
     X_train = X_train.reshape(X_train.shape[0], -1).astype('float32') / 255.0

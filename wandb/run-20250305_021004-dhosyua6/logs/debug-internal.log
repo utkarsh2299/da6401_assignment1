@@ -1,0 +1,10 @@
+{"time":"2025-03-05T02:10:04.550699804+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_021004-dhosyua6/logs/debug-core.log"}
+{"time":"2025-03-05T02:10:04.890327303+05:30","level":"INFO","msg":"created new stream","id":"dhosyua6"}
+{"time":"2025-03-05T02:10:04.890386073+05:30","level":"INFO","msg":"stream: started","id":"dhosyua6"}
+{"time":"2025-03-05T02:10:04.891727395+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dhosyua6"}
+{"time":"2025-03-05T02:10:04.891836194+05:30","level":"INFO","msg":"handler: started","stream_id":"dhosyua6"}
+{"time":"2025-03-05T02:10:04.891777634+05:30","level":"INFO","msg":"sender: started","stream_id":"dhosyua6"}
+{"time":"2025-03-05T02:10:05.238279472+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T02:10:44.264210608+05:30","level":"INFO","msg":"stream: closing","id":"dhosyua6"}
+{"time":"2025-03-05T02:10:44.264208208+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T02:10:44.26555353+05:30","level":"INFO","msg":"Stopped system monitor"}

@@ -1,0 +1,8 @@
+Epoch 1/15 - 58.57s - loss: 1.9725 - acc: 0.3509 - val_loss: 1.7660 - val_acc: 0.3173
+Epoch 2/15 - 66.82s - loss: 3.5584 - acc: 0.2880 - val_loss: 1.8418 - val_acc: 0.3420
+Epoch 3/15 - 60.81s - loss: 6.3742 - acc: 0.3384 - val_loss: 1.4643 - val_acc: 0.4240
+Epoch 4/15 - 71.29s - loss: 8.4862 - acc: 0.5311 - val_loss: 1.3150 - val_acc: 0.5565
+Epoch 5/15 - 62.35s - loss: 13.7057 - acc: 0.4488 - val_loss: 1.8786 - val_acc: 0.3133
+Epoch 6/15 - 55.41s - loss: 22.7854 - acc: 0.2143 - val_loss: 2.4734 - val_acc: 0.1347
+Epoch 7/15 - 57.17s - loss: 36.3341 - acc: 0.1004 - val_loss: 2.5674 - val_acc: 0.1037
+Epoch 8/15 - 61.48s - loss: 56.2112 - acc: 0.1346 - val_loss: 2.3855 - val_acc: 0.1898

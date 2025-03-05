@@ -1,12 +1,11 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import time
 import wandb
 from utils.activations import get_activation_function, get_activation_derivative
-from utils.losses import cross_entropy_loss
+from utils.losses import get_loss_function, CrossEntropyLoss, MeanSquaredError, BinaryCrossEntropy
 
 class FeedforwardNeuralNetwork:
-    def __init__(self, input_size, hidden_layers, output_size, activation='relu', weight_init='xavier', weight_decay=0):
+    def __init__(self, input_size, hidden_layers, output_size, activation='relu', weight_init='xavier', weight_decay=0, loss="cross_entropy_loss", learning_rate=0.001, beta1=0.9, beta2=0.999, epsilon=1e-8, decay_rate=0.5):
         """
         Initialize a feedforward neural network.
         
@@ -28,31 +27,18 @@ class FeedforwardNeuralNetwork:
         self.softmax=get_activation_function("softmax")
         # Initialize weights and biases
         self.initialize_parameters(weight_init)
-        
-        # self.weights = []
-        # self.biases = []
+        self.loss_function = get_loss_function(loss)
+        # if self.loss_function=="cross_entropy_loss":
+        #     self.loss_function = get_loss_function("cross_entropy_loss")
+        # elif self.loss_function == "mean_squared_error":
+        #     self.loss_function = get_loss_function("mean_squared_error")
         self.optimization_params={}
-        # Input layer to first hidden layer
-        # if weight_init == 'xavier':
-        #     self.weights.append(np.random.randn(input_size, hidden_layers[0]) * np.sqrt(2.0 / input_size))
-        # else:  # random
-        #     self.weights.append(np.random.randn(input_size, hidden_layers[0]) * 0.01)
-        # self.biases.append(np.zeros((1, hidden_layers[0])))
-        
-        # # Hidden layers
-        # for i in range(1, len(hidden_layers)):
-        #     if weight_init == 'xavier':
-        #         self.weights.append(np.random.randn(hidden_layers[i-1], hidden_layers[i]) * np.sqrt(2.0 / hidden_layers[i-1]))
-        #     else:  # random
-        #         self.weights.append(np.random.randn(hidden_layers[i-1], hidden_layers[i]) * 0.01)
-        #     self.biases.append(np.zeros((1, hidden_layers[i])))
-        
-        # # Last hidden layer to output layer
-        # if weight_init == 'xavier':
-        #     self.weights.append(np.random.randn(hidden_layers[-1], output_size) * np.sqrt(2.0 / hidden_layers[-1]))
-        # else:  # random
-        #     self.weights.append(np.random.randn(hidden_layers[-1], output_size) * 0.01)
-        # self.biases.append(np.zeros((1, output_size)))
+        self.learning_rate = learning_rate
+        self.beta1=beta1
+        self.beta2=beta2
+        self.epsilon = epsilon
+        self.decay_rate= decay_rate
+
        
     def initialize_parameters(self, weight_init='he'):
         """
@@ -169,9 +155,12 @@ class FeedforwardNeuralNetwork:
             if self.weight_decay > 0:
                 weight_gradients[l] += self.weight_decay * self.weights[l]
         
-        # Apply optimization algorithm
-        # self.t += 1
-    
+   
+        clip_value=5.0
+        for l in range(num_layers):
+            weight_gradients[l] = np.clip(weight_gradients[l], -clip_value, clip_value)
+            bias_gradients[l] = np.clip(bias_gradients[l], -clip_value, clip_value)
+        
         from optimizers.optimizers import get_optimizer
         optimizer_func = get_optimizer(optimizer)
         optimizer_func(
@@ -202,6 +191,8 @@ class FeedforwardNeuralNetwork:
         Returns:
         - history: Training history
         """
+        if use_wandb == True:
+            wandb.init()
         # One-hot encode labels
         from utils.data_utils import one_hot_encode
         y_train_onehot = one_hot_encode(y_train, self.output_size)
@@ -247,7 +238,7 @@ class FeedforwardNeuralNetwork:
                 # Calculate loss
                 y_pred = activations[-1]
                 # batch_loss = -np.sum(y_batch * np.log(y_pred + 1e-10)) / X_batch.shape[0]
-                batch_loss = cross_entropy_loss(y_pred, y_batch, X_batch)
+                batch_loss = self.loss_function(y_pred, y_batch, X_batch)
                 # Add L2 regularization to loss
                 if self.weight_decay > 0:
                     l2_reg = 0
@@ -275,7 +266,8 @@ class FeedforwardNeuralNetwork:
             val_y_true = one_hot_encode(y_val, self.output_size)
             
             # val_loss = -np.sum(val_y_true * np.log(val_y_pred + 1e-10)) / X_val.shape[0]
-            val_loss = cross_entropy_loss(val_y_pred, val_y_true, X_val)
+            val_loss = self.loss_function(val_y_pred, val_y_true, X_val)
+            
             if self.weight_decay > 0:
                 l2_reg = 0
                 for w in self.weights:

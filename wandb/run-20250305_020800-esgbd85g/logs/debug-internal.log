@@ -1,0 +1,15 @@
+{"time":"2025-03-05T02:08:00.346328547+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_020800-esgbd85g/logs/debug-core.log"}
+{"time":"2025-03-05T02:08:00.581788003+05:30","level":"INFO","msg":"created new stream","id":"esgbd85g"}
+{"time":"2025-03-05T02:08:00.581830513+05:30","level":"INFO","msg":"stream: started","id":"esgbd85g"}
+{"time":"2025-03-05T02:08:00.581862282+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"esgbd85g"}
+{"time":"2025-03-05T02:08:00.58440082+05:30","level":"INFO","msg":"sender: started","stream_id":"esgbd85g"}
+{"time":"2025-03-05T02:08:00.584450829+05:30","level":"INFO","msg":"handler: started","stream_id":"esgbd85g"}
+{"time":"2025-03-05T02:08:00.984377717+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T02:09:50.051826358+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T02:09:50.057023098+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T02:09:50.057237237+05:30","level":"INFO","msg":"stream: closing","id":"esgbd85g"}
+{"time":"2025-03-05T02:09:51.922843965+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T02:09:52.242294711+05:30","level":"INFO","msg":"handler: closed","stream_id":"esgbd85g"}
+{"time":"2025-03-05T02:09:52.24233629+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"esgbd85g"}
+{"time":"2025-03-05T02:09:52.242832518+05:30","level":"INFO","msg":"sender: closed","stream_id":"esgbd85g"}
+{"time":"2025-03-05T02:09:52.243265145+05:30","level":"INFO","msg":"stream: closed","id":"esgbd85g"}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train_nn.py", line 118, in train
+    model = FeedforwardNeuralNetwork(
+  File "/speech/utkarsh/da6401_assignment1/models/neural_network_sweep.py", line 32, in __init__
+    self.loss_function = get_loss_function("cross_entropy_loss")
+  File "/speech/utkarsh/da6401_assignment1/utils/losses.py", line 67, in get_loss_function
+    raise ValueError(f"Unknown loss function: {name}")
+ValueError: Unknown loss function: cross_entropy_loss

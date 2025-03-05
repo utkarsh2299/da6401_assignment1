@@ -4,6 +4,7 @@ from models.neural_network_sweep_orig import FeedforwardNeuralNetwork
 from utils.data_utils import preprocess_data
 from configs.sweep_config import sweep_config  # Import sweep configuration
 # print(sweep_config)
+
 def train():
     # Initialize a new wandb run
     with wandb.init() as run:
@@ -26,8 +27,8 @@ def train():
         hidden_layers = [config.hidden_layer_size] * config.hidden_layers_count
         
         # model name for tracking
-        #hl_{hidden_layers_count}_sz_{hidden_layer_size}_bs_{batch_size}_act_{activation}_opt_{optimizer}_lr_{learning_rate}_wd_{weight_decay}_init_{weight_init}
-        model_name = f"hl_{config.hidden_layers_count}_sz_{config.hidden_layer_size}_bs_{config.batch_size}_act_{config.activation}_opt_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_init_{config.weight_init}"
+        #ep_{epochs}_hl_{hidden_layers_count}_sz_{hidden_layer_size}_bs_{batch_size}_act_{activation}_opt_{optimizer}_lr_{learning_rate}_wd_{weight_decay}_init_{weight_init}
+        model_name = f"ep_{config.epochs}_hl_{config.hidden_layers_count}_sz_{config.hidden_layer_size}_bs_{config.batch_size}_act_{config.activation}_opt_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_init_{config.weight_init}"
         wandb.run.name = model_name
         
         # Create the model
@@ -50,7 +51,7 @@ def train():
             verbose=True,
             use_wandb=True
         )
-        
+        wandb.log({"Model Run history" : history})
         # Evaluate on test set
         test_acc = model.evaluate(X_test, y_test)
         wandb.log({"test_accuracy": test_acc})

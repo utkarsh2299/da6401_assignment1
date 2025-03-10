@@ -1,0 +1,16 @@
+{"time":"2025-03-07T16:19:39.413377092+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_161939-9nap63rx/logs/debug-core.log"}
+{"time":"2025-03-07T16:19:39.625703526+05:30","level":"INFO","msg":"created new stream","id":"9nap63rx"}
+{"time":"2025-03-07T16:19:39.625734266+05:30","level":"INFO","msg":"stream: started","id":"9nap63rx"}
+{"time":"2025-03-07T16:19:39.625775376+05:30","level":"INFO","msg":"handler: started","stream_id":"9nap63rx"}
+{"time":"2025-03-07T16:19:39.625790396+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9nap63rx"}
+{"time":"2025-03-07T16:19:39.625848497+05:30","level":"INFO","msg":"sender: started","stream_id":"9nap63rx"}
+{"time":"2025-03-07T16:19:39.994164493+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T16:29:25.793030867+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T16:29:25.797422515+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T16:29:26.794686238+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-9nap63rx-confusion_matrix_table","runtime_seconds":1.007856076},{"desc":"uploading output.log","runtime_seconds":0.698274171,"progress":"3.4KB/3.4KB"},{"desc":"uploading media/table/confusion_matrix_table_43_a3370034a241f5606185.table.json","runtime_seconds":0.698251401,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.236232885,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T16:29:29.30340704+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T16:29:29.783509976+05:30","level":"INFO","msg":"stream: closing","id":"9nap63rx"}
+{"time":"2025-03-07T16:29:29.783530516+05:30","level":"INFO","msg":"handler: closed","stream_id":"9nap63rx"}
+{"time":"2025-03-07T16:29:29.783542486+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9nap63rx"}
+{"time":"2025-03-07T16:29:29.783558736+05:30","level":"INFO","msg":"sender: closed","stream_id":"9nap63rx"}
+{"time":"2025-03-07T16:29:29.783606506+05:30","level":"INFO","msg":"stream: closed","id":"9nap63rx"}

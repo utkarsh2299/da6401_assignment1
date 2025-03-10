@@ -1,0 +1,16 @@
+{"time":"2025-03-07T15:29:11.018764892+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_152911-gnp2cim9/logs/debug-core.log"}
+{"time":"2025-03-07T15:29:11.233359043+05:30","level":"INFO","msg":"created new stream","id":"gnp2cim9"}
+{"time":"2025-03-07T15:29:11.233393462+05:30","level":"INFO","msg":"stream: started","id":"gnp2cim9"}
+{"time":"2025-03-07T15:29:11.233449341+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gnp2cim9"}
+{"time":"2025-03-07T15:29:11.233460471+05:30","level":"INFO","msg":"sender: started","stream_id":"gnp2cim9"}
+{"time":"2025-03-07T15:29:11.233481171+05:30","level":"INFO","msg":"handler: started","stream_id":"gnp2cim9"}
+{"time":"2025-03-07T15:29:11.538237607+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T15:31:07.731952435+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T15:31:07.732645142+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T15:31:08.734679056+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-gnp2cim9-confusion_matrix_table","runtime_seconds":0.833306055},{"desc":"uploading media/table/confusion_matrix_table_43_f51725945fea5da3d871.table.json","runtime_seconds":0.520686234,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.520670715,"progress":"3.4KB/3.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.260469555,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T15:31:10.457994391+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T15:31:10.757751718+05:30","level":"INFO","msg":"stream: closing","id":"gnp2cim9"}
+{"time":"2025-03-07T15:31:10.757770617+05:30","level":"INFO","msg":"handler: closed","stream_id":"gnp2cim9"}
+{"time":"2025-03-07T15:31:10.757780107+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gnp2cim9"}
+{"time":"2025-03-07T15:31:10.757794687+05:30","level":"INFO","msg":"sender: closed","stream_id":"gnp2cim9"}
+{"time":"2025-03-07T15:31:10.757854766+05:30","level":"INFO","msg":"stream: closed","id":"gnp2cim9"}

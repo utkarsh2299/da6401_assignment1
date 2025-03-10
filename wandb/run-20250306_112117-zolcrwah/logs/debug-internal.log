@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:21:17.604212192+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_112117-zolcrwah/logs/debug-core.log"}
+{"time":"2025-03-06T11:21:17.815350551+05:30","level":"INFO","msg":"created new stream","id":"zolcrwah"}
+{"time":"2025-03-06T11:21:17.815395532+05:30","level":"INFO","msg":"stream: started","id":"zolcrwah"}
+{"time":"2025-03-06T11:21:17.815414922+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zolcrwah"}
+{"time":"2025-03-06T11:21:17.815461483+05:30","level":"INFO","msg":"handler: started","stream_id":"zolcrwah"}
+{"time":"2025-03-06T11:21:17.815433943+05:30","level":"INFO","msg":"sender: started","stream_id":"zolcrwah"}
+{"time":"2025-03-06T11:21:18.178187025+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:21:32.60394132+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:21:32.604606852+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:21:33.606113184+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zolcrwah-confusion_matrix_table","runtime_seconds":1.007181157}],"total_operations":1}}
+{"time":"2025-03-06T11:21:35.259878492+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:21:35.865076987+05:30","level":"INFO","msg":"stream: closing","id":"zolcrwah"}
+{"time":"2025-03-06T11:21:35.865108837+05:30","level":"INFO","msg":"handler: closed","stream_id":"zolcrwah"}
+{"time":"2025-03-06T11:21:35.865120127+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zolcrwah"}
+{"time":"2025-03-06T11:21:35.865144678+05:30","level":"INFO","msg":"sender: closed","stream_id":"zolcrwah"}
+{"time":"2025-03-06T11:21:35.86527209+05:30","level":"INFO","msg":"stream: closed","id":"zolcrwah"}

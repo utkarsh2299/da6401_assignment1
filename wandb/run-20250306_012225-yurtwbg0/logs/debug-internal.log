@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:22:25.756640128+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_012225-yurtwbg0/logs/debug-core.log"}
+{"time":"2025-03-06T01:22:25.974184638+05:30","level":"INFO","msg":"created new stream","id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:25.974225118+05:30","level":"INFO","msg":"stream: started","id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:25.974261569+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:25.974388849+05:30","level":"INFO","msg":"handler: started","stream_id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:25.974544119+05:30","level":"INFO","msg":"sender: started","stream_id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:26.508245799+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:22:47.448781939+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:22:47.44950911+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:22:48.450657648+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-yurtwbg0-confusion_matrix_table","runtime_seconds":1.011459167},{"desc":"uploading media/table/confusion_matrix_table_8_7454668214c99ede8589.table.json","runtime_seconds":0.706727826,"progress":"2.9KB/2.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.706701566,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.430243959,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:22:51.360585476+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:22:51.679943694+05:30","level":"INFO","msg":"stream: closing","id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:51.679969074+05:30","level":"INFO","msg":"handler: closed","stream_id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:51.679982524+05:30","level":"INFO","msg":"sender: closed","stream_id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:51.679982114+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yurtwbg0"}
+{"time":"2025-03-06T01:22:51.680082584+05:30","level":"INFO","msg":"stream: closed","id":"yurtwbg0"}

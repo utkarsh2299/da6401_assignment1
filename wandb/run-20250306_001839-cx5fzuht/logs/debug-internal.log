@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:18:39.057385879+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_001839-cx5fzuht/logs/debug-core.log"}
+{"time":"2025-03-06T00:18:39.268911963+05:30","level":"INFO","msg":"created new stream","id":"cx5fzuht"}
+{"time":"2025-03-06T00:18:39.268957412+05:30","level":"INFO","msg":"stream: started","id":"cx5fzuht"}
+{"time":"2025-03-06T00:18:39.268976502+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cx5fzuht"}
+{"time":"2025-03-06T00:18:39.268980482+05:30","level":"INFO","msg":"handler: started","stream_id":"cx5fzuht"}
+{"time":"2025-03-06T00:18:39.269055411+05:30","level":"INFO","msg":"sender: started","stream_id":"cx5fzuht"}
+{"time":"2025-03-06T00:18:39.610468263+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:19:34.238689955+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:19:34.239517043+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:19:35.240284564+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-cx5fzuht-confusion_matrix_table","runtime_seconds":1.006968891},{"desc":"uploading media/table/confusion_matrix_table_13_b0a71ad78ce0ad93bd25.table.json","runtime_seconds":0.697284975,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.697274515,"progress":"880B/880B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.697272365,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.427802051,"progress":"2.3KB/2.3KB"}],"total_operations":5}}
+{"time":"2025-03-06T00:19:38.055437302+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:19:38.384072613+05:30","level":"INFO","msg":"stream: closing","id":"cx5fzuht"}
+{"time":"2025-03-06T00:19:38.384091442+05:30","level":"INFO","msg":"handler: closed","stream_id":"cx5fzuht"}
+{"time":"2025-03-06T00:19:38.384107192+05:30","level":"INFO","msg":"sender: closed","stream_id":"cx5fzuht"}
+{"time":"2025-03-06T00:19:38.384102012+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cx5fzuht"}
+{"time":"2025-03-06T00:19:38.384194251+05:30","level":"INFO","msg":"stream: closed","id":"cx5fzuht"}

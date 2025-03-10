@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:58:18.612875241+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_005818-g5dvjsk1/logs/debug-core.log"}
+{"time":"2025-03-06T00:58:18.82399928+05:30","level":"INFO","msg":"created new stream","id":"g5dvjsk1"}
+{"time":"2025-03-06T00:58:18.824066391+05:30","level":"INFO","msg":"stream: started","id":"g5dvjsk1"}
+{"time":"2025-03-06T00:58:18.824108181+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g5dvjsk1"}
+{"time":"2025-03-06T00:58:18.824145691+05:30","level":"INFO","msg":"handler: started","stream_id":"g5dvjsk1"}
+{"time":"2025-03-06T00:58:18.824168252+05:30","level":"INFO","msg":"sender: started","stream_id":"g5dvjsk1"}
+{"time":"2025-03-06T00:58:19.122295081+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:59:36.728797526+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:59:36.729580764+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:59:37.731475916+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-g5dvjsk1-confusion_matrix_table","runtime_seconds":1.00981811},{"desc":"uploading media/table/confusion_matrix_table_13_90d5fbb935d8d39b09db.table.json","runtime_seconds":0.705237651,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.41832286,"progress":"2.3KB/2.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T00:59:40.469580076+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:59:40.783443519+05:30","level":"INFO","msg":"stream: closing","id":"g5dvjsk1"}
+{"time":"2025-03-06T00:59:40.78346215+05:30","level":"INFO","msg":"handler: closed","stream_id":"g5dvjsk1"}
+{"time":"2025-03-06T00:59:40.78348001+05:30","level":"INFO","msg":"sender: closed","stream_id":"g5dvjsk1"}
+{"time":"2025-03-06T00:59:40.78347321+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"g5dvjsk1"}
+{"time":"2025-03-06T00:59:40.7835405+05:30","level":"INFO","msg":"stream: closed","id":"g5dvjsk1"}

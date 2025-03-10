@@ -1,0 +1,11 @@
+{"time":"2025-03-06T11:07:15.147740197+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_110715-aqgobein/logs/debug-core.log"}
+{"time":"2025-03-06T11:07:15.358791127+05:30","level":"INFO","msg":"created new stream","id":"aqgobein"}
+{"time":"2025-03-06T11:07:15.358829809+05:30","level":"INFO","msg":"stream: started","id":"aqgobein"}
+{"time":"2025-03-06T11:07:15.358846961+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"aqgobein"}
+{"time":"2025-03-06T11:07:15.358882713+05:30","level":"INFO","msg":"handler: started","stream_id":"aqgobein"}
+{"time":"2025-03-06T11:07:15.358865362+05:30","level":"INFO","msg":"sender: started","stream_id":"aqgobein"}
+{"time":"2025-03-06T11:07:15.858914884+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:08:34.943274639+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:08:34.943943439+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:08:35.26040852+05:30","level":"INFO","msg":"stream: closing","id":"aqgobein"}
+{"time":"2025-03-06T11:08:35.407670279+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}

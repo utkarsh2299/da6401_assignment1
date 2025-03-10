@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:43:01.968987883+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_004301-oqm0mr90/logs/debug-core.log"}
+{"time":"2025-03-06T00:43:02.179776664+05:30","level":"INFO","msg":"created new stream","id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:02.179804544+05:30","level":"INFO","msg":"stream: started","id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:02.179842514+05:30","level":"INFO","msg":"handler: started","stream_id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:02.179843634+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:02.179938494+05:30","level":"INFO","msg":"sender: started","stream_id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:02.495699322+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:43:16.28923391+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:43:16.289734828+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:43:17.290410896+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-oqm0mr90-confusion_matrix_table","runtime_seconds":1.006525382},{"desc":"uploading media/table/confusion_matrix_table_8_9ce5bdb7a5c35cb2d5d8.table.json","runtime_seconds":0.685205342,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.685194332,"progress":"449B/449B"},{"desc":"uploading config.yaml","runtime_seconds":0.37983785,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:43:19.298147958+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:43:19.589574368+05:30","level":"INFO","msg":"stream: closing","id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:19.589594587+05:30","level":"INFO","msg":"handler: closed","stream_id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:19.589604597+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:19.589611397+05:30","level":"INFO","msg":"sender: closed","stream_id":"oqm0mr90"}
+{"time":"2025-03-06T00:43:19.589705227+05:30","level":"INFO","msg":"stream: closed","id":"oqm0mr90"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-07T18:57:15.465977031+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_185715-6mltoade/logs/debug-core.log"}
+{"time":"2025-03-07T18:57:15.67994835+05:30","level":"INFO","msg":"created new stream","id":"6mltoade"}
+{"time":"2025-03-07T18:57:15.68007366+05:30","level":"INFO","msg":"stream: started","id":"6mltoade"}
+{"time":"2025-03-07T18:57:15.680112029+05:30","level":"INFO","msg":"handler: started","stream_id":"6mltoade"}
+{"time":"2025-03-07T18:57:15.680098519+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6mltoade"}
+{"time":"2025-03-07T18:57:15.680183289+05:30","level":"INFO","msg":"sender: started","stream_id":"6mltoade"}
+{"time":"2025-03-07T18:57:16.002259252+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T19:09:46.421868144+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T19:09:46.422365523+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T19:09:47.424075151+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6mltoade-confusion_matrix_table","runtime_seconds":0.591826528},{"desc":"uploading wandb-summary.json","runtime_seconds":0.269586012,"progress":"3.9KB/3.9KB"},{"desc":"uploading media/table/confusion_matrix_table_43_3d218f6b276093881a6b.table.json","runtime_seconds":0.269570242,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.269565002,"progress":"3.4KB/3.4KB"}],"total_operations":4}}
+{"time":"2025-03-07T19:09:49.437296119+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T19:09:49.745617067+05:30","level":"INFO","msg":"stream: closing","id":"6mltoade"}
+{"time":"2025-03-07T19:09:49.745636227+05:30","level":"INFO","msg":"handler: closed","stream_id":"6mltoade"}
+{"time":"2025-03-07T19:09:49.745653017+05:30","level":"INFO","msg":"sender: closed","stream_id":"6mltoade"}
+{"time":"2025-03-07T19:09:49.745645337+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"6mltoade"}
+{"time":"2025-03-07T19:09:49.745726246+05:30","level":"INFO","msg":"stream: closed","id":"6mltoade"}

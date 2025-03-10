@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:18:11.357525505+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_001811-5qdefyn0/logs/debug-core.log"}
+{"time":"2025-03-06T00:18:11.568589976+05:30","level":"INFO","msg":"created new stream","id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:11.568626075+05:30","level":"INFO","msg":"stream: started","id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:11.568631435+05:30","level":"INFO","msg":"handler: started","stream_id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:11.568680164+05:30","level":"INFO","msg":"sender: started","stream_id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:11.568804652+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:12.977347995+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:18:31.111495568+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:18:31.112243316+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:18:32.114070681+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-5qdefyn0-confusion_matrix_table","runtime_seconds":1.007398774}],"total_operations":1}}
+{"time":"2025-03-06T00:18:35.000963639+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:18:35.317216791+05:30","level":"INFO","msg":"stream: closing","id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:35.317236281+05:30","level":"INFO","msg":"handler: closed","stream_id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:35.3172484+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:35.31728786+05:30","level":"INFO","msg":"sender: closed","stream_id":"5qdefyn0"}
+{"time":"2025-03-06T00:18:35.317398378+05:30","level":"INFO","msg":"stream: closed","id":"5qdefyn0"}

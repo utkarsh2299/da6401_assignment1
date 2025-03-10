@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_size:
+  value: 64
+epochs:
+  value: 10
+hidden_layer_size:
+  value: 32
+hidden_layers_count:
+  value: 3
+learning_rate:
+  value: 0.1
+loss:
+  value: cross_entropy_loss
+optimizer:
+  value: rmsprop
+weight_decay:
+  value: 0.0005
+weight_init:
+  value: xavier

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:27:48.906720089+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_012748-xem9deeh/logs/debug-core.log"}
+{"time":"2025-03-06T01:27:49.117921583+05:30","level":"INFO","msg":"created new stream","id":"xem9deeh"}
+{"time":"2025-03-06T01:27:49.117976314+05:30","level":"INFO","msg":"stream: started","id":"xem9deeh"}
+{"time":"2025-03-06T01:27:49.118085436+05:30","level":"INFO","msg":"sender: started","stream_id":"xem9deeh"}
+{"time":"2025-03-06T01:27:49.118080966+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xem9deeh"}
+{"time":"2025-03-06T01:27:49.118111516+05:30","level":"INFO","msg":"handler: started","stream_id":"xem9deeh"}
+{"time":"2025-03-06T01:27:49.455649766+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:29:27.239457392+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:29:27.239921539+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:29:28.241116158+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xem9deeh-confusion_matrix_table","runtime_seconds":1.010248823},{"desc":"uploading output.log","runtime_seconds":0.70455424,"progress":"454B/454B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.70454639,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.409412965,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:29:29.912364074+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:29:30.22372212+05:30","level":"INFO","msg":"stream: closing","id":"xem9deeh"}
+{"time":"2025-03-06T01:29:30.22374784+05:30","level":"INFO","msg":"handler: closed","stream_id":"xem9deeh"}
+{"time":"2025-03-06T01:29:30.22375942+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xem9deeh"}
+{"time":"2025-03-06T01:29:30.223840931+05:30","level":"INFO","msg":"sender: closed","stream_id":"xem9deeh"}
+{"time":"2025-03-06T01:29:30.223856782+05:30","level":"INFO","msg":"stream: closed","id":"xem9deeh"}

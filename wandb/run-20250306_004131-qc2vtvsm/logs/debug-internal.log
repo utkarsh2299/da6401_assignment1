@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:41:31.034051394+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_004131-qc2vtvsm/logs/debug-core.log"}
+{"time":"2025-03-06T00:41:31.245861519+05:30","level":"INFO","msg":"created new stream","id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:31.245908849+05:30","level":"INFO","msg":"stream: started","id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:31.245920399+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:31.245959989+05:30","level":"INFO","msg":"sender: started","stream_id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:31.245965249+05:30","level":"INFO","msg":"handler: started","stream_id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:31.664119364+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:41:52.844537286+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:41:52.845281934+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:41:53.84630896+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-qc2vtvsm-confusion_matrix_table","runtime_seconds":1.007957107},{"desc":"uploading output.log","runtime_seconds":0.693135164,"progress":"449B/449B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.693123704,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.406127325,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:41:56.533651963+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:41:56.850620252+05:30","level":"INFO","msg":"stream: closing","id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:56.850641312+05:30","level":"INFO","msg":"handler: closed","stream_id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:56.850653312+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:56.850666212+05:30","level":"INFO","msg":"sender: closed","stream_id":"qc2vtvsm"}
+{"time":"2025-03-06T00:41:56.850742572+05:30","level":"INFO","msg":"stream: closed","id":"qc2vtvsm"}

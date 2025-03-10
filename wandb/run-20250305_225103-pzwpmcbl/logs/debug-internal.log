@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:51:03.601466998+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_225103-pzwpmcbl/logs/debug-core.log"}
+{"time":"2025-03-05T22:51:03.816200794+05:30","level":"INFO","msg":"created new stream","id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:03.816264154+05:30","level":"INFO","msg":"stream: started","id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:03.816281564+05:30","level":"INFO","msg":"handler: started","stream_id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:03.816326905+05:30","level":"INFO","msg":"sender: started","stream_id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:03.816318455+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:04.124065183+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:51:51.666560714+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:51:51.667202666+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:51:52.669020404+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pzwpmcbl-confusion_matrix_table","runtime_seconds":1.009143701},{"desc":"uploading media/table/confusion_matrix_table_8_2c8e9bcff6334fe5a245.table.json","runtime_seconds":0.704493898,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.704479618,"progress":"449B/449B"},{"desc":"uploading config.yaml","runtime_seconds":0.414839063,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-05T22:51:55.421650844+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:51:55.736687757+05:30","level":"INFO","msg":"stream: closing","id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:55.736708587+05:30","level":"INFO","msg":"handler: closed","stream_id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:55.736719647+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:55.736735647+05:30","level":"INFO","msg":"sender: closed","stream_id":"pzwpmcbl"}
+{"time":"2025-03-05T22:51:55.736888818+05:30","level":"INFO","msg":"stream: closed","id":"pzwpmcbl"}

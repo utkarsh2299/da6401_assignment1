@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:43:24.341206131+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_004324-ows38o28/logs/debug-core.log"}
+{"time":"2025-03-06T00:43:24.552249629+05:30","level":"INFO","msg":"created new stream","id":"ows38o28"}
+{"time":"2025-03-06T00:43:24.552305579+05:30","level":"INFO","msg":"stream: started","id":"ows38o28"}
+{"time":"2025-03-06T00:43:24.552334819+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ows38o28"}
+{"time":"2025-03-06T00:43:24.552338589+05:30","level":"INFO","msg":"handler: started","stream_id":"ows38o28"}
+{"time":"2025-03-06T00:43:24.552479239+05:30","level":"INFO","msg":"sender: started","stream_id":"ows38o28"}
+{"time":"2025-03-06T00:43:24.987567871+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:44:22.575138067+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:44:22.575888735+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:44:23.576796529+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ows38o28-confusion_matrix_table","runtime_seconds":1.007488988},{"desc":"uploading media/table/confusion_matrix_table_13_65a2e8cd35a9b59f14d2.table.json","runtime_seconds":0.693595888,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.693578728,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.380308906,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:44:25.323473733+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:44:25.643910498+05:30","level":"INFO","msg":"stream: closing","id":"ows38o28"}
+{"time":"2025-03-06T00:44:25.643926018+05:30","level":"INFO","msg":"handler: closed","stream_id":"ows38o28"}
+{"time":"2025-03-06T00:44:25.643935078+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ows38o28"}
+{"time":"2025-03-06T00:44:25.643945208+05:30","level":"INFO","msg":"sender: closed","stream_id":"ows38o28"}
+{"time":"2025-03-06T00:44:25.644038007+05:30","level":"INFO","msg":"stream: closed","id":"ows38o28"}

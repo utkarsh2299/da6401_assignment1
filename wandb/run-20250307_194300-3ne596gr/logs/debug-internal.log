@@ -1,0 +1,16 @@
+{"time":"2025-03-07T19:43:01.003962218+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_194300-3ne596gr/logs/debug-core.log"}
+{"time":"2025-03-07T19:43:01.219852933+05:30","level":"INFO","msg":"created new stream","id":"3ne596gr"}
+{"time":"2025-03-07T19:43:01.219940343+05:30","level":"INFO","msg":"stream: started","id":"3ne596gr"}
+{"time":"2025-03-07T19:43:01.219953213+05:30","level":"INFO","msg":"handler: started","stream_id":"3ne596gr"}
+{"time":"2025-03-07T19:43:01.220026593+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3ne596gr"}
+{"time":"2025-03-07T19:43:01.220021463+05:30","level":"INFO","msg":"sender: started","stream_id":"3ne596gr"}
+{"time":"2025-03-07T19:43:01.527133069+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T19:45:37.967096266+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T19:45:37.967806037+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T19:45:38.970563893+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-3ne596gr-confusion_matrix_table","runtime_seconds":0.976453334},{"desc":"uploading media/table/confusion_matrix_table_43_a1dc968cb7c83047706f.table.json","runtime_seconds":0.663868988,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.663851298,"progress":"3.4KB/3.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.394053184,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T19:45:40.878670526+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T19:45:41.208947794+05:30","level":"INFO","msg":"stream: closing","id":"3ne596gr"}
+{"time":"2025-03-07T19:45:41.208978104+05:30","level":"INFO","msg":"handler: closed","stream_id":"3ne596gr"}
+{"time":"2025-03-07T19:45:41.208994234+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"3ne596gr"}
+{"time":"2025-03-07T19:45:41.209057754+05:30","level":"INFO","msg":"sender: closed","stream_id":"3ne596gr"}
+{"time":"2025-03-07T19:45:41.209108094+05:30","level":"INFO","msg":"stream: closed","id":"3ne596gr"}

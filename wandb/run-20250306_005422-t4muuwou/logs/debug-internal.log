@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:54:22.23964314+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_005422-t4muuwou/logs/debug-core.log"}
+{"time":"2025-03-06T00:54:22.451439598+05:30","level":"INFO","msg":"created new stream","id":"t4muuwou"}
+{"time":"2025-03-06T00:54:22.452777771+05:30","level":"INFO","msg":"stream: started","id":"t4muuwou"}
+{"time":"2025-03-06T00:54:22.452801231+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t4muuwou"}
+{"time":"2025-03-06T00:54:22.452797641+05:30","level":"INFO","msg":"handler: started","stream_id":"t4muuwou"}
+{"time":"2025-03-06T00:54:22.452902783+05:30","level":"INFO","msg":"sender: started","stream_id":"t4muuwou"}
+{"time":"2025-03-06T00:54:22.777372512+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:55:06.532565854+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:55:06.533661791+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:55:07.534902375+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-t4muuwou-confusion_matrix_table","runtime_seconds":1.014337544},{"desc":"uploading media/table/confusion_matrix_table_8_297add5f7d7b6a99c562.table.json","runtime_seconds":0.701378766,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.701363816,"progress":"449B/449B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.701360716,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.369241427,"progress":"2.3KB/2.3KB"}],"total_operations":5}}
+{"time":"2025-03-06T00:55:09.030541922+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:55:09.332328234+05:30","level":"INFO","msg":"stream: closing","id":"t4muuwou"}
+{"time":"2025-03-06T00:55:09.332348295+05:30","level":"INFO","msg":"handler: closed","stream_id":"t4muuwou"}
+{"time":"2025-03-06T00:55:09.332361825+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t4muuwou"}
+{"time":"2025-03-06T00:55:09.332370305+05:30","level":"INFO","msg":"sender: closed","stream_id":"t4muuwou"}
+{"time":"2025-03-06T00:55:09.332504107+05:30","level":"INFO","msg":"stream: closed","id":"t4muuwou"}

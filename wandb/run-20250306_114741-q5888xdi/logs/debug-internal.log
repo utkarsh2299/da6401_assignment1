@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:47:41.525884857+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_114741-q5888xdi/logs/debug-core.log"}
+{"time":"2025-03-06T11:47:41.739509133+05:30","level":"INFO","msg":"created new stream","id":"q5888xdi"}
+{"time":"2025-03-06T11:47:41.739578303+05:30","level":"INFO","msg":"stream: started","id":"q5888xdi"}
+{"time":"2025-03-06T11:47:41.739635202+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q5888xdi"}
+{"time":"2025-03-06T11:47:41.739653972+05:30","level":"INFO","msg":"handler: started","stream_id":"q5888xdi"}
+{"time":"2025-03-06T11:47:41.739772751+05:30","level":"INFO","msg":"sender: started","stream_id":"q5888xdi"}
+{"time":"2025-03-06T11:47:42.05591965+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:48:01.384865555+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:48:01.385404741+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:48:02.387278385+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-q5888xdi-confusion_matrix_table","runtime_seconds":1.014019064},{"desc":"uploading media/table/confusion_matrix_table_13_ff562840e7dde522c18f.table.json","runtime_seconds":0.701161085,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.41051403,"progress":"2.2KB/2.2KB"}],"total_operations":3}}
+{"time":"2025-03-06T11:48:04.140043582+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:48:04.507706016+05:30","level":"INFO","msg":"stream: closing","id":"q5888xdi"}
+{"time":"2025-03-06T11:48:04.507723736+05:30","level":"INFO","msg":"handler: closed","stream_id":"q5888xdi"}
+{"time":"2025-03-06T11:48:04.507732366+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"q5888xdi"}
+{"time":"2025-03-06T11:48:04.507760135+05:30","level":"INFO","msg":"sender: closed","stream_id":"q5888xdi"}
+{"time":"2025-03-06T11:48:04.507841935+05:30","level":"INFO","msg":"stream: closed","id":"q5888xdi"}

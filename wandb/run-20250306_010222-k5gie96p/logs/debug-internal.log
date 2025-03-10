@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:02:22.63787907+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_010222-k5gie96p/logs/debug-core.log"}
+{"time":"2025-03-06T01:02:22.848749431+05:30","level":"INFO","msg":"created new stream","id":"k5gie96p"}
+{"time":"2025-03-06T01:02:22.848795881+05:30","level":"INFO","msg":"stream: started","id":"k5gie96p"}
+{"time":"2025-03-06T01:02:22.848871032+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"k5gie96p"}
+{"time":"2025-03-06T01:02:22.848880992+05:30","level":"INFO","msg":"sender: started","stream_id":"k5gie96p"}
+{"time":"2025-03-06T01:02:22.848974773+05:30","level":"INFO","msg":"handler: started","stream_id":"k5gie96p"}
+{"time":"2025-03-06T01:02:23.160674376+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:03:31.415505795+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:03:31.41619466+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:03:32.41693915+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-k5gie96p-confusion_matrix_table","runtime_seconds":1.008835665},{"desc":"uploading media/table/confusion_matrix_table_8_644bd505e83a478201dc.table.json","runtime_seconds":0.689687695,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.689671945,"progress":"454B/454B"},{"desc":"uploading config.yaml","runtime_seconds":0.377717604,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:03:35.194169695+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:03:35.499273317+05:30","level":"INFO","msg":"stream: closing","id":"k5gie96p"}
+{"time":"2025-03-06T01:03:35.499290867+05:30","level":"INFO","msg":"handler: closed","stream_id":"k5gie96p"}
+{"time":"2025-03-06T01:03:35.499300887+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"k5gie96p"}
+{"time":"2025-03-06T01:03:35.499310907+05:30","level":"INFO","msg":"sender: closed","stream_id":"k5gie96p"}
+{"time":"2025-03-06T01:03:35.499402408+05:30","level":"INFO","msg":"stream: closed","id":"k5gie96p"}

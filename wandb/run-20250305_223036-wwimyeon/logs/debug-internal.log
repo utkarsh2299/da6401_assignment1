@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:30:36.997795095+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_223036-wwimyeon/logs/debug-core.log"}
+{"time":"2025-03-05T22:30:37.210378181+05:30","level":"INFO","msg":"created new stream","id":"wwimyeon"}
+{"time":"2025-03-05T22:30:37.210409341+05:30","level":"INFO","msg":"stream: started","id":"wwimyeon"}
+{"time":"2025-03-05T22:30:37.210448621+05:30","level":"INFO","msg":"handler: started","stream_id":"wwimyeon"}
+{"time":"2025-03-05T22:30:37.210488571+05:30","level":"INFO","msg":"sender: started","stream_id":"wwimyeon"}
+{"time":"2025-03-05T22:30:37.210495111+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wwimyeon"}
+{"time":"2025-03-05T22:30:37.523045713+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:31:42.974993476+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:31:42.975629188+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:31:43.976324256+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wwimyeon-confusion_matrix_table","runtime_seconds":1.006061429},{"desc":"uploading media/table/confusion_matrix_table_8_96b70f871483a3c60c30.table.json","runtime_seconds":0.697237177,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.697205597,"progress":"454B/454B"},{"desc":"uploading config.yaml","runtime_seconds":0.411698103,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-05T22:31:46.734703372+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:31:47.09499317+05:30","level":"INFO","msg":"stream: closing","id":"wwimyeon"}
+{"time":"2025-03-05T22:31:47.09501182+05:30","level":"INFO","msg":"handler: closed","stream_id":"wwimyeon"}
+{"time":"2025-03-05T22:31:47.09502198+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wwimyeon"}
+{"time":"2025-03-05T22:31:47.09503506+05:30","level":"INFO","msg":"sender: closed","stream_id":"wwimyeon"}
+{"time":"2025-03-05T22:31:47.09512818+05:30","level":"INFO","msg":"stream: closed","id":"wwimyeon"}

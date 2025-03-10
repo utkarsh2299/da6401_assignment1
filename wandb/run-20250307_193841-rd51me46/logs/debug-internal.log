@@ -1,0 +1,16 @@
+{"time":"2025-03-07T19:38:41.375962106+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_193841-rd51me46/logs/debug-core.log"}
+{"time":"2025-03-07T19:38:41.588903147+05:30","level":"INFO","msg":"created new stream","id":"rd51me46"}
+{"time":"2025-03-07T19:38:41.588963047+05:30","level":"INFO","msg":"stream: started","id":"rd51me46"}
+{"time":"2025-03-07T19:38:41.589102697+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rd51me46"}
+{"time":"2025-03-07T19:38:41.589253328+05:30","level":"INFO","msg":"handler: started","stream_id":"rd51me46"}
+{"time":"2025-03-07T19:38:41.589280358+05:30","level":"INFO","msg":"sender: started","stream_id":"rd51me46"}
+{"time":"2025-03-07T19:38:41.90892068+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T19:42:52.375110427+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T19:42:52.375685627+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T19:42:53.377891767+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rd51me46-confusion_matrix_table","runtime_seconds":1.010490761},{"desc":"uploading wandb-summary.json","runtime_seconds":0.695910604,"progress":"3.9KB/3.9KB"},{"desc":"uploading output.log","runtime_seconds":0.695887954,"progress":"3.4KB/3.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.41333186,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T19:42:54.909881409+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T19:42:55.228032136+05:30","level":"INFO","msg":"stream: closing","id":"rd51me46"}
+{"time":"2025-03-07T19:42:55.228047806+05:30","level":"INFO","msg":"handler: closed","stream_id":"rd51me46"}
+{"time":"2025-03-07T19:42:55.228055746+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rd51me46"}
+{"time":"2025-03-07T19:42:55.228064226+05:30","level":"INFO","msg":"sender: closed","stream_id":"rd51me46"}
+{"time":"2025-03-07T19:42:55.228134016+05:30","level":"INFO","msg":"stream: closed","id":"rd51me46"}

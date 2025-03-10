@@ -1,0 +1,17 @@
+{"time":"2025-03-06T11:55:38.115344859+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_115538-k9j4upbr/logs/debug-core.log"}
+{"time":"2025-03-06T11:55:38.327074068+05:30","level":"INFO","msg":"created new stream","id":"k9j4upbr"}
+{"time":"2025-03-06T11:55:38.327131068+05:30","level":"INFO","msg":"stream: started","id":"k9j4upbr"}
+{"time":"2025-03-06T11:55:38.327148788+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"k9j4upbr"}
+{"time":"2025-03-06T11:55:38.327162768+05:30","level":"INFO","msg":"handler: started","stream_id":"k9j4upbr"}
+{"time":"2025-03-06T11:55:38.327200458+05:30","level":"INFO","msg":"sender: started","stream_id":"k9j4upbr"}
+{"time":"2025-03-06T11:55:38.796920667+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:56:06.668053354+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:56:06.668516864+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:56:07.66969427+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-k9j4upbr-confusion_matrix_table","runtime_seconds":1.016028154},{"desc":"uploading config.yaml","runtime_seconds":0.302191299,"progress":"2.3KB/2.3KB"}],"total_operations":2}}
+{"time":"2025-03-06T11:56:10.75674195+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:56:11.054028429+05:30","level":"INFO","msg":"stream: closing","id":"k9j4upbr"}
+{"time":"2025-03-06T11:56:11.054065299+05:30","level":"INFO","msg":"handler: closed","stream_id":"k9j4upbr"}
+{"time":"2025-03-06T11:56:11.054077979+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"k9j4upbr"}
+{"time":"2025-03-06T11:56:11.054096059+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: api: failed sending: POST https://api.wandb.ai/graphql giving up after 1 attempt(s): context canceled"}
+{"time":"2025-03-06T11:56:11.054089139+05:30","level":"INFO","msg":"sender: closed","stream_id":"k9j4upbr"}
+{"time":"2025-03-06T11:56:11.054188079+05:30","level":"INFO","msg":"stream: closed","id":"k9j4upbr"}

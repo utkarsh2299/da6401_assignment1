@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:20:12.581619369+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_112012-ya5ylbfg/logs/debug-core.log"}
+{"time":"2025-03-06T11:20:12.799446255+05:30","level":"INFO","msg":"created new stream","id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:12.799496546+05:30","level":"INFO","msg":"stream: started","id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:12.799512136+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:12.799545717+05:30","level":"INFO","msg":"handler: started","stream_id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:12.799559507+05:30","level":"INFO","msg":"sender: started","stream_id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:13.133549948+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:20:32.982560736+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:20:32.983484714+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:20:33.985130759+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ya5ylbfg-confusion_matrix_table","runtime_seconds":1.008635465},{"desc":"uploading media/table/confusion_matrix_table_13_f0575dbc9f8fe97e3911.table.json","runtime_seconds":0.689448678,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.689433077,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.378965297,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T11:20:36.804938723+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:20:37.279766295+05:30","level":"INFO","msg":"stream: closing","id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:37.279786715+05:30","level":"INFO","msg":"handler: closed","stream_id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:37.279796606+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:37.279814456+05:30","level":"INFO","msg":"sender: closed","stream_id":"ya5ylbfg"}
+{"time":"2025-03-06T11:20:37.279889818+05:30","level":"INFO","msg":"stream: closed","id":"ya5ylbfg"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-07T15:35:42.537378011+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_153542-iqma7i8f/logs/debug-core.log"}
+{"time":"2025-03-07T15:35:42.749871955+05:30","level":"INFO","msg":"created new stream","id":"iqma7i8f"}
+{"time":"2025-03-07T15:35:42.749912804+05:30","level":"INFO","msg":"stream: started","id":"iqma7i8f"}
+{"time":"2025-03-07T15:35:42.749947734+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"iqma7i8f"}
+{"time":"2025-03-07T15:35:42.749977853+05:30","level":"INFO","msg":"sender: started","stream_id":"iqma7i8f"}
+{"time":"2025-03-07T15:35:42.750085452+05:30","level":"INFO","msg":"handler: started","stream_id":"iqma7i8f"}
+{"time":"2025-03-07T15:35:43.046777379+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T15:36:16.992067385+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T15:36:16.992684326+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T15:36:17.994168463+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-iqma7i8f-confusion_matrix_table","runtime_seconds":1.006365858}],"total_operations":1}}
+{"time":"2025-03-07T15:36:19.534154761+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T15:36:20.023597955+05:30","level":"INFO","msg":"stream: closing","id":"iqma7i8f"}
+{"time":"2025-03-07T15:36:20.023627285+05:30","level":"INFO","msg":"handler: closed","stream_id":"iqma7i8f"}
+{"time":"2025-03-07T15:36:20.023649945+05:30","level":"INFO","msg":"sender: closed","stream_id":"iqma7i8f"}
+{"time":"2025-03-07T15:36:20.023641445+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"iqma7i8f"}
+{"time":"2025-03-07T15:36:20.023790653+05:30","level":"INFO","msg":"stream: closed","id":"iqma7i8f"}

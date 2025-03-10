@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:17:16.50404379+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_011716-z383xy3d/logs/debug-core.log"}
+{"time":"2025-03-06T01:17:16.716474095+05:30","level":"INFO","msg":"created new stream","id":"z383xy3d"}
+{"time":"2025-03-06T01:17:16.716535575+05:30","level":"INFO","msg":"stream: started","id":"z383xy3d"}
+{"time":"2025-03-06T01:17:16.718065379+05:30","level":"INFO","msg":"handler: started","stream_id":"z383xy3d"}
+{"time":"2025-03-06T01:17:16.718099009+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"z383xy3d"}
+{"time":"2025-03-06T01:17:16.71832734+05:30","level":"INFO","msg":"sender: started","stream_id":"z383xy3d"}
+{"time":"2025-03-06T01:17:17.062854115+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:17:22.785336179+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:17:22.786147231+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:17:23.786823033+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-z383xy3d-confusion_matrix_table","runtime_seconds":1.010171405},{"desc":"uploading media/table/confusion_matrix_table_8_372117f6518a153ebb25.table.json","runtime_seconds":0.703647486,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.703637416,"progress":"448B/448B"},{"desc":"uploading config.yaml","runtime_seconds":0.40219986,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:17:25.290632683+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:17:25.621005548+05:30","level":"INFO","msg":"stream: closing","id":"z383xy3d"}
+{"time":"2025-03-06T01:17:25.621031528+05:30","level":"INFO","msg":"handler: closed","stream_id":"z383xy3d"}
+{"time":"2025-03-06T01:17:25.621045718+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"z383xy3d"}
+{"time":"2025-03-06T01:17:25.621162899+05:30","level":"INFO","msg":"sender: closed","stream_id":"z383xy3d"}
+{"time":"2025-03-06T01:17:25.621172829+05:30","level":"INFO","msg":"stream: closed","id":"z383xy3d"}

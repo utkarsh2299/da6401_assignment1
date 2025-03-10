@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:27:10.014806315+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_002710-yanbmh0o/logs/debug-core.log"}
+{"time":"2025-03-06T00:27:10.226924738+05:30","level":"INFO","msg":"created new stream","id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:10.226963878+05:30","level":"INFO","msg":"stream: started","id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:10.226998087+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:10.227008217+05:30","level":"INFO","msg":"sender: started","stream_id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:10.227066457+05:30","level":"INFO","msg":"handler: started","stream_id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:10.540466605+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:27:17.216738246+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:27:17.217426221+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:27:18.218362602+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-yanbmh0o-confusion_matrix_table","runtime_seconds":1.006585132},{"desc":"uploading config.yaml","runtime_seconds":0.430069048,"progress":"2.3KB/2.3KB"}],"total_operations":2}}
+{"time":"2025-03-06T00:27:19.81694871+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:27:20.117312229+05:30","level":"INFO","msg":"stream: closing","id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:20.117328699+05:30","level":"INFO","msg":"handler: closed","stream_id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:20.117338779+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:20.117347909+05:30","level":"INFO","msg":"sender: closed","stream_id":"yanbmh0o"}
+{"time":"2025-03-06T00:27:20.117415919+05:30","level":"INFO","msg":"stream: closed","id":"yanbmh0o"}

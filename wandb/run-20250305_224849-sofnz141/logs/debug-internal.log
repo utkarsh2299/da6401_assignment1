@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:48:50.007716896+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_224849-sofnz141/logs/debug-core.log"}
+{"time":"2025-03-05T22:48:50.220190862+05:30","level":"INFO","msg":"created new stream","id":"sofnz141"}
+{"time":"2025-03-05T22:48:50.220239852+05:30","level":"INFO","msg":"stream: started","id":"sofnz141"}
+{"time":"2025-03-05T22:48:50.220267922+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sofnz141"}
+{"time":"2025-03-05T22:48:50.220407463+05:30","level":"INFO","msg":"handler: started","stream_id":"sofnz141"}
+{"time":"2025-03-05T22:48:50.220469593+05:30","level":"INFO","msg":"sender: started","stream_id":"sofnz141"}
+{"time":"2025-03-05T22:48:50.525346736+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:49:29.320987183+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:49:29.321597575+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:49:30.322841226+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-sofnz141-confusion_matrix_table","runtime_seconds":1.01021161}],"total_operations":1}}
+{"time":"2025-03-05T22:49:33.143451293+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:49:33.538244931+05:30","level":"INFO","msg":"stream: closing","id":"sofnz141"}
+{"time":"2025-03-05T22:49:33.538267821+05:30","level":"INFO","msg":"handler: closed","stream_id":"sofnz141"}
+{"time":"2025-03-05T22:49:33.538280251+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sofnz141"}
+{"time":"2025-03-05T22:49:33.538399571+05:30","level":"INFO","msg":"sender: closed","stream_id":"sofnz141"}
+{"time":"2025-03-05T22:49:33.538411151+05:30","level":"INFO","msg":"stream: closed","id":"sofnz141"}

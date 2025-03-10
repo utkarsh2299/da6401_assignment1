@@ -1,0 +1,16 @@
+{"time":"2025-03-07T21:26:05.725270085+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_212605-dxgah46v/logs/debug-core.log"}
+{"time":"2025-03-07T21:26:05.935581887+05:30","level":"INFO","msg":"created new stream","id":"dxgah46v"}
+{"time":"2025-03-07T21:26:05.935620307+05:30","level":"INFO","msg":"stream: started","id":"dxgah46v"}
+{"time":"2025-03-07T21:26:05.935638647+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dxgah46v"}
+{"time":"2025-03-07T21:26:05.935679367+05:30","level":"INFO","msg":"sender: started","stream_id":"dxgah46v"}
+{"time":"2025-03-07T21:26:05.935650647+05:30","level":"INFO","msg":"handler: started","stream_id":"dxgah46v"}
+{"time":"2025-03-07T21:26:06.450480882+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T21:30:00.814154156+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T21:30:00.814761487+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T21:30:01.816193785+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dxgah46v-confusion_matrix_table","runtime_seconds":1.002957581}],"total_operations":1}}
+{"time":"2025-03-07T21:30:03.612168297+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T21:30:03.936580758+05:30","level":"INFO","msg":"stream: closing","id":"dxgah46v"}
+{"time":"2025-03-07T21:30:03.936600928+05:30","level":"INFO","msg":"handler: closed","stream_id":"dxgah46v"}
+{"time":"2025-03-07T21:30:03.936610288+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dxgah46v"}
+{"time":"2025-03-07T21:30:03.936616708+05:30","level":"INFO","msg":"sender: closed","stream_id":"dxgah46v"}
+{"time":"2025-03-07T21:30:03.936698498+05:30","level":"INFO","msg":"stream: closed","id":"dxgah46v"}

@@ -1,0 +1,6 @@
+2025-03-05 21:30:43,601 INFO    Thread-3 (_run_job):614981 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_213043-qcp0gctl/logs/debug.log
+2025-03-05 21:30:43,601 INFO    Thread-3 (_run_job):614981 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_213043-qcp0gctl/logs/debug-internal.log
+2025-03-05 21:30:43,601 INFO    Thread-3 (_run_job):614981 [wandb_init.py:init():761] calling init triggers
+2025-03-05 21:30:43,601 INFO    Thread-3 (_run_job):614981 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'epochs': 2, 'hidden_layer_size': 128, 'hidden_layers_count': 4, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'adam', 'weight_decay': 0.005, 'weight_init': 'xavier'}
+config: {'_wandb': {}}
+2025-03-05 21:30:43,601 INFO    Thread-3 (_run_job):614981 [wandb_init.py:init():776] wandb.init() called while a run is active

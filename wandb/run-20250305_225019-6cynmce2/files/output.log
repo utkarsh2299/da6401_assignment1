@@ -1,0 +1,6 @@
+Epoch 1/5 - 5.80s - loss: 0.5195 - acc: 0.8133 - val_loss: 0.4321 - val_acc: 0.8413
+Epoch 2/5 - 7.35s - loss: 0.4104 - acc: 0.8528 - val_loss: 0.4696 - val_acc: 0.8358
+Epoch 3/5 - 7.98s - loss: 0.3828 - acc: 0.8623 - val_loss: 0.3594 - val_acc: 0.8652
+Epoch 4/5 - 8.07s - loss: 0.3669 - acc: 0.8672 - val_loss: 0.3532 - val_acc: 0.8747
+Epoch 5/5 - 8.07s - loss: 0.3526 - acc: 0.8719 - val_loss: 0.3550 - val_acc: 0.8730
+Training completed in 37.29s

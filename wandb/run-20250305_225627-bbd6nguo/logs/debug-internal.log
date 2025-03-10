@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:56:27.692618494+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_225627-bbd6nguo/logs/debug-core.log"}
+{"time":"2025-03-05T22:56:27.908222603+05:30","level":"INFO","msg":"created new stream","id":"bbd6nguo"}
+{"time":"2025-03-05T22:56:27.908298873+05:30","level":"INFO","msg":"stream: started","id":"bbd6nguo"}
+{"time":"2025-03-05T22:56:27.908373063+05:30","level":"INFO","msg":"sender: started","stream_id":"bbd6nguo"}
+{"time":"2025-03-05T22:56:27.908407543+05:30","level":"INFO","msg":"handler: started","stream_id":"bbd6nguo"}
+{"time":"2025-03-05T22:56:27.908386373+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bbd6nguo"}
+{"time":"2025-03-05T22:56:28.28420702+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:56:58.705365214+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:56:58.706117996+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:56:59.673363162+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-bbd6nguo-confusion_matrix_table","runtime_seconds":0.635635481},{"desc":"uploading media/table/confusion_matrix_table_8_a6deadae08b79bc65ca9.table.json","runtime_seconds":0.324001213,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.323988203,"progress":"449B/449B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.323987423,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.016679057,"progress":"2.2KB/2.2KB"}],"total_operations":5}}
+{"time":"2025-03-05T22:57:01.726057468+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:57:02.047390614+05:30","level":"INFO","msg":"stream: closing","id":"bbd6nguo"}
+{"time":"2025-03-05T22:57:02.047416674+05:30","level":"INFO","msg":"handler: closed","stream_id":"bbd6nguo"}
+{"time":"2025-03-05T22:57:02.047436794+05:30","level":"INFO","msg":"sender: closed","stream_id":"bbd6nguo"}
+{"time":"2025-03-05T22:57:02.047431024+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bbd6nguo"}
+{"time":"2025-03-05T22:57:02.047574634+05:30","level":"INFO","msg":"stream: closed","id":"bbd6nguo"}

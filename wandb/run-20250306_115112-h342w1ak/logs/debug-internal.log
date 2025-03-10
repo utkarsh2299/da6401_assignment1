@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:51:13.010570242+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_115112-h342w1ak/logs/debug-core.log"}
+{"time":"2025-03-06T11:51:13.222947661+05:30","level":"INFO","msg":"created new stream","id":"h342w1ak"}
+{"time":"2025-03-06T11:51:13.22299249+05:30","level":"INFO","msg":"stream: started","id":"h342w1ak"}
+{"time":"2025-03-06T11:51:13.22304019+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"h342w1ak"}
+{"time":"2025-03-06T11:51:13.22305621+05:30","level":"INFO","msg":"sender: started","stream_id":"h342w1ak"}
+{"time":"2025-03-06T11:51:13.22307852+05:30","level":"INFO","msg":"handler: started","stream_id":"h342w1ak"}
+{"time":"2025-03-06T11:51:13.698480122+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:51:39.170565954+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:51:39.171009533+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:51:40.172147583+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-h342w1ak-confusion_matrix_table","runtime_seconds":1.009374959},{"desc":"uploading config.yaml","runtime_seconds":0.322169424,"progress":"2.3KB/2.3KB"}],"total_operations":2}}
+{"time":"2025-03-06T11:51:42.137677159+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:51:42.525321706+05:30","level":"INFO","msg":"stream: closing","id":"h342w1ak"}
+{"time":"2025-03-06T11:51:42.525335476+05:30","level":"INFO","msg":"handler: closed","stream_id":"h342w1ak"}
+{"time":"2025-03-06T11:51:42.525343556+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"h342w1ak"}
+{"time":"2025-03-06T11:51:42.525348016+05:30","level":"INFO","msg":"sender: closed","stream_id":"h342w1ak"}
+{"time":"2025-03-06T11:51:42.525451036+05:30","level":"INFO","msg":"stream: closed","id":"h342w1ak"}

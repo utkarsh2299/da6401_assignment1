@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:08:24.37352443+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_000824-cfjslwvm/logs/debug-core.log"}
+{"time":"2025-03-06T00:08:24.584278997+05:30","level":"INFO","msg":"created new stream","id":"cfjslwvm"}
+{"time":"2025-03-06T00:08:24.584325437+05:30","level":"INFO","msg":"stream: started","id":"cfjslwvm"}
+{"time":"2025-03-06T00:08:24.584365758+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cfjslwvm"}
+{"time":"2025-03-06T00:08:24.584391068+05:30","level":"INFO","msg":"sender: started","stream_id":"cfjslwvm"}
+{"time":"2025-03-06T00:08:24.584417438+05:30","level":"INFO","msg":"handler: started","stream_id":"cfjslwvm"}
+{"time":"2025-03-06T00:08:24.907844397+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:09:29.641338751+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:09:29.642070543+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:09:30.643216575+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-cfjslwvm-confusion_matrix_table","runtime_seconds":0.993770352}],"total_operations":1}}
+{"time":"2025-03-06T00:09:33.647454836+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:09:34.006387289+05:30","level":"INFO","msg":"stream: closing","id":"cfjslwvm"}
+{"time":"2025-03-06T00:09:34.006404189+05:30","level":"INFO","msg":"handler: closed","stream_id":"cfjslwvm"}
+{"time":"2025-03-06T00:09:34.006421549+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cfjslwvm"}
+{"time":"2025-03-06T00:09:34.006437429+05:30","level":"INFO","msg":"sender: closed","stream_id":"cfjslwvm"}
+{"time":"2025-03-06T00:09:34.006536959+05:30","level":"INFO","msg":"stream: closed","id":"cfjslwvm"}

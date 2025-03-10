@@ -1,0 +1,16 @@
+{"time":"2025-03-07T15:12:43.792659113+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_151243-34nl7vbr/logs/debug-core.log"}
+{"time":"2025-03-07T15:12:44.003954211+05:30","level":"INFO","msg":"created new stream","id":"34nl7vbr"}
+{"time":"2025-03-07T15:12:44.004029861+05:30","level":"INFO","msg":"stream: started","id":"34nl7vbr"}
+{"time":"2025-03-07T15:12:44.004102152+05:30","level":"INFO","msg":"handler: started","stream_id":"34nl7vbr"}
+{"time":"2025-03-07T15:12:44.004093482+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"34nl7vbr"}
+{"time":"2025-03-07T15:12:44.004176862+05:30","level":"INFO","msg":"sender: started","stream_id":"34nl7vbr"}
+{"time":"2025-03-07T15:12:44.333572304+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T15:15:01.705958546+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T15:15:01.7067472+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T15:15:02.708313284+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-34nl7vbr-confusion_matrix_table","runtime_seconds":0.987077181},{"desc":"uploading media/table/confusion_matrix_table_18_7b6b5f3e46ca2deab018.table.json","runtime_seconds":0.68085111,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.68083451,"progress":"1.3KB/1.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.373703815,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T15:15:04.284108922+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T15:15:04.596298829+05:30","level":"INFO","msg":"stream: closing","id":"34nl7vbr"}
+{"time":"2025-03-07T15:15:04.596331009+05:30","level":"INFO","msg":"handler: closed","stream_id":"34nl7vbr"}
+{"time":"2025-03-07T15:15:04.596346399+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"34nl7vbr"}
+{"time":"2025-03-07T15:15:04.596865371+05:30","level":"INFO","msg":"sender: closed","stream_id":"34nl7vbr"}
+{"time":"2025-03-07T15:15:04.598129767+05:30","level":"INFO","msg":"stream: closed","id":"34nl7vbr"}

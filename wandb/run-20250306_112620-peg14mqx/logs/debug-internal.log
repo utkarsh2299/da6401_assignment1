@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:26:20.785064884+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_112620-peg14mqx/logs/debug-core.log"}
+{"time":"2025-03-06T11:26:20.998044784+05:30","level":"INFO","msg":"created new stream","id":"peg14mqx"}
+{"time":"2025-03-06T11:26:20.998085814+05:30","level":"INFO","msg":"stream: started","id":"peg14mqx"}
+{"time":"2025-03-06T11:26:20.998118605+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"peg14mqx"}
+{"time":"2025-03-06T11:26:20.998143175+05:30","level":"INFO","msg":"sender: started","stream_id":"peg14mqx"}
+{"time":"2025-03-06T11:26:20.998265307+05:30","level":"INFO","msg":"handler: started","stream_id":"peg14mqx"}
+{"time":"2025-03-06T11:26:21.698405925+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:26:37.914485842+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:26:37.91505647+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:26:38.916214822+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-peg14mqx-confusion_matrix_table","runtime_seconds":1.0069468},{"desc":"uploading config.yaml","runtime_seconds":0.354306572,"progress":"2.2KB/2.2KB"}],"total_operations":2}}
+{"time":"2025-03-06T11:26:41.945986449+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:26:42.247909138+05:30","level":"INFO","msg":"stream: closing","id":"peg14mqx"}
+{"time":"2025-03-06T11:26:42.247939579+05:30","level":"INFO","msg":"handler: closed","stream_id":"peg14mqx"}
+{"time":"2025-03-06T11:26:42.247959319+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"peg14mqx"}
+{"time":"2025-03-06T11:26:42.247969119+05:30","level":"INFO","msg":"sender: closed","stream_id":"peg14mqx"}
+{"time":"2025-03-06T11:26:42.248098471+05:30","level":"INFO","msg":"stream: closed","id":"peg14mqx"}

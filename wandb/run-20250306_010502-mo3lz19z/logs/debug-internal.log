@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:05:02.44997398+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_010502-mo3lz19z/logs/debug-core.log"}
+{"time":"2025-03-06T01:05:02.660813246+05:30","level":"INFO","msg":"created new stream","id":"mo3lz19z"}
+{"time":"2025-03-06T01:05:02.660859666+05:30","level":"INFO","msg":"stream: started","id":"mo3lz19z"}
+{"time":"2025-03-06T01:05:02.661160198+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mo3lz19z"}
+{"time":"2025-03-06T01:05:02.661207708+05:30","level":"INFO","msg":"sender: started","stream_id":"mo3lz19z"}
+{"time":"2025-03-06T01:05:02.661250928+05:30","level":"INFO","msg":"handler: started","stream_id":"mo3lz19z"}
+{"time":"2025-03-06T01:05:02.998817403+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:06:27.299137911+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:06:27.299673114+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:06:28.301093187+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mo3lz19z-confusion_matrix_table","runtime_seconds":1.010762212},{"desc":"uploading media/table/confusion_matrix_table_8_6d472de23ed00ee04854.table.json","runtime_seconds":0.699944253,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.699931953,"progress":"454B/454B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.699929753,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.409035198,"progress":"2.3KB/2.3KB"}],"total_operations":5}}
+{"time":"2025-03-06T01:06:29.837680982+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:06:30.14357748+05:30","level":"INFO","msg":"stream: closing","id":"mo3lz19z"}
+{"time":"2025-03-06T01:06:30.14359305+05:30","level":"INFO","msg":"handler: closed","stream_id":"mo3lz19z"}
+{"time":"2025-03-06T01:06:30.14360332+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mo3lz19z"}
+{"time":"2025-03-06T01:06:30.143715931+05:30","level":"INFO","msg":"sender: closed","stream_id":"mo3lz19z"}
+{"time":"2025-03-06T01:06:30.143724501+05:30","level":"INFO","msg":"stream: closed","id":"mo3lz19z"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:41:09.943239914+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_004109-4vyi47in/logs/debug-core.log"}
+{"time":"2025-03-06T00:41:10.153901974+05:30","level":"INFO","msg":"created new stream","id":"4vyi47in"}
+{"time":"2025-03-06T00:41:10.153926694+05:30","level":"INFO","msg":"stream: started","id":"4vyi47in"}
+{"time":"2025-03-06T00:41:10.153953084+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4vyi47in"}
+{"time":"2025-03-06T00:41:10.153968154+05:30","level":"INFO","msg":"handler: started","stream_id":"4vyi47in"}
+{"time":"2025-03-06T00:41:10.154094213+05:30","level":"INFO","msg":"sender: started","stream_id":"4vyi47in"}
+{"time":"2025-03-06T00:41:10.481148586+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:41:24.189902998+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:41:24.191190434+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:41:25.191559417+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-4vyi47in-confusion_matrix_table","runtime_seconds":1.01212723},{"desc":"uploading media/table/confusion_matrix_table_8_91c698064bc23c7c5fe3.table.json","runtime_seconds":0.691020861,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.691012771,"progress":"449B/449B"},{"desc":"uploading config.yaml","runtime_seconds":0.424959321,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:41:28.020611293+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:41:28.293318197+05:30","level":"INFO","msg":"stream: closing","id":"4vyi47in"}
+{"time":"2025-03-06T00:41:28.293336257+05:30","level":"INFO","msg":"handler: closed","stream_id":"4vyi47in"}
+{"time":"2025-03-06T00:41:28.293348657+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4vyi47in"}
+{"time":"2025-03-06T00:41:28.293372917+05:30","level":"INFO","msg":"sender: closed","stream_id":"4vyi47in"}
+{"time":"2025-03-06T00:41:28.293450177+05:30","level":"INFO","msg":"stream: closed","id":"4vyi47in"}

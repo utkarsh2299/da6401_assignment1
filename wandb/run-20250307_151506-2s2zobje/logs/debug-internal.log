@@ -1,0 +1,16 @@
+{"time":"2025-03-07T15:15:06.358894436+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_151506-2s2zobje/logs/debug-core.log"}
+{"time":"2025-03-07T15:15:06.575595365+05:30","level":"INFO","msg":"created new stream","id":"2s2zobje"}
+{"time":"2025-03-07T15:15:06.575644965+05:30","level":"INFO","msg":"stream: started","id":"2s2zobje"}
+{"time":"2025-03-07T15:15:06.576883555+05:30","level":"INFO","msg":"handler: started","stream_id":"2s2zobje"}
+{"time":"2025-03-07T15:15:06.576883065+05:30","level":"INFO","msg":"sender: started","stream_id":"2s2zobje"}
+{"time":"2025-03-07T15:15:06.576952104+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2s2zobje"}
+{"time":"2025-03-07T15:15:06.891038008+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T15:17:51.789986594+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T15:17:51.79058177+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T15:17:52.792480961+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-2s2zobje-confusion_matrix_table","runtime_seconds":1.006856397},{"desc":"uploading media/table/confusion_matrix_table_18_3be1bdfd785d8790eb2f.table.json","runtime_seconds":0.701486339,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.405969326,"progress":"2.3KB/2.3KB"},{"desc":"uploading history steps 13-18, summary, console lines 13-15","runtime_seconds":0.192305285}],"total_operations":4}}
+{"time":"2025-03-07T15:17:54.459487477+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T15:17:54.737788389+05:30","level":"INFO","msg":"stream: closing","id":"2s2zobje"}
+{"time":"2025-03-07T15:17:54.737813728+05:30","level":"INFO","msg":"handler: closed","stream_id":"2s2zobje"}
+{"time":"2025-03-07T15:17:54.737827307+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2s2zobje"}
+{"time":"2025-03-07T15:17:54.737845476+05:30","level":"INFO","msg":"sender: closed","stream_id":"2s2zobje"}
+{"time":"2025-03-07T15:17:54.7379582+05:30","level":"INFO","msg":"stream: closed","id":"2s2zobje"}

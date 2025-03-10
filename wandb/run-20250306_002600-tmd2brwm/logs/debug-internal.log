@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:26:00.03850221+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_002600-tmd2brwm/logs/debug-core.log"}
+{"time":"2025-03-06T00:26:00.250134803+05:30","level":"INFO","msg":"created new stream","id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:00.250157773+05:30","level":"INFO","msg":"stream: started","id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:00.250191252+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:00.250219122+05:30","level":"INFO","msg":"sender: started","stream_id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:00.250242952+05:30","level":"INFO","msg":"handler: started","stream_id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:00.569556072+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:26:13.213838436+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:26:13.21461983+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:26:14.215520097+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tmd2brwm-confusion_matrix_table","runtime_seconds":1.006895362},{"desc":"uploading media/table/confusion_matrix_table_8_4d57cfa81e9963f8b139.table.json","runtime_seconds":0.690586901,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.69057069,"progress":"449B/449B"},{"desc":"uploading config.yaml","runtime_seconds":0.425551575,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:26:16.966065315+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:26:17.266176603+05:30","level":"INFO","msg":"stream: closing","id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:17.266196903+05:30","level":"INFO","msg":"handler: closed","stream_id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:17.266205653+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:17.266217673+05:30","level":"INFO","msg":"sender: closed","stream_id":"tmd2brwm"}
+{"time":"2025-03-06T00:26:17.266293473+05:30","level":"INFO","msg":"stream: closed","id":"tmd2brwm"}

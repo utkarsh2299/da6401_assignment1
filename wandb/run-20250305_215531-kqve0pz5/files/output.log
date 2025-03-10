@@ -1,0 +1,5 @@
+Epoch 1/1 - 2.68s - loss: 2.1561 - acc: 0.2636 - val_loss: 2.0001 - val_acc: 0.2855
+Training completed in 2.68s
+{'train_loss': [np.float64(2.1560731196509497)], 'train_acc': [np.float64(0.26357407407407407)], 'val_loss': [np.float64(2.0000870156827455)], 'val_acc': [np.float64(0.2855)]}
+
+Test accuracy with sgd: 0.2809

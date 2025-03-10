@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:14:58.080454276+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_001458-pk2kw2av/logs/debug-core.log"}
+{"time":"2025-03-06T00:14:58.292433803+05:30","level":"INFO","msg":"created new stream","id":"pk2kw2av"}
+{"time":"2025-03-06T00:14:58.292458503+05:30","level":"INFO","msg":"stream: started","id":"pk2kw2av"}
+{"time":"2025-03-06T00:14:58.292477783+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pk2kw2av"}
+{"time":"2025-03-06T00:14:58.292495403+05:30","level":"INFO","msg":"handler: started","stream_id":"pk2kw2av"}
+{"time":"2025-03-06T00:14:58.292565163+05:30","level":"INFO","msg":"sender: started","stream_id":"pk2kw2av"}
+{"time":"2025-03-06T00:14:58.602919291+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:15:53.970070434+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:15:53.970972536+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:15:54.971745826+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pk2kw2av-confusion_matrix_table","runtime_seconds":1.006524839},{"desc":"uploading wandb-summary.json","runtime_seconds":0.698496054,"progress":"1.8KB/1.8KB"},{"desc":"uploading media/table/confusion_matrix_table_13_8f2b80d2a87037f44fcc.table.json","runtime_seconds":0.698476254,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.423771862,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:15:57.685942992+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:15:57.987566085+05:30","level":"INFO","msg":"stream: closing","id":"pk2kw2av"}
+{"time":"2025-03-06T00:15:57.987582305+05:30","level":"INFO","msg":"handler: closed","stream_id":"pk2kw2av"}
+{"time":"2025-03-06T00:15:57.987594745+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pk2kw2av"}
+{"time":"2025-03-06T00:15:57.987686506+05:30","level":"INFO","msg":"sender: closed","stream_id":"pk2kw2av"}
+{"time":"2025-03-06T00:15:57.987739966+05:30","level":"INFO","msg":"stream: closed","id":"pk2kw2av"}

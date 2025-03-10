@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:10:06.328379217+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_001006-nwgkyb6d/logs/debug-core.log"}
+{"time":"2025-03-06T00:10:06.541330442+05:30","level":"INFO","msg":"created new stream","id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:06.541375192+05:30","level":"INFO","msg":"stream: started","id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:06.542663876+05:30","level":"INFO","msg":"sender: started","stream_id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:06.542670076+05:30","level":"INFO","msg":"handler: started","stream_id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:06.542769946+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:06.866291024+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:10:55.870509708+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:10:55.87127392+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:10:56.872311459+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nwgkyb6d-confusion_matrix_table","runtime_seconds":1.006626872},{"desc":"uploading media/table/confusion_matrix_table_13_a7f19dc724a77338e0a7.table.json","runtime_seconds":0.696811631,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.696801881,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.430306117,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:10:58.485947035+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:10:58.798053479+05:30","level":"INFO","msg":"stream: closing","id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:58.798074099+05:30","level":"INFO","msg":"handler: closed","stream_id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:58.798085029+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:58.798093029+05:30","level":"INFO","msg":"sender: closed","stream_id":"nwgkyb6d"}
+{"time":"2025-03-06T00:10:58.798190069+05:30","level":"INFO","msg":"stream: closed","id":"nwgkyb6d"}

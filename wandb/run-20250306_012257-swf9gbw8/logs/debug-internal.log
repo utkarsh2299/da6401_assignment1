@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:22:57.43637562+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_012257-swf9gbw8/logs/debug-core.log"}
+{"time":"2025-03-06T01:22:57.651060057+05:30","level":"INFO","msg":"created new stream","id":"swf9gbw8"}
+{"time":"2025-03-06T01:22:57.651121357+05:30","level":"INFO","msg":"stream: started","id":"swf9gbw8"}
+{"time":"2025-03-06T01:22:57.651152547+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"swf9gbw8"}
+{"time":"2025-03-06T01:22:57.651172907+05:30","level":"INFO","msg":"sender: started","stream_id":"swf9gbw8"}
+{"time":"2025-03-06T01:22:57.651245917+05:30","level":"INFO","msg":"handler: started","stream_id":"swf9gbw8"}
+{"time":"2025-03-06T01:22:58.019684736+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:23:04.792722551+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:23:04.793544383+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:23:05.795241102+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-swf9gbw8-confusion_matrix_table","runtime_seconds":1.011724399},{"desc":"uploading media/table/confusion_matrix_table_8_3d710a20aa641001638b.table.json","runtime_seconds":0.709975269,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.709964759,"progress":"448B/448B"},{"desc":"uploading config.yaml","runtime_seconds":0.402459129,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:23:07.235650237+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:23:07.600348124+05:30","level":"INFO","msg":"stream: closing","id":"swf9gbw8"}
+{"time":"2025-03-06T01:23:07.600397084+05:30","level":"INFO","msg":"handler: closed","stream_id":"swf9gbw8"}
+{"time":"2025-03-06T01:23:07.600416634+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"swf9gbw8"}
+{"time":"2025-03-06T01:23:07.600432934+05:30","level":"INFO","msg":"sender: closed","stream_id":"swf9gbw8"}
+{"time":"2025-03-06T01:23:07.603711931+05:30","level":"INFO","msg":"stream: closed","id":"swf9gbw8"}

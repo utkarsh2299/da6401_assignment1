@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:43:39.198972705+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_224339-zi3a7zsw/logs/debug-core.log"}
+{"time":"2025-03-05T22:43:39.410587255+05:30","level":"INFO","msg":"created new stream","id":"zi3a7zsw"}
+{"time":"2025-03-05T22:43:39.410617085+05:30","level":"INFO","msg":"stream: started","id":"zi3a7zsw"}
+{"time":"2025-03-05T22:43:39.410645245+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zi3a7zsw"}
+{"time":"2025-03-05T22:43:39.410669105+05:30","level":"INFO","msg":"handler: started","stream_id":"zi3a7zsw"}
+{"time":"2025-03-05T22:43:39.410762616+05:30","level":"INFO","msg":"sender: started","stream_id":"zi3a7zsw"}
+{"time":"2025-03-05T22:43:39.725444205+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:44:11.44252078+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:44:11.443065752+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:44:12.44435451+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zi3a7zsw-confusion_matrix_table","runtime_seconds":1.0070049},{"desc":"uploading media/table/confusion_matrix_table_8_a3fbac9d2a409b792126.table.json","runtime_seconds":0.683208683,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.683184883,"progress":"449B/449B"},{"desc":"uploading config.yaml","runtime_seconds":0.385831928,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-05T22:44:14.113749636+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:44:14.4320055+05:30","level":"INFO","msg":"stream: closing","id":"zi3a7zsw"}
+{"time":"2025-03-05T22:44:14.43202403+05:30","level":"INFO","msg":"handler: closed","stream_id":"zi3a7zsw"}
+{"time":"2025-03-05T22:44:14.43204176+05:30","level":"INFO","msg":"sender: closed","stream_id":"zi3a7zsw"}
+{"time":"2025-03-05T22:44:14.43203512+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zi3a7zsw"}
+{"time":"2025-03-05T22:44:14.43212743+05:30","level":"INFO","msg":"stream: closed","id":"zi3a7zsw"}

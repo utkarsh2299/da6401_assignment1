@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:17:27.376205067+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_011727-vsl1xfa7/logs/debug-core.log"}
+{"time":"2025-03-06T01:17:27.589390279+05:30","level":"INFO","msg":"created new stream","id":"vsl1xfa7"}
+{"time":"2025-03-06T01:17:27.589438509+05:30","level":"INFO","msg":"stream: started","id":"vsl1xfa7"}
+{"time":"2025-03-06T01:17:27.589515459+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vsl1xfa7"}
+{"time":"2025-03-06T01:17:27.58969453+05:30","level":"INFO","msg":"handler: started","stream_id":"vsl1xfa7"}
+{"time":"2025-03-06T01:17:27.58973681+05:30","level":"INFO","msg":"sender: started","stream_id":"vsl1xfa7"}
+{"time":"2025-03-06T01:17:27.930309788+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:18:17.029919668+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:18:17.03051361+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:18:18.032690137+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vsl1xfa7-confusion_matrix_table","runtime_seconds":1.00756702},{"desc":"uploading media/table/confusion_matrix_table_13_27f3d303f0934d06efb2.table.json","runtime_seconds":0.702555697,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.702539467,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.342790799,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:18:20.867158162+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:18:21.16229005+05:30","level":"INFO","msg":"stream: closing","id":"vsl1xfa7"}
+{"time":"2025-03-06T01:18:21.16231494+05:30","level":"INFO","msg":"handler: closed","stream_id":"vsl1xfa7"}
+{"time":"2025-03-06T01:18:21.16232792+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vsl1xfa7"}
+{"time":"2025-03-06T01:18:21.16234361+05:30","level":"INFO","msg":"sender: closed","stream_id":"vsl1xfa7"}
+{"time":"2025-03-06T01:18:21.16245418+05:30","level":"INFO","msg":"stream: closed","id":"vsl1xfa7"}

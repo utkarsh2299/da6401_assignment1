@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:30:45.99119009+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_113045-50cegp1g/logs/debug-core.log"}
+{"time":"2025-03-06T11:30:46.202376893+05:30","level":"INFO","msg":"created new stream","id":"50cegp1g"}
+{"time":"2025-03-06T11:30:46.202408264+05:30","level":"INFO","msg":"stream: started","id":"50cegp1g"}
+{"time":"2025-03-06T11:30:46.202441774+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"50cegp1g"}
+{"time":"2025-03-06T11:30:46.202476035+05:30","level":"INFO","msg":"handler: started","stream_id":"50cegp1g"}
+{"time":"2025-03-06T11:30:46.202472834+05:30","level":"INFO","msg":"sender: started","stream_id":"50cegp1g"}
+{"time":"2025-03-06T11:30:46.599869175+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:31:18.722365804+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:31:18.723191143+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:31:19.724153682+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-50cegp1g-confusion_matrix_table","runtime_seconds":1.008237447},{"desc":"uploading wandb-summary.json","runtime_seconds":0.674093168,"progress":"1.7KB/1.7KB"},{"desc":"uploading media/table/confusion_matrix_table_13_828fac3ddd018d255804.table.json","runtime_seconds":0.674078907,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.243689005,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T11:31:21.533902483+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:31:21.86379317+05:30","level":"INFO","msg":"stream: closing","id":"50cegp1g"}
+{"time":"2025-03-06T11:31:21.86382875+05:30","level":"INFO","msg":"handler: closed","stream_id":"50cegp1g"}
+{"time":"2025-03-06T11:31:21.86384588+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"50cegp1g"}
+{"time":"2025-03-06T11:31:21.863908451+05:30","level":"INFO","msg":"sender: closed","stream_id":"50cegp1g"}
+{"time":"2025-03-06T11:31:21.863961152+05:30","level":"INFO","msg":"stream: closed","id":"50cegp1g"}

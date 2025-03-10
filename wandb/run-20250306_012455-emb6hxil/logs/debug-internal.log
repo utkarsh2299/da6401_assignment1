@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:24:55.175054676+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_012455-emb6hxil/logs/debug-core.log"}
+{"time":"2025-03-06T01:24:55.391773904+05:30","level":"INFO","msg":"created new stream","id":"emb6hxil"}
+{"time":"2025-03-06T01:24:55.391810845+05:30","level":"INFO","msg":"stream: started","id":"emb6hxil"}
+{"time":"2025-03-06T01:24:55.391835856+05:30","level":"INFO","msg":"handler: started","stream_id":"emb6hxil"}
+{"time":"2025-03-06T01:24:55.391843706+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"emb6hxil"}
+{"time":"2025-03-06T01:24:55.391883647+05:30","level":"INFO","msg":"sender: started","stream_id":"emb6hxil"}
+{"time":"2025-03-06T01:24:55.718018763+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:27:43.365532188+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:27:43.366314633+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:27:44.367617713+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-emb6hxil-confusion_matrix_table","runtime_seconds":1.012054518},{"desc":"uploading wandb-summary.json","runtime_seconds":0.707545801,"progress":"1.8KB/1.8KB"},{"desc":"uploading media/table/confusion_matrix_table_13_d7ba0b2d6aa8009323df.table.json","runtime_seconds":0.707534051,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.424196643,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:27:45.831666013+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:27:46.14820313+05:30","level":"INFO","msg":"stream: closing","id":"emb6hxil"}
+{"time":"2025-03-06T01:27:46.148226431+05:30","level":"INFO","msg":"handler: closed","stream_id":"emb6hxil"}
+{"time":"2025-03-06T01:27:46.148238501+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"emb6hxil"}
+{"time":"2025-03-06T01:27:46.148247921+05:30","level":"INFO","msg":"sender: closed","stream_id":"emb6hxil"}
+{"time":"2025-03-06T01:27:46.148349353+05:30","level":"INFO","msg":"stream: closed","id":"emb6hxil"}

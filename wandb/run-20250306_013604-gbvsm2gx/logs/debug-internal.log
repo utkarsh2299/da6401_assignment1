@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:36:04.495888301+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_013604-gbvsm2gx/logs/debug-core.log"}
+{"time":"2025-03-06T01:36:04.707122415+05:30","level":"INFO","msg":"created new stream","id":"gbvsm2gx"}
+{"time":"2025-03-06T01:36:04.707171065+05:30","level":"INFO","msg":"stream: started","id":"gbvsm2gx"}
+{"time":"2025-03-06T01:36:04.7086433+05:30","level":"INFO","msg":"handler: started","stream_id":"gbvsm2gx"}
+{"time":"2025-03-06T01:36:04.70868064+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gbvsm2gx"}
+{"time":"2025-03-06T01:36:04.708744871+05:30","level":"INFO","msg":"sender: started","stream_id":"gbvsm2gx"}
+{"time":"2025-03-06T01:36:05.039732737+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:37:42.863019918+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:37:42.863554073+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:37:43.864792907+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-gbvsm2gx-confusion_matrix_table","runtime_seconds":1.011308925}],"total_operations":1}}
+{"time":"2025-03-06T01:37:45.43318351+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:37:45.733202017+05:30","level":"INFO","msg":"stream: closing","id":"gbvsm2gx"}
+{"time":"2025-03-06T01:37:45.733221397+05:30","level":"INFO","msg":"handler: closed","stream_id":"gbvsm2gx"}
+{"time":"2025-03-06T01:37:45.733236177+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gbvsm2gx"}
+{"time":"2025-03-06T01:37:45.733248527+05:30","level":"INFO","msg":"sender: closed","stream_id":"gbvsm2gx"}
+{"time":"2025-03-06T01:37:45.733313588+05:30","level":"INFO","msg":"stream: closed","id":"gbvsm2gx"}

@@ -1,0 +1,5 @@
+Epoch 1/1 - 87.90s - loss: 0.5723 - acc: 0.8022 - val_loss: 0.8356 - val_acc: 0.7680
+Training completed in 87.90s
+{'train_loss': [np.float64(0.5722796854837203)], 'train_acc': [np.float64(0.8021851851851852)], 'val_loss': [np.float64(0.8355929827684557)], 'val_acc': [np.float64(0.768)]}
+
+Test accuracy with nadam: 0.7618

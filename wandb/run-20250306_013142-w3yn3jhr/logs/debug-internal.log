@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:31:42.988036672+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_013142-w3yn3jhr/logs/debug-core.log"}
+{"time":"2025-03-06T01:31:43.198828459+05:30","level":"INFO","msg":"created new stream","id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:43.198854909+05:30","level":"INFO","msg":"stream: started","id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:43.1988917+05:30","level":"INFO","msg":"handler: started","stream_id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:43.19892591+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:43.198975481+05:30","level":"INFO","msg":"sender: started","stream_id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:43.514663114+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:31:55.715304751+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:31:55.716081411+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:31:56.716918852+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-w3yn3jhr-confusion_matrix_table","runtime_seconds":1.009554695},{"desc":"uploading media/table/confusion_matrix_table_13_3d37bb1da566d8bec594.table.json","runtime_seconds":0.689146711,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.689136491,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.404788804,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:31:59.428663554+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:31:59.847164849+05:30","level":"INFO","msg":"stream: closing","id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:59.847178819+05:30","level":"INFO","msg":"handler: closed","stream_id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:59.847196999+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:59.84725009+05:30","level":"INFO","msg":"sender: closed","stream_id":"w3yn3jhr"}
+{"time":"2025-03-06T01:31:59.847287171+05:30","level":"INFO","msg":"stream: closed","id":"w3yn3jhr"}

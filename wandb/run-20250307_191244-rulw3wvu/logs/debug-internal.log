@@ -1,0 +1,16 @@
+{"time":"2025-03-07T19:12:44.047057881+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_191244-rulw3wvu/logs/debug-core.log"}
+{"time":"2025-03-07T19:12:44.258910948+05:30","level":"INFO","msg":"created new stream","id":"rulw3wvu"}
+{"time":"2025-03-07T19:12:44.258963068+05:30","level":"INFO","msg":"stream: started","id":"rulw3wvu"}
+{"time":"2025-03-07T19:12:44.259015218+05:30","level":"INFO","msg":"handler: started","stream_id":"rulw3wvu"}
+{"time":"2025-03-07T19:12:44.259037788+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rulw3wvu"}
+{"time":"2025-03-07T19:12:44.259058478+05:30","level":"INFO","msg":"sender: started","stream_id":"rulw3wvu"}
+{"time":"2025-03-07T19:12:44.596516541+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T19:14:53.367449756+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T19:14:53.368116508+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T19:14:54.369560339+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rulw3wvu-confusion_matrix_table","runtime_seconds":1.004416791},{"desc":"uploading output.log","runtime_seconds":0.686861481,"progress":"3.4KB/3.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.686856051,"progress":"3.9KB/3.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.426358456,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T19:14:56.018702035+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T19:14:56.346796282+05:30","level":"INFO","msg":"stream: closing","id":"rulw3wvu"}
+{"time":"2025-03-07T19:14:56.346830782+05:30","level":"INFO","msg":"handler: closed","stream_id":"rulw3wvu"}
+{"time":"2025-03-07T19:14:56.346850422+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rulw3wvu"}
+{"time":"2025-03-07T19:14:56.346938212+05:30","level":"INFO","msg":"sender: closed","stream_id":"rulw3wvu"}
+{"time":"2025-03-07T19:14:56.347059582+05:30","level":"INFO","msg":"stream: closed","id":"rulw3wvu"}

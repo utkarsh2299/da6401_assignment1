@@ -1,0 +1,53 @@
+2025-03-05 23:00:06,187 INFO    Thread-148 (_run_job):4144937 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_230006-elxk0xky/logs/debug.log
+2025-03-05 23:00:06,188 INFO    Thread-148 (_run_job):4144937 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_230006-elxk0xky/logs/debug-internal.log
+2025-03-05 23:00:06,188 INFO    Thread-148 (_run_job):4144937 [wandb_init.py:init():761] calling init triggers
+2025-03-05 23:00:06,189 INFO    Thread-148 (_run_job):4144937 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 5, 'hidden_layer_size': 64, 'hidden_layers_count': 3, 'learning_rate': 0.1, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0.005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-05 23:00:06,189 INFO    Thread-148 (_run_job):4144937 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-05 23:00:15,469 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-05 23:00:15,764 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/elxk0xky
+2025-03-05 23:00:15,765 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-05 23:00:15,766 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_restore():2322] restore
+2025-03-05 23:00:15,767 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_restore():2328] restore done
+2025-03-05 23:00:18,827 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-05 23:00:18,829 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-05 23:00:18,830 INFO    Thread-148 (_run_job):4144937 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-05 23:00:20,829 INFO    MsgRouterThr:4144937 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-05 23:00:21,572 INFO    Thread-151 (_run_job):4144937 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-05 23:00:21,573 INFO    Thread-151 (_run_job):4144937 [wandb_setup.py:_flush():67] Configure stats pid to 4144937
+2025-03-05 23:00:21,573 INFO    Thread-151 (_run_job):4144937 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-05 23:00:21,574 INFO    Thread-151 (_run_job):4144937 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-05 23:00:21,575 INFO    Thread-151 (_run_job):4144937 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-05 23:00:21,575 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_230021-wpqc0tse/logs/debug.log
+2025-03-05 23:00:21,576 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_230021-wpqc0tse/logs/debug-internal.log
+2025-03-05 23:00:21,576 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():761] calling init triggers
+2025-03-05 23:00:21,577 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-05 23:00:21,577 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():784] starting backend
+2025-03-05 23:00:21,578 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():788] sending inform_init request
+2025-03-05 23:00:21,579 INFO    Thread-151 (_run_job):4144937 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-05 23:00:21,580 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():798] backend started and connected
+2025-03-05 23:00:21,581 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'he'}
+2025-03-05 23:00:21,583 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():891] updated telemetry
+2025-03-05 23:00:21,588 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-05 23:00:22,180 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():990] starting run threads in backend
+2025-03-05 23:00:22,308 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-05 23:00:22,310 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-05 23:00:22,310 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-05 23:00:22,311 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-05 23:00:22,311 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-05 23:00:22,321 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_230022-wpqc0tse/logs/debug.log
+2025-03-05 23:00:22,321 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250305_230022-wpqc0tse/logs/debug-internal.log
+2025-03-05 23:00:22,322 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():761] calling init triggers
+2025-03-05 23:00:22,322 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 256, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-05 23:00:22,323 INFO    Thread-151 (_run_job):4144937 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-05 23:01:26,636 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-05 23:01:26,927 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/wpqc0tse
+2025-03-05 23:01:26,929 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-05 23:01:26,930 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_restore():2322] restore
+2025-03-05 23:01:26,931 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_restore():2328] restore done
+2025-03-05 23:01:29,945 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-05 23:01:29,947 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-05 23:01:29,947 INFO    Thread-151 (_run_job):4144937 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-05 23:01:30,946 INFO    MsgRouterThr:4144937 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

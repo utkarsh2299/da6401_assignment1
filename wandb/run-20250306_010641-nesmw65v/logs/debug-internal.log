@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:06:41.916446249+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_010641-nesmw65v/logs/debug-core.log"}
+{"time":"2025-03-06T01:06:42.136478961+05:30","level":"INFO","msg":"created new stream","id":"nesmw65v"}
+{"time":"2025-03-06T01:06:42.136527781+05:30","level":"INFO","msg":"stream: started","id":"nesmw65v"}
+{"time":"2025-03-06T01:06:42.136712122+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nesmw65v"}
+{"time":"2025-03-06T01:06:42.136714772+05:30","level":"INFO","msg":"handler: started","stream_id":"nesmw65v"}
+{"time":"2025-03-06T01:06:42.136792883+05:30","level":"INFO","msg":"sender: started","stream_id":"nesmw65v"}
+{"time":"2025-03-06T01:06:42.437909027+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:08:40.767040305+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:08:40.767785708+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:08:41.76876911+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nesmw65v-confusion_matrix_table","runtime_seconds":1.01221145},{"desc":"uploading wandb-summary.json","runtime_seconds":0.698587155,"progress":"1.8KB/1.8KB"},{"desc":"uploading media/table/confusion_matrix_table_13_ab318d83f3bf97303037.table.json","runtime_seconds":0.698572685,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.381848908,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:08:44.642780876+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:08:44.961431496+05:30","level":"INFO","msg":"stream: closing","id":"nesmw65v"}
+{"time":"2025-03-06T01:08:44.961461736+05:30","level":"INFO","msg":"handler: closed","stream_id":"nesmw65v"}
+{"time":"2025-03-06T01:08:44.961481516+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nesmw65v"}
+{"time":"2025-03-06T01:08:44.961611357+05:30","level":"INFO","msg":"sender: closed","stream_id":"nesmw65v"}
+{"time":"2025-03-06T01:08:44.961626727+05:30","level":"INFO","msg":"stream: closed","id":"nesmw65v"}

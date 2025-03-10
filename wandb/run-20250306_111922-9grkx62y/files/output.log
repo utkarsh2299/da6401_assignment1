@@ -1,0 +1,11 @@
+Epoch 1/10 - 1.19s - loss: 0.6227 - acc: 0.7864 - val_loss: 0.4781 - val_acc: 0.8293
+Epoch 2/10 - 1.75s - loss: 0.4761 - acc: 0.8333 - val_loss: 0.4781 - val_acc: 0.8283
+Epoch 3/10 - 1.19s - loss: 0.4533 - acc: 0.8385 - val_loss: 0.5217 - val_acc: 0.8100
+Epoch 4/10 - 1.95s - loss: 0.4353 - acc: 0.8459 - val_loss: 0.4103 - val_acc: 0.8558
+Epoch 5/10 - 1.16s - loss: 0.4293 - acc: 0.8442 - val_loss: 0.4297 - val_acc: 0.8447
+Epoch 6/10 - 1.70s - loss: 0.4245 - acc: 0.8497 - val_loss: 0.4490 - val_acc: 0.8370
+Epoch 7/10 - 1.21s - loss: 0.4175 - acc: 0.8501 - val_loss: 0.5828 - val_acc: 0.7858
+Epoch 8/10 - 1.99s - loss: 0.4158 - acc: 0.8514 - val_loss: 0.4078 - val_acc: 0.8537
+Epoch 9/10 - 1.24s - loss: 0.4140 - acc: 0.8513 - val_loss: 0.4384 - val_acc: 0.8432
+Epoch 10/10 - 1.82s - loss: 0.4116 - acc: 0.8526 - val_loss: 0.4476 - val_acc: 0.8363
+Training completed in 15.21s

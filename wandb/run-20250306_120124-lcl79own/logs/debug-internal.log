@@ -1,0 +1,16 @@
+{"time":"2025-03-06T12:01:24.272421198+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_120124-lcl79own/logs/debug-core.log"}
+{"time":"2025-03-06T12:01:24.487232041+05:30","level":"INFO","msg":"created new stream","id":"lcl79own"}
+{"time":"2025-03-06T12:01:24.488416892+05:30","level":"INFO","msg":"stream: started","id":"lcl79own"}
+{"time":"2025-03-06T12:01:24.488529633+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lcl79own"}
+{"time":"2025-03-06T12:01:24.488711743+05:30","level":"INFO","msg":"handler: started","stream_id":"lcl79own"}
+{"time":"2025-03-06T12:01:24.488740703+05:30","level":"INFO","msg":"sender: started","stream_id":"lcl79own"}
+{"time":"2025-03-06T12:01:24.845090778+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T12:01:47.173442345+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T12:01:47.174020036+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T12:01:48.175320812+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-lcl79own-confusion_matrix_table","runtime_seconds":1.010465997},{"desc":"uploading output.log","runtime_seconds":0.644970046,"progress":"880B/880B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.644966086,"progress":"1.8KB/1.8KB"}],"total_operations":3}}
+{"time":"2025-03-06T12:01:51.321747867+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T12:01:51.674350418+05:30","level":"INFO","msg":"stream: closing","id":"lcl79own"}
+{"time":"2025-03-06T12:01:51.674376688+05:30","level":"INFO","msg":"handler: closed","stream_id":"lcl79own"}
+{"time":"2025-03-06T12:01:51.674410938+05:30","level":"INFO","msg":"sender: closed","stream_id":"lcl79own"}
+{"time":"2025-03-06T12:01:51.674409548+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lcl79own"}
+{"time":"2025-03-06T12:01:51.674594118+05:30","level":"INFO","msg":"stream: closed","id":"lcl79own"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:20:18.657860399+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_012018-mhojp48u/logs/debug-core.log"}
+{"time":"2025-03-06T01:20:18.87259271+05:30","level":"INFO","msg":"created new stream","id":"mhojp48u"}
+{"time":"2025-03-06T01:20:18.87262151+05:30","level":"INFO","msg":"stream: started","id":"mhojp48u"}
+{"time":"2025-03-06T01:20:18.87286262+05:30","level":"INFO","msg":"handler: started","stream_id":"mhojp48u"}
+{"time":"2025-03-06T01:20:18.87292913+05:30","level":"INFO","msg":"sender: started","stream_id":"mhojp48u"}
+{"time":"2025-03-06T01:20:18.8729803+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mhojp48u"}
+{"time":"2025-03-06T01:20:19.165651525+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:21:46.123167972+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:21:46.124610104+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:21:47.124580132+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mhojp48u-confusion_matrix_table","runtime_seconds":1.01096428},{"desc":"uploading media/table/confusion_matrix_table_8_fe48bddcd7b344fc11fe.table.json","runtime_seconds":0.700305045,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.700290485,"progress":"454B/454B"},{"desc":"uploading config.yaml","runtime_seconds":0.278432311,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:21:48.690449537+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:21:49.024063806+05:30","level":"INFO","msg":"stream: closing","id":"mhojp48u"}
+{"time":"2025-03-06T01:21:49.024083156+05:30","level":"INFO","msg":"handler: closed","stream_id":"mhojp48u"}
+{"time":"2025-03-06T01:21:49.024099516+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mhojp48u"}
+{"time":"2025-03-06T01:21:49.024232816+05:30","level":"INFO","msg":"sender: closed","stream_id":"mhojp48u"}
+{"time":"2025-03-06T01:21:49.024243586+05:30","level":"INFO","msg":"stream: closed","id":"mhojp48u"}

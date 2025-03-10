@@ -80,13 +80,13 @@ def main(args: argparse.Namespace):
             
     if args.use_wandb_sweep == "True": 
         wandb.login()
-        print("In if con")
+        # print("In if con")
         # Initialize the sweep
         # sweep_id = wandb.sweep(sweep_config, project="fashion-mnist-hyperparameter-sweep")
         sweep_id = wandb.sweep(sweep_config, project=args.wandb_project)
 
         # Run the sweep
-        wandb.agent(sweep_id, train, count=50)  # Run 50 trials
+        wandb.agent(sweep_id, train, count=100)  # Run 50 trials
         wandb.finish()
         
     else:
@@ -121,17 +121,7 @@ def main(args: argparse.Namespace):
         # Evaluate the model
         test_acc = model.evaluate(X_test, y_test)
         print(f"\nTest accuracy with {args.optimizer}: {test_acc:.4f}")
-        
-        # # Log final test metrics
-        # wandb.log({"test_accuracy": test_acc})
-        
-        # # Make some predictions
-        # sample_indices = np.random.choice(len(X_test), 5)
-        # sample_images = X_test[sample_indices]
-        # sample_labels = y_test[sample_indices]
-        # predictions = model.predict(sample_images)
-
-        
+               
     
         # wandb.finish()
 
@@ -145,7 +135,7 @@ if __name__ == "__main__":
     parser.add_argument("-uw_s", "--use_wandb_sweep", type=str, default="False",
                         help="Set this to 'True' if you want to do the sweep on various hyperparameters in config")
 
-    parser.add_argument("-wp", "--wandb_project", type=str, default="fashion-mnist-hyperparameter-sweep",
+    parser.add_argument("-wp", "--wandb_project", type=str, default="neural-network-fashion-mnist",
                         help="Name of the WandB project where training details will be logged")
 
     parser.add_argument("-we", "--wandb_entity", type=str, default="utkarsh",

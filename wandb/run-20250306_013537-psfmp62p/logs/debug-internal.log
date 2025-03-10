@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:35:37.53634221+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_013537-psfmp62p/logs/debug-core.log"}
+{"time":"2025-03-06T01:35:37.747964245+05:30","level":"INFO","msg":"created new stream","id":"psfmp62p"}
+{"time":"2025-03-06T01:35:37.747995086+05:30","level":"INFO","msg":"stream: started","id":"psfmp62p"}
+{"time":"2025-03-06T01:35:37.748049966+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"psfmp62p"}
+{"time":"2025-03-06T01:35:37.748107977+05:30","level":"INFO","msg":"sender: started","stream_id":"psfmp62p"}
+{"time":"2025-03-06T01:35:37.748059796+05:30","level":"INFO","msg":"handler: started","stream_id":"psfmp62p"}
+{"time":"2025-03-06T01:35:38.266904843+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:35:58.665014412+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:35:58.666027002+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:35:59.667062744+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-psfmp62p-confusion_matrix_table","runtime_seconds":1.020193864},{"desc":"uploading media/table/confusion_matrix_table_13_546a91c50227d6b52099.table.json","runtime_seconds":0.713805354,"progress":"2.9KB/2.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.713787774,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.418566319,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:36:02.453011085+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:36:02.744365762+05:30","level":"INFO","msg":"stream: closing","id":"psfmp62p"}
+{"time":"2025-03-06T01:36:02.744381552+05:30","level":"INFO","msg":"handler: closed","stream_id":"psfmp62p"}
+{"time":"2025-03-06T01:36:02.744395682+05:30","level":"INFO","msg":"sender: closed","stream_id":"psfmp62p"}
+{"time":"2025-03-06T01:36:02.744390602+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"psfmp62p"}
+{"time":"2025-03-06T01:36:02.745552424+05:30","level":"INFO","msg":"stream: closed","id":"psfmp62p"}

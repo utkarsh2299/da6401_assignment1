@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:19:42.124677437+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_001942-jzja29w6/logs/debug-core.log"}
+{"time":"2025-03-06T00:19:42.34324708+05:30","level":"INFO","msg":"created new stream","id":"jzja29w6"}
+{"time":"2025-03-06T00:19:42.343316159+05:30","level":"INFO","msg":"stream: started","id":"jzja29w6"}
+{"time":"2025-03-06T00:19:42.345231011+05:30","level":"INFO","msg":"sender: started","stream_id":"jzja29w6"}
+{"time":"2025-03-06T00:19:42.34530878+05:30","level":"INFO","msg":"handler: started","stream_id":"jzja29w6"}
+{"time":"2025-03-06T00:19:42.345344909+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jzja29w6"}
+{"time":"2025-03-06T00:19:42.707821164+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:20:31.123808015+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:20:31.124793432+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:20:32.125957182+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jzja29w6-confusion_matrix_table","runtime_seconds":1.009229184},{"desc":"uploading media/table/confusion_matrix_table_13_946ffd98c1dff13f8835.table.json","runtime_seconds":0.695826897,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.695813637,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.370818555,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:20:33.755370086+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:20:34.076672533+05:30","level":"INFO","msg":"stream: closing","id":"jzja29w6"}
+{"time":"2025-03-06T00:20:34.076690492+05:30","level":"INFO","msg":"handler: closed","stream_id":"jzja29w6"}
+{"time":"2025-03-06T00:20:34.076702732+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jzja29w6"}
+{"time":"2025-03-06T00:20:34.07687713+05:30","level":"INFO","msg":"sender: closed","stream_id":"jzja29w6"}
+{"time":"2025-03-06T00:20:34.07689157+05:30","level":"INFO","msg":"stream: closed","id":"jzja29w6"}

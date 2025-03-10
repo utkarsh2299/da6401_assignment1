@@ -1,0 +1,17 @@
+{"time":"2025-03-06T12:03:55.248912027+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_120355-ryrejxgr/logs/debug-core.log"}
+{"time":"2025-03-06T12:03:55.460696199+05:30","level":"INFO","msg":"created new stream","id":"ryrejxgr"}
+{"time":"2025-03-06T12:03:55.460746949+05:30","level":"INFO","msg":"stream: started","id":"ryrejxgr"}
+{"time":"2025-03-06T12:03:55.460795299+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ryrejxgr"}
+{"time":"2025-03-06T12:03:55.460789849+05:30","level":"INFO","msg":"handler: started","stream_id":"ryrejxgr"}
+{"time":"2025-03-06T12:03:55.460864769+05:30","level":"INFO","msg":"sender: started","stream_id":"ryrejxgr"}
+{"time":"2025-03-06T12:03:56.002903977+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T12:04:10.008003455+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T12:04:10.008736266+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T12:04:11.010051669+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ryrejxgr-confusion_matrix_table","runtime_seconds":1.0111895},{"desc":"uploading config.yaml","runtime_seconds":0.258529505,"progress":"2.2KB/2.2KB"}],"total_operations":2}}
+{"time":"2025-03-06T12:04:13.060432789+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T12:04:13.421153377+05:30","level":"INFO","msg":"stream: closing","id":"ryrejxgr"}
+{"time":"2025-03-06T12:04:13.421184977+05:30","level":"INFO","msg":"handler: closed","stream_id":"ryrejxgr"}
+{"time":"2025-03-06T12:04:13.421232267+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: context canceled"}
+{"time":"2025-03-06T12:04:13.421228497+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ryrejxgr"}
+{"time":"2025-03-06T12:04:13.421231687+05:30","level":"INFO","msg":"sender: closed","stream_id":"ryrejxgr"}
+{"time":"2025-03-06T12:04:13.421409418+05:30","level":"INFO","msg":"stream: closed","id":"ryrejxgr"}

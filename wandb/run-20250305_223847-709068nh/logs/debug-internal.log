@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:38:47.098277298+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_223847-709068nh/logs/debug-core.log"}
+{"time":"2025-03-05T22:38:47.309626838+05:30","level":"INFO","msg":"created new stream","id":"709068nh"}
+{"time":"2025-03-05T22:38:47.309659148+05:30","level":"INFO","msg":"stream: started","id":"709068nh"}
+{"time":"2025-03-05T22:38:47.309707088+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"709068nh"}
+{"time":"2025-03-05T22:38:47.31004202+05:30","level":"INFO","msg":"handler: started","stream_id":"709068nh"}
+{"time":"2025-03-05T22:38:47.31010661+05:30","level":"INFO","msg":"sender: started","stream_id":"709068nh"}
+{"time":"2025-03-05T22:38:47.664572124+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:39:38.92270046+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:39:38.923395593+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:39:39.923831864+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-709068nh-confusion_matrix_table","runtime_seconds":1.0064458},{"desc":"uploading media/table/confusion_matrix_table_13_fe30f48c7494b88d1f47.table.json","runtime_seconds":0.699026778,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.699023758,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.374270714,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-05T22:39:42.56726028+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:39:42.885849332+05:30","level":"INFO","msg":"stream: closing","id":"709068nh"}
+{"time":"2025-03-05T22:39:42.885865472+05:30","level":"INFO","msg":"handler: closed","stream_id":"709068nh"}
+{"time":"2025-03-05T22:39:42.885876432+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"709068nh"}
+{"time":"2025-03-05T22:39:42.885893192+05:30","level":"INFO","msg":"sender: closed","stream_id":"709068nh"}
+{"time":"2025-03-05T22:39:42.885980782+05:30","level":"INFO","msg":"stream: closed","id":"709068nh"}

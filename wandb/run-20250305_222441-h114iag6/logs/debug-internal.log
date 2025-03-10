@@ -1,0 +1,16 @@
+{"time":"2025-03-05T22:24:41.077372857+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_222441-h114iag6/logs/debug-core.log"}
+{"time":"2025-03-05T22:24:41.287315599+05:30","level":"INFO","msg":"created new stream","id":"h114iag6"}
+{"time":"2025-03-05T22:24:41.287356539+05:30","level":"INFO","msg":"stream: started","id":"h114iag6"}
+{"time":"2025-03-05T22:24:41.287380609+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"h114iag6"}
+{"time":"2025-03-05T22:24:41.287389799+05:30","level":"INFO","msg":"sender: started","stream_id":"h114iag6"}
+{"time":"2025-03-05T22:24:41.287438009+05:30","level":"INFO","msg":"handler: started","stream_id":"h114iag6"}
+{"time":"2025-03-05T22:24:41.632506824+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:25:32.221624203+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:25:32.222319244+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:25:33.22349151+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-h114iag6-confusion_matrix_table","runtime_seconds":1.005864526},{"desc":"uploading output.log","runtime_seconds":0.695811257,"progress":"451B/451B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.695780887,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.407098992,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-05T22:25:35.071782378+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:25:35.372736538+05:30","level":"INFO","msg":"stream: closing","id":"h114iag6"}
+{"time":"2025-03-05T22:25:35.372753718+05:30","level":"INFO","msg":"handler: closed","stream_id":"h114iag6"}
+{"time":"2025-03-05T22:25:35.372767348+05:30","level":"INFO","msg":"sender: closed","stream_id":"h114iag6"}
+{"time":"2025-03-05T22:25:35.372762328+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"h114iag6"}
+{"time":"2025-03-05T22:25:35.372885548+05:30","level":"INFO","msg":"stream: closed","id":"h114iag6"}

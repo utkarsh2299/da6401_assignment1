@@ -1,0 +1,17 @@
+{"time":"2025-03-06T11:35:37.698304343+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_113537-mbvl8s01/logs/debug-core.log"}
+{"time":"2025-03-06T11:35:37.908537052+05:30","level":"INFO","msg":"created new stream","id":"mbvl8s01"}
+{"time":"2025-03-06T11:35:37.908565992+05:30","level":"INFO","msg":"stream: started","id":"mbvl8s01"}
+{"time":"2025-03-06T11:35:37.908598112+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mbvl8s01"}
+{"time":"2025-03-06T11:35:37.908620973+05:30","level":"INFO","msg":"handler: started","stream_id":"mbvl8s01"}
+{"time":"2025-03-06T11:35:37.908715703+05:30","level":"INFO","msg":"sender: started","stream_id":"mbvl8s01"}
+{"time":"2025-03-06T11:35:38.43019301+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:36:04.850197459+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:36:04.850769254+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:36:05.852046811+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mbvl8s01-confusion_matrix_table","runtime_seconds":1.009174251},{"desc":"uploading wandb-summary.json","runtime_seconds":0.646209496,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.289488461,"progress":"2.3KB/2.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T11:36:09.894929289+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:36:10.191217017+05:30","level":"INFO","msg":"stream: closing","id":"mbvl8s01"}
+{"time":"2025-03-06T11:36:10.191248497+05:30","level":"INFO","msg":"handler: closed","stream_id":"mbvl8s01"}
+{"time":"2025-03-06T11:36:10.191260957+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mbvl8s01"}
+{"time":"2025-03-06T11:36:10.191387658+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: api: failed sending: POST https://api.wandb.ai/graphql giving up after 1 attempt(s): context canceled"}
+{"time":"2025-03-06T11:36:10.191398679+05:30","level":"INFO","msg":"sender: closed","stream_id":"mbvl8s01"}
+{"time":"2025-03-06T11:36:10.194050313+05:30","level":"INFO","msg":"stream: closed","id":"mbvl8s01"}

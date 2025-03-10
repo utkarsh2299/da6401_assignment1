@@ -1,0 +1,16 @@
+{"time":"2025-03-06T12:03:22.347654614+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_120322-pwjpa9n9/logs/debug-core.log"}
+{"time":"2025-03-06T12:03:22.558721032+05:30","level":"INFO","msg":"created new stream","id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:22.558762602+05:30","level":"INFO","msg":"stream: started","id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:22.558794482+05:30","level":"INFO","msg":"sender: started","stream_id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:22.558785092+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:22.558833452+05:30","level":"INFO","msg":"handler: started","stream_id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:22.94502354+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T12:03:40.347491956+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T12:03:40.349081329+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T12:03:41.349187342+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pwjpa9n9-confusion_matrix_table","runtime_seconds":1.014037827},{"desc":"uploading media/table/confusion_matrix_table_13_435e69413f5d56357c28.table.json","runtime_seconds":0.661406051,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.323831589,"progress":"2.2KB/2.2KB"}],"total_operations":3}}
+{"time":"2025-03-06T12:03:43.173285624+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T12:03:43.489550203+05:30","level":"INFO","msg":"stream: closing","id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:43.489574393+05:30","level":"INFO","msg":"handler: closed","stream_id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:43.489588313+05:30","level":"INFO","msg":"sender: closed","stream_id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:43.489584153+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pwjpa9n9"}
+{"time":"2025-03-06T12:03:43.489695614+05:30","level":"INFO","msg":"stream: closed","id":"pwjpa9n9"}

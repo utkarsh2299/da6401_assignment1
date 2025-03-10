@@ -1,0 +1,37 @@
+2025-03-07 16:58:26,594 INFO    Thread-112 (_run_job):3887750 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-07 16:58:26,594 INFO    Thread-112 (_run_job):3887750 [wandb_setup.py:_flush():67] Configure stats pid to 3887750
+2025-03-07 16:58:26,595 INFO    Thread-112 (_run_job):3887750 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-07 16:58:26,595 INFO    Thread-112 (_run_job):3887750 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-07 16:58:26,595 INFO    Thread-112 (_run_job):3887750 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-07 16:58:26,596 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250307_165826-io3h6fsq/logs/debug.log
+2025-03-07 16:58:26,596 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250307_165826-io3h6fsq/logs/debug-internal.log
+2025-03-07 16:58:26,597 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():761] calling init triggers
+2025-03-07 16:58:26,597 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'epochs': 40, 'hidden_layer_size': 128, 'hidden_layers_count': 4, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'rmsprop', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-07 16:58:26,597 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():784] starting backend
+2025-03-07 16:58:26,598 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():788] sending inform_init request
+2025-03-07 16:58:26,599 INFO    Thread-112 (_run_job):3887750 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-07 16:58:26,599 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():798] backend started and connected
+2025-03-07 16:58:26,600 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 64, 'epochs': 40, 'hidden_layer_size': 128, 'hidden_layers_count': 4, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'rmsprop', 'weight_decay': 0.0005, 'weight_init': 'he'}
+2025-03-07 16:58:26,602 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():891] updated telemetry
+2025-03-07 16:58:26,607 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-07 16:58:27,171 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():990] starting run threads in backend
+2025-03-07 16:58:27,275 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-07 16:58:27,277 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-07 16:58:27,278 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-07 16:58:27,278 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-07 16:58:27,279 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-07 16:58:27,284 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250307_165827-io3h6fsq/logs/debug.log
+2025-03-07 16:58:27,284 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250307_165827-io3h6fsq/logs/debug-internal.log
+2025-03-07 16:58:27,285 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():761] calling init triggers
+2025-03-07 16:58:27,285 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'epochs': 40, 'hidden_layer_size': 128, 'hidden_layers_count': 4, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'rmsprop', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-07 16:58:27,286 INFO    Thread-112 (_run_job):3887750 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-07 17:00:40,788 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-07 17:00:41,068 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/io3h6fsq
+2025-03-07 17:00:41,069 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-07 17:00:41,069 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_restore():2322] restore
+2025-03-07 17:00:41,070 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_restore():2328] restore done
+2025-03-07 17:00:43,836 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-07 17:00:43,837 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-07 17:00:43,838 INFO    Thread-112 (_run_job):3887750 [wandb_run.py:_footer_sync_info():3917] logging synced files

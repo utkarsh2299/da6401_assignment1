@@ -1,0 +1,17 @@
+{"time":"2025-03-06T11:52:17.694762184+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_115217-8nc2wwo5/logs/debug-core.log"}
+{"time":"2025-03-06T11:52:17.907033849+05:30","level":"INFO","msg":"created new stream","id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:17.907080229+05:30","level":"INFO","msg":"stream: started","id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:17.907118569+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:17.907166999+05:30","level":"INFO","msg":"sender: started","stream_id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:17.907272578+05:30","level":"INFO","msg":"handler: started","stream_id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:18.382152232+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:52:32.209738506+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:52:32.210281104+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:52:33.211825862+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-8nc2wwo5-confusion_matrix_table","runtime_seconds":1.009928073},{"desc":"uploading config.yaml","runtime_seconds":0.290330345,"progress":"2.2KB/2.2KB"}],"total_operations":2}}
+{"time":"2025-03-06T11:52:36.355714487+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:52:36.652983192+05:30","level":"INFO","msg":"stream: closing","id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:36.653003612+05:30","level":"INFO","msg":"handler: closed","stream_id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:36.653013012+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:36.653057412+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: api: failed sending: POST https://api.wandb.ai/graphql giving up after 1 attempt(s): context canceled"}
+{"time":"2025-03-06T11:52:36.653052662+05:30","level":"INFO","msg":"sender: closed","stream_id":"8nc2wwo5"}
+{"time":"2025-03-06T11:52:36.653215442+05:30","level":"INFO","msg":"stream: closed","id":"8nc2wwo5"}

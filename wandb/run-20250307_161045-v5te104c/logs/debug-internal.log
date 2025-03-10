@@ -1,0 +1,16 @@
+{"time":"2025-03-07T16:10:45.372687815+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_161045-v5te104c/logs/debug-core.log"}
+{"time":"2025-03-07T16:10:45.584242409+05:30","level":"INFO","msg":"created new stream","id":"v5te104c"}
+{"time":"2025-03-07T16:10:45.584264469+05:30","level":"INFO","msg":"stream: started","id":"v5te104c"}
+{"time":"2025-03-07T16:10:45.584291379+05:30","level":"INFO","msg":"handler: started","stream_id":"v5te104c"}
+{"time":"2025-03-07T16:10:45.584314279+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v5te104c"}
+{"time":"2025-03-07T16:10:45.58437467+05:30","level":"INFO","msg":"sender: started","stream_id":"v5te104c"}
+{"time":"2025-03-07T16:10:45.918308857+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T16:12:36.426155607+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T16:12:36.426831742+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T16:12:37.428368337+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-v5te104c-confusion_matrix_table","runtime_seconds":1.00761496},{"desc":"uploading output.log","runtime_seconds":0.696303636,"progress":"3.4KB/3.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.696290736,"progress":"3.9KB/3.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.194569962,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T16:12:39.015080353+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T16:12:39.301721841+05:30","level":"INFO","msg":"stream: closing","id":"v5te104c"}
+{"time":"2025-03-07T16:12:39.301740231+05:30","level":"INFO","msg":"handler: closed","stream_id":"v5te104c"}
+{"time":"2025-03-07T16:12:39.301751501+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v5te104c"}
+{"time":"2025-03-07T16:12:39.301759931+05:30","level":"INFO","msg":"sender: closed","stream_id":"v5te104c"}
+{"time":"2025-03-07T16:12:39.301827952+05:30","level":"INFO","msg":"stream: closed","id":"v5te104c"}

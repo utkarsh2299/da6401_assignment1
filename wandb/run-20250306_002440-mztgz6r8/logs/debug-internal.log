@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:24:40.40582717+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_002440-mztgz6r8/logs/debug-core.log"}
+{"time":"2025-03-06T00:24:40.618748325+05:30","level":"INFO","msg":"created new stream","id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:40.618811054+05:30","level":"INFO","msg":"stream: started","id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:40.618843014+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:40.618873833+05:30","level":"INFO","msg":"sender: started","stream_id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:40.618885393+05:30","level":"INFO","msg":"handler: started","stream_id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:40.961427331+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:24:54.839556389+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:24:54.840302663+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:24:55.841447193+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mztgz6r8-confusion_matrix_table","runtime_seconds":1.00914641},{"desc":"uploading media/table/confusion_matrix_table_13_483038b8ff968ab1a88c.table.json","runtime_seconds":0.701018257,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.701000787,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.378542407,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:24:57.348290742+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:24:57.628567186+05:30","level":"INFO","msg":"stream: closing","id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:57.628583776+05:30","level":"INFO","msg":"handler: closed","stream_id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:57.628602186+05:30","level":"INFO","msg":"sender: closed","stream_id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:57.628595896+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mztgz6r8"}
+{"time":"2025-03-06T00:24:57.628703785+05:30","level":"INFO","msg":"stream: closed","id":"mztgz6r8"}

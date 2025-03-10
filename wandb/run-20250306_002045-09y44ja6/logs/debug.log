@@ -1,0 +1,37 @@
+2025-03-06 00:20:45,819 INFO    Thread-52 (_run_job):161270 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-06 00:20:45,819 INFO    Thread-52 (_run_job):161270 [wandb_setup.py:_flush():67] Configure stats pid to 161270
+2025-03-06 00:20:45,820 INFO    Thread-52 (_run_job):161270 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-06 00:20:45,820 INFO    Thread-52 (_run_job):161270 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-06 00:20:45,820 INFO    Thread-52 (_run_job):161270 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-06 00:20:45,820 INFO    Thread-52 (_run_job):161270 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250306_002045-09y44ja6/logs/debug.log
+2025-03-06 00:20:45,821 INFO    Thread-52 (_run_job):161270 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250306_002045-09y44ja6/logs/debug-internal.log
+2025-03-06 00:20:45,821 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():761] calling init triggers
+2025-03-06 00:20:45,821 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 128, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'nadam', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-06 00:20:45,822 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():784] starting backend
+2025-03-06 00:20:45,822 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():788] sending inform_init request
+2025-03-06 00:20:45,823 INFO    Thread-52 (_run_job):161270 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-06 00:20:45,823 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():798] backend started and connected
+2025-03-06 00:20:45,824 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 128, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'nadam', 'weight_decay': 0.0005, 'weight_init': 'he'}
+2025-03-06 00:20:45,826 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():891] updated telemetry
+2025-03-06 00:20:45,832 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-06 00:20:46,340 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():990] starting run threads in backend
+2025-03-06 00:20:46,458 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-06 00:20:46,459 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-06 00:20:46,459 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-06 00:20:46,459 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-06 00:20:46,460 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-06 00:20:46,466 INFO    Thread-52 (_run_job):161270 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250306_002046-09y44ja6/logs/debug.log
+2025-03-06 00:20:46,466 INFO    Thread-52 (_run_job):161270 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250306_002046-09y44ja6/logs/debug-internal.log
+2025-03-06 00:20:46,467 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():761] calling init triggers
+2025-03-06 00:20:46,467 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 128, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'nadam', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-06 00:20:46,467 INFO    Thread-52 (_run_job):161270 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-06 00:21:33,287 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-06 00:21:33,577 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/09y44ja6
+2025-03-06 00:21:33,578 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-06 00:21:33,578 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_restore():2322] restore
+2025-03-06 00:21:33,579 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_restore():2328] restore done
+2025-03-06 00:21:36,623 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-06 00:21:36,623 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-06 00:21:36,624 INFO    Thread-52 (_run_job):161270 [wandb_run.py:_footer_sync_info():3917] logging synced files

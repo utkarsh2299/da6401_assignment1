@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:21:38.372220985+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_002138-u01t91cu/logs/debug-core.log"}
+{"time":"2025-03-06T00:21:38.586403832+05:30","level":"INFO","msg":"created new stream","id":"u01t91cu"}
+{"time":"2025-03-06T00:21:38.586442281+05:30","level":"INFO","msg":"stream: started","id":"u01t91cu"}
+{"time":"2025-03-06T00:21:38.58649787+05:30","level":"INFO","msg":"sender: started","stream_id":"u01t91cu"}
+{"time":"2025-03-06T00:21:38.586475441+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"u01t91cu"}
+{"time":"2025-03-06T00:21:38.58649347+05:30","level":"INFO","msg":"handler: started","stream_id":"u01t91cu"}
+{"time":"2025-03-06T00:21:38.920907299+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:22:10.802567785+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:22:10.803298037+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:22:11.804434786+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-u01t91cu-confusion_matrix_table","runtime_seconds":1.007867033},{"desc":"uploading media/table/confusion_matrix_table_13_65c14fde7f2ab1d37553.table.json","runtime_seconds":0.696570697,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.696558257,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.427073687,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:22:14.532060261+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:22:14.84763039+05:30","level":"INFO","msg":"stream: closing","id":"u01t91cu"}
+{"time":"2025-03-06T00:22:14.84765373+05:30","level":"INFO","msg":"handler: closed","stream_id":"u01t91cu"}
+{"time":"2025-03-06T00:22:14.84766784+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"u01t91cu"}
+{"time":"2025-03-06T00:22:14.8476773+05:30","level":"INFO","msg":"sender: closed","stream_id":"u01t91cu"}
+{"time":"2025-03-06T00:22:14.847804448+05:30","level":"INFO","msg":"stream: closed","id":"u01t91cu"}

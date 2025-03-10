@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:34:47.066287037+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_003447-fk2pwrk2/logs/debug-core.log"}
+{"time":"2025-03-06T00:34:47.27622178+05:30","level":"INFO","msg":"created new stream","id":"fk2pwrk2"}
+{"time":"2025-03-06T00:34:47.27626168+05:30","level":"INFO","msg":"stream: started","id":"fk2pwrk2"}
+{"time":"2025-03-06T00:34:47.2763171+05:30","level":"INFO","msg":"handler: started","stream_id":"fk2pwrk2"}
+{"time":"2025-03-06T00:34:47.276336779+05:30","level":"INFO","msg":"sender: started","stream_id":"fk2pwrk2"}
+{"time":"2025-03-06T00:34:47.276350549+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fk2pwrk2"}
+{"time":"2025-03-06T00:34:47.57553668+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:35:30.781355493+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:35:30.78211718+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:35:31.783060082+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fk2pwrk2-confusion_matrix_table","runtime_seconds":1.010831094},{"desc":"uploading media/table/confusion_matrix_table_8_d2da4d0d0dbacddc7e40.table.json","runtime_seconds":0.703569532,"progress":"2.9KB/2.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.703545492,"progress":"1.4KB/1.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.401058091,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:35:33.38748186+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:35:33.934496256+05:30","level":"INFO","msg":"stream: closing","id":"fk2pwrk2"}
+{"time":"2025-03-06T00:35:33.934513486+05:30","level":"INFO","msg":"handler: closed","stream_id":"fk2pwrk2"}
+{"time":"2025-03-06T00:35:33.934521906+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fk2pwrk2"}
+{"time":"2025-03-06T00:35:33.934538096+05:30","level":"INFO","msg":"sender: closed","stream_id":"fk2pwrk2"}
+{"time":"2025-03-06T00:35:33.934606936+05:30","level":"INFO","msg":"stream: closed","id":"fk2pwrk2"}

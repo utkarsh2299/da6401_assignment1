@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:57:22.611481609+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_005722-t1kdydu8/logs/debug-core.log"}
+{"time":"2025-03-06T00:57:22.824772151+05:30","level":"INFO","msg":"created new stream","id":"t1kdydu8"}
+{"time":"2025-03-06T00:57:22.824992324+05:30","level":"INFO","msg":"stream: started","id":"t1kdydu8"}
+{"time":"2025-03-06T00:57:22.825051015+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t1kdydu8"}
+{"time":"2025-03-06T00:57:22.825077885+05:30","level":"INFO","msg":"handler: started","stream_id":"t1kdydu8"}
+{"time":"2025-03-06T00:57:22.825116195+05:30","level":"INFO","msg":"sender: started","stream_id":"t1kdydu8"}
+{"time":"2025-03-06T00:57:23.141119877+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:58:11.680227018+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:58:11.680890186+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:58:12.682096134+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-t1kdydu8-confusion_matrix_table","runtime_seconds":1.006407199},{"desc":"uploading media/table/confusion_matrix_table_8_54f59e9a5169578679fe.table.json","runtime_seconds":0.702389758,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.702369248,"progress":"450B/450B"},{"desc":"uploading config.yaml","runtime_seconds":0.362187745,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T00:58:15.499951442+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:58:15.861046494+05:30","level":"INFO","msg":"stream: closing","id":"t1kdydu8"}
+{"time":"2025-03-06T00:58:15.861067394+05:30","level":"INFO","msg":"handler: closed","stream_id":"t1kdydu8"}
+{"time":"2025-03-06T00:58:15.861078835+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t1kdydu8"}
+{"time":"2025-03-06T00:58:15.861144525+05:30","level":"INFO","msg":"sender: closed","stream_id":"t1kdydu8"}
+{"time":"2025-03-06T00:58:15.861215126+05:30","level":"INFO","msg":"stream: closed","id":"t1kdydu8"}

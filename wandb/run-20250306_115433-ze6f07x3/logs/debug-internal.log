@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:54:33.551937848+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_115433-ze6f07x3/logs/debug-core.log"}
+{"time":"2025-03-06T11:54:33.763886119+05:30","level":"INFO","msg":"created new stream","id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:33.763910989+05:30","level":"INFO","msg":"stream: started","id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:33.763985259+05:30","level":"INFO","msg":"handler: started","stream_id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:33.763995339+05:30","level":"INFO","msg":"sender: started","stream_id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:33.764000299+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:34.102306673+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:54:49.088311897+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:54:49.089066486+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:54:50.089750104+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ze6f07x3-confusion_matrix_table","runtime_seconds":1.009274645},{"desc":"uploading history steps 0-8, summary, console lines 0-5","runtime_seconds":0.276781058}],"total_operations":2}}
+{"time":"2025-03-06T11:54:51.763204192+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:54:52.144981301+05:30","level":"INFO","msg":"stream: closing","id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:52.145015161+05:30","level":"INFO","msg":"handler: closed","stream_id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:52.145024641+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:52.145095001+05:30","level":"INFO","msg":"sender: closed","stream_id":"ze6f07x3"}
+{"time":"2025-03-06T11:54:52.145161791+05:30","level":"INFO","msg":"stream: closed","id":"ze6f07x3"}

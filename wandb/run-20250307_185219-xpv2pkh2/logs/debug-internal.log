@@ -1,0 +1,16 @@
+{"time":"2025-03-07T18:52:19.174971655+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_185219-xpv2pkh2/logs/debug-core.log"}
+{"time":"2025-03-07T18:52:19.38623509+05:30","level":"INFO","msg":"created new stream","id":"xpv2pkh2"}
+{"time":"2025-03-07T18:52:19.386266299+05:30","level":"INFO","msg":"stream: started","id":"xpv2pkh2"}
+{"time":"2025-03-07T18:52:19.386285259+05:30","level":"INFO","msg":"handler: started","stream_id":"xpv2pkh2"}
+{"time":"2025-03-07T18:52:19.386292429+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xpv2pkh2"}
+{"time":"2025-03-07T18:52:19.386413438+05:30","level":"INFO","msg":"sender: started","stream_id":"xpv2pkh2"}
+{"time":"2025-03-07T18:52:19.784651316+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T18:57:09.69687527+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T18:57:09.697580536+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T18:57:10.699255241+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xpv2pkh2-confusion_matrix_table","runtime_seconds":1.018953251},{"desc":"uploading wandb-summary.json","runtime_seconds":0.706842317,"progress":"3.8KB/3.8KB"},{"desc":"uploading output.log","runtime_seconds":0.706827347,"progress":"3.4KB/3.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.399404287,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T18:57:12.38252739+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T18:57:12.710958434+05:30","level":"INFO","msg":"stream: closing","id":"xpv2pkh2"}
+{"time":"2025-03-07T18:57:12.710977354+05:30","level":"INFO","msg":"handler: closed","stream_id":"xpv2pkh2"}
+{"time":"2025-03-07T18:57:12.710987064+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xpv2pkh2"}
+{"time":"2025-03-07T18:57:12.710996253+05:30","level":"INFO","msg":"sender: closed","stream_id":"xpv2pkh2"}
+{"time":"2025-03-07T18:57:12.711084423+05:30","level":"INFO","msg":"stream: closed","id":"xpv2pkh2"}

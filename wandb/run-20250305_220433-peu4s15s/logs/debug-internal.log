@@ -1,0 +1,17 @@
+{"time":"2025-03-05T22:04:33.56337483+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250305_220433-peu4s15s/logs/debug-core.log"}
+{"time":"2025-03-05T22:04:33.776115269+05:30","level":"INFO","msg":"created new stream","id":"peu4s15s"}
+{"time":"2025-03-05T22:04:33.77615817+05:30","level":"INFO","msg":"stream: started","id":"peu4s15s"}
+{"time":"2025-03-05T22:04:33.77638885+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"peu4s15s"}
+{"time":"2025-03-05T22:04:33.77643698+05:30","level":"INFO","msg":"sender: started","stream_id":"peu4s15s"}
+{"time":"2025-03-05T22:04:33.776552131+05:30","level":"INFO","msg":"handler: started","stream_id":"peu4s15s"}
+{"time":"2025-03-05T22:04:34.248341801+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T22:04:58.542973564+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T22:04:58.543617426+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T22:04:59.546431517+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-peu4s15s-confusion_matrix_table","runtime_seconds":1.5446338179999999},{"desc":"uploading wandb-summary.json","runtime_seconds":0.696377501,"progress":"1.2KB/1.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.39663887,"progress":"2.3KB/2.3KB"}],"total_operations":3}}
+{"time":"2025-03-05T22:05:01.520522709+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T22:05:01.849050394+05:30","level":"INFO","msg":"stream: closing","id":"peu4s15s"}
+{"time":"2025-03-05T22:05:01.849075164+05:30","level":"INFO","msg":"handler: closed","stream_id":"peu4s15s"}
+{"time":"2025-03-05T22:05:01.849083854+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"peu4s15s"}
+{"time":"2025-03-05T22:05:01.849124434+05:30","level":"INFO","msg":"sender: closed","stream_id":"peu4s15s"}
+{"time":"2025-03-05T22:05:01.849161224+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: api: failed sending: POST https://api.wandb.ai/graphql giving up after 1 attempt(s): context canceled"}
+{"time":"2025-03-05T22:05:01.849177904+05:30","level":"INFO","msg":"stream: closed","id":"peu4s15s"}

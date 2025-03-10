@@ -1,0 +1,16 @@
+{"time":"2025-03-06T01:08:49.71936453+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_010849-zbjsemk5/logs/debug-core.log"}
+{"time":"2025-03-06T01:08:49.932178359+05:30","level":"INFO","msg":"created new stream","id":"zbjsemk5"}
+{"time":"2025-03-06T01:08:49.932215439+05:30","level":"INFO","msg":"stream: started","id":"zbjsemk5"}
+{"time":"2025-03-06T01:08:49.93226242+05:30","level":"INFO","msg":"sender: started","stream_id":"zbjsemk5"}
+{"time":"2025-03-06T01:08:49.93233841+05:30","level":"INFO","msg":"handler: started","stream_id":"zbjsemk5"}
+{"time":"2025-03-06T01:08:49.93225618+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zbjsemk5"}
+{"time":"2025-03-06T01:08:50.278454696+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T01:09:52.055362308+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T01:09:52.056397422+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T01:09:53.058326959+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zbjsemk5-confusion_matrix_table","runtime_seconds":1.011890197},{"desc":"uploading media/table/confusion_matrix_table_13_b31691090d68f7f9ad23.table.json","runtime_seconds":0.70497979,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.70497155,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.425777983,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T01:09:56.014232305+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T01:09:56.312907733+05:30","level":"INFO","msg":"stream: closing","id":"zbjsemk5"}
+{"time":"2025-03-06T01:09:56.312927753+05:30","level":"INFO","msg":"handler: closed","stream_id":"zbjsemk5"}
+{"time":"2025-03-06T01:09:56.312940443+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zbjsemk5"}
+{"time":"2025-03-06T01:09:56.313011243+05:30","level":"INFO","msg":"sender: closed","stream_id":"zbjsemk5"}
+{"time":"2025-03-06T01:09:56.313062783+05:30","level":"INFO","msg":"stream: closed","id":"zbjsemk5"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T00:14:15.862140054+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_001415-39dog8xv/logs/debug-core.log"}
+{"time":"2025-03-06T00:14:16.076117267+05:30","level":"INFO","msg":"created new stream","id":"39dog8xv"}
+{"time":"2025-03-06T00:14:16.076155458+05:30","level":"INFO","msg":"stream: started","id":"39dog8xv"}
+{"time":"2025-03-06T00:14:16.079037043+05:30","level":"INFO","msg":"handler: started","stream_id":"39dog8xv"}
+{"time":"2025-03-06T00:14:16.079188223+05:30","level":"INFO","msg":"sender: started","stream_id":"39dog8xv"}
+{"time":"2025-03-06T00:14:16.079201403+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"39dog8xv"}
+{"time":"2025-03-06T00:14:16.39360317+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T00:14:48.356361064+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T00:14:48.356890285+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T00:14:49.358064283+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-39dog8xv-confusion_matrix_table","runtime_seconds":1.007214598}],"total_operations":1}}
+{"time":"2025-03-06T00:14:52.037578946+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T00:14:52.336784399+05:30","level":"INFO","msg":"stream: closing","id":"39dog8xv"}
+{"time":"2025-03-06T00:14:52.336805359+05:30","level":"INFO","msg":"handler: closed","stream_id":"39dog8xv"}
+{"time":"2025-03-06T00:14:52.336832409+05:30","level":"INFO","msg":"sender: closed","stream_id":"39dog8xv"}
+{"time":"2025-03-06T00:14:52.336827379+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"39dog8xv"}
+{"time":"2025-03-06T00:14:52.336932719+05:30","level":"INFO","msg":"stream: closed","id":"39dog8xv"}

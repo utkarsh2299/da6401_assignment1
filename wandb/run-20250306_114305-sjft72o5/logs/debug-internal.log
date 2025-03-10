@@ -1,0 +1,17 @@
+{"time":"2025-03-06T11:43:05.722103189+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_114305-sjft72o5/logs/debug-core.log"}
+{"time":"2025-03-06T11:43:05.934208447+05:30","level":"INFO","msg":"created new stream","id":"sjft72o5"}
+{"time":"2025-03-06T11:43:05.934250766+05:30","level":"INFO","msg":"stream: started","id":"sjft72o5"}
+{"time":"2025-03-06T11:43:05.934306315+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sjft72o5"}
+{"time":"2025-03-06T11:43:05.934316235+05:30","level":"INFO","msg":"sender: started","stream_id":"sjft72o5"}
+{"time":"2025-03-06T11:43:05.934404834+05:30","level":"INFO","msg":"handler: started","stream_id":"sjft72o5"}
+{"time":"2025-03-06T11:43:06.422723012+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:43:22.583936691+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:43:22.584696019+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:43:23.585657171+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-sjft72o5-confusion_matrix_table","runtime_seconds":1.009094757},{"desc":"uploading wandb-summary.json","runtime_seconds":0.644606119,"progress":"1.4KB/1.4KB"},{"desc":"uploading media/table/confusion_matrix_table_8_b8fe2c3c56d3735d2981.table.json","runtime_seconds":0.644587189,"progress":"2.9KB/2.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.311156136,"progress":"2.2KB/2.2KB"}],"total_operations":4}}
+{"time":"2025-03-06T11:43:25.790815636+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:43:26.102050807+05:30","level":"INFO","msg":"stream: closing","id":"sjft72o5"}
+{"time":"2025-03-06T11:43:26.102070457+05:30","level":"INFO","msg":"handler: closed","stream_id":"sjft72o5"}
+{"time":"2025-03-06T11:43:26.102082046+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sjft72o5"}
+{"time":"2025-03-06T11:43:26.102122006+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: api: failed sending: POST https://api.wandb.ai/graphql giving up after 1 attempt(s): context canceled"}
+{"time":"2025-03-06T11:43:26.102121276+05:30","level":"INFO","msg":"sender: closed","stream_id":"sjft72o5"}
+{"time":"2025-03-06T11:43:26.103738781+05:30","level":"INFO","msg":"stream: closed","id":"sjft72o5"}

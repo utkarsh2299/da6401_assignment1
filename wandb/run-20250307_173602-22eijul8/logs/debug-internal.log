@@ -1,0 +1,16 @@
+{"time":"2025-03-07T17:36:02.526714033+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_173602-22eijul8/logs/debug-core.log"}
+{"time":"2025-03-07T17:36:02.740038306+05:30","level":"INFO","msg":"created new stream","id":"22eijul8"}
+{"time":"2025-03-07T17:36:02.740074987+05:30","level":"INFO","msg":"stream: started","id":"22eijul8"}
+{"time":"2025-03-07T17:36:02.740122347+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"22eijul8"}
+{"time":"2025-03-07T17:36:02.740174518+05:30","level":"INFO","msg":"sender: started","stream_id":"22eijul8"}
+{"time":"2025-03-07T17:36:02.740140328+05:30","level":"INFO","msg":"handler: started","stream_id":"22eijul8"}
+{"time":"2025-03-07T17:36:03.049727066+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T17:39:32.107814155+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T17:39:32.108499222+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T17:39:33.109803807+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-22eijul8-confusion_matrix_table","runtime_seconds":1.010224461},{"desc":"uploading media/table/confusion_matrix_table_43_44311566a395e917ab87.table.json","runtime_seconds":0.69198988,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.69197097,"progress":"3.4KB/3.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.389632911,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T17:39:34.670784097+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T17:39:34.969367925+05:30","level":"INFO","msg":"stream: closing","id":"22eijul8"}
+{"time":"2025-03-07T17:39:34.969425085+05:30","level":"INFO","msg":"handler: closed","stream_id":"22eijul8"}
+{"time":"2025-03-07T17:39:34.969448226+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"22eijul8"}
+{"time":"2025-03-07T17:39:34.969485396+05:30","level":"INFO","msg":"sender: closed","stream_id":"22eijul8"}
+{"time":"2025-03-07T17:39:34.969605227+05:30","level":"INFO","msg":"stream: closed","id":"22eijul8"}

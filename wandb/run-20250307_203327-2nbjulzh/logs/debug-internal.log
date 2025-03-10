@@ -1,0 +1,16 @@
+{"time":"2025-03-07T20:33:27.220948965+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250307_203327-2nbjulzh/logs/debug-core.log"}
+{"time":"2025-03-07T20:33:27.432439263+05:30","level":"INFO","msg":"created new stream","id":"2nbjulzh"}
+{"time":"2025-03-07T20:33:27.432485972+05:30","level":"INFO","msg":"stream: started","id":"2nbjulzh"}
+{"time":"2025-03-07T20:33:27.432509801+05:30","level":"INFO","msg":"sender: started","stream_id":"2nbjulzh"}
+{"time":"2025-03-07T20:33:27.432505652+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2nbjulzh"}
+{"time":"2025-03-07T20:33:27.432527201+05:30","level":"INFO","msg":"handler: started","stream_id":"2nbjulzh"}
+{"time":"2025-03-07T20:33:27.786581785+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T20:35:28.504390126+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T20:35:28.505783849+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T20:35:29.506326994+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-2nbjulzh-confusion_matrix_table","runtime_seconds":1.000727833},{"desc":"uploading media/table/confusion_matrix_table_43_a3baee1bdb510c6a6b08.table.json","runtime_seconds":0.691927252,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.691911733,"progress":"3.4KB/3.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.360616268,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-07T20:35:31.243125088+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T20:35:31.566544271+05:30","level":"INFO","msg":"stream: closing","id":"2nbjulzh"}
+{"time":"2025-03-07T20:35:31.566563241+05:30","level":"INFO","msg":"handler: closed","stream_id":"2nbjulzh"}
+{"time":"2025-03-07T20:35:31.566572721+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2nbjulzh"}
+{"time":"2025-03-07T20:35:31.566578241+05:30","level":"INFO","msg":"sender: closed","stream_id":"2nbjulzh"}
+{"time":"2025-03-07T20:35:31.56665249+05:30","level":"INFO","msg":"stream: closed","id":"2nbjulzh"}

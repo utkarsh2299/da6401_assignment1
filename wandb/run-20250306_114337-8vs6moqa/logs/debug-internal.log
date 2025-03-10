@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:43:37.939719361+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_114337-8vs6moqa/logs/debug-core.log"}
+{"time":"2025-03-06T11:43:38.153801663+05:30","level":"INFO","msg":"created new stream","id":"8vs6moqa"}
+{"time":"2025-03-06T11:43:38.153860483+05:30","level":"INFO","msg":"stream: started","id":"8vs6moqa"}
+{"time":"2025-03-06T11:43:38.153877932+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"8vs6moqa"}
+{"time":"2025-03-06T11:43:38.153906132+05:30","level":"INFO","msg":"handler: started","stream_id":"8vs6moqa"}
+{"time":"2025-03-06T11:43:38.153921772+05:30","level":"INFO","msg":"sender: started","stream_id":"8vs6moqa"}
+{"time":"2025-03-06T11:43:38.522419641+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:44:00.664587939+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:44:00.665315349+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:44:01.667053812+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-8vs6moqa-confusion_matrix_table","runtime_seconds":1.012790399},{"desc":"uploading media/table/confusion_matrix_table_13_bb1efe21bc7a3d5a5219.table.json","runtime_seconds":0.667548203,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.667533884,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.351276713,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T11:44:03.436002514+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:44:03.763277894+05:30","level":"INFO","msg":"stream: closing","id":"8vs6moqa"}
+{"time":"2025-03-06T11:44:03.763311993+05:30","level":"INFO","msg":"handler: closed","stream_id":"8vs6moqa"}
+{"time":"2025-03-06T11:44:03.763328013+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"8vs6moqa"}
+{"time":"2025-03-06T11:44:03.763343253+05:30","level":"INFO","msg":"sender: closed","stream_id":"8vs6moqa"}
+{"time":"2025-03-06T11:44:03.763435322+05:30","level":"INFO","msg":"stream: closed","id":"8vs6moqa"}

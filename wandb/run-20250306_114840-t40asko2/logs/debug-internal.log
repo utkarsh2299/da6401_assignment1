@@ -1,0 +1,16 @@
+{"time":"2025-03-06T11:48:40.749140156+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250306_114840-t40asko2/logs/debug-core.log"}
+{"time":"2025-03-06T11:48:40.959318277+05:30","level":"INFO","msg":"created new stream","id":"t40asko2"}
+{"time":"2025-03-06T11:48:40.959355577+05:30","level":"INFO","msg":"stream: started","id":"t40asko2"}
+{"time":"2025-03-06T11:48:40.959427846+05:30","level":"INFO","msg":"sender: started","stream_id":"t40asko2"}
+{"time":"2025-03-06T11:48:40.959420346+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t40asko2"}
+{"time":"2025-03-06T11:48:40.959603925+05:30","level":"INFO","msg":"handler: started","stream_id":"t40asko2"}
+{"time":"2025-03-06T11:48:41.353212604+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T11:49:07.299646325+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T11:49:07.300219452+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T11:49:08.3017886+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-t40asko2-confusion_matrix_table","runtime_seconds":1.008880903},{"desc":"uploading media/table/confusion_matrix_table_13_b4124fb9f7aa2eabcf1f.table.json","runtime_seconds":0.700139248,"progress":"2.9KB/2.9KB"},{"desc":"uploading output.log","runtime_seconds":0.700123678,"progress":"880B/880B"},{"desc":"uploading config.yaml","runtime_seconds":0.416700218,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T11:49:09.964197926+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T11:49:10.358108189+05:30","level":"INFO","msg":"stream: closing","id":"t40asko2"}
+{"time":"2025-03-06T11:49:10.358130539+05:30","level":"INFO","msg":"handler: closed","stream_id":"t40asko2"}
+{"time":"2025-03-06T11:49:10.358142939+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t40asko2"}
+{"time":"2025-03-06T11:49:10.358152969+05:30","level":"INFO","msg":"sender: closed","stream_id":"t40asko2"}
+{"time":"2025-03-06T11:49:10.358254678+05:30","level":"INFO","msg":"stream: closed","id":"t40asko2"}

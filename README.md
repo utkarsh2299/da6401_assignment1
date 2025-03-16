@@ -1,4 +1,4 @@
-# Neural Network Training for Fashion-MNIST
+# Neural Network Training for Fashion-MNIST | DA6401 Assignment 1 | Introduction to Deep Learning
 
 ## Overview
 This repository provides a neural network training framework for the Fashion-MNIST dataset, with support for various hyperparameter configurations, optimizer choices, weight initializations, and logging with Weights & Biases (WandB). The training script allows users to fine-tune models through command-line arguments.
@@ -45,7 +45,7 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 #### **Training Parameters**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-e`, `--epochs` | int | 1 | Number of training epochs. |
+| `-e`, `--epochs` | int | 5 | Number of training epochs. |
 | `-b`, `--batch_size` | int | 4 | Number of samples per training batch. |
 
 #### **Loss Function**
@@ -77,15 +77,15 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 #### **Network Architecture**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-n_hl`, `--hidden_layers_count` | int | 1 | Number of hidden layers. |
+| `-n_hl`, `--hidden_layers_count` | int | 2 | Number of hidden layers. |
 | `-sz`, `--hidden_layer_size` | int | 4 | Number of neurons per hidden layer. |
 
 #### **Activation Function**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-a`, `--activation` | str | "sigmoid" | Activation function. Options: `identity`, `sigmoid`, `tanh`, `ReLU`. |
+| `-a`, `--activation` | str | "sigmoid" | Activation function. Options: `sigmoid`, `tanh`, `ReLU`. |
 
-## Example Commands
+## Example Commands to try:
 
 ### Train with Adam Optimizer and ReLU Activation
 ```bash
@@ -99,7 +99,9 @@ python train_nn.py --epochs 30 --batch_size 32 --optimizer momentum --momentum 0
 
 ### Train Using WandB and WandB Sweeps for Experiment Tracking
 ```bash
-python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_project" --wandb_entity "my_username"
+python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_nn_project" --wandb_entity "musername"
 ```
+---
 
+**Work done for the course `Introduction to Deep Learning`. Please raise an issue if the code doesn't work propely for any case.**
 

@@ -1,4 +1,4 @@
-# Neural Network Training for Fashion-MNIST
+# Neural Network Training for Fashion-MNIST | DA6401 Assignment 1 | Introduction to Deep Learning
 
 ## Overview
 This repository provides a neural network training framework for the Fashion-MNIST dataset, with support for various hyperparameter configurations, optimizer choices, weight initializations, and logging with Weights & Biases (WandB). The training script allows users to fine-tune models through command-line arguments.
@@ -101,6 +101,7 @@ python train_nn.py --epochs 30 --batch_size 32 --optimizer momentum --momentum 0
 ```bash
 python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_nn_project" --wandb_entity "musername"
 ```
+---
 
 **Work done for the course `Introduction to Deep Learning`. Please raise an issue if the code doesn't work propely for any case.**
 

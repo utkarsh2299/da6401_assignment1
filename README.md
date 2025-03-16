@@ -85,7 +85,7 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 |----------|------|---------|-------------|
 | `-a`, `--activation` | str | "sigmoid" | Activation function. Options: `sigmoid`, `tanh`, `ReLU`. |
 
-## Example Commands
+## Example Commands to try:
 
 ### Train with Adam Optimizer and ReLU Activation
 ```bash
@@ -102,4 +102,5 @@ python train_nn.py --epochs 30 --batch_size 32 --optimizer momentum --momentum 0
 python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_nn_project" --wandb_entity "musername"
 ```
 
+**Work done for the course `Introduction to Deep Learning`. Please raise an issue if the code doesn't work propely for any case.**
 

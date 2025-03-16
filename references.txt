@@ -1,5 +1,5 @@
-https://docs.wandb.ai/guides/sweeps/sweep-config-keys/
-
-Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W&B.ipynb :: https://colab.research.google.com/github/wandb/examples/blob/master/colabs/pytorch/Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W%26B.ipynb#scrollTo=_gLTrexkdUfL
-
-https://wandb.ai/wandb/plots/reports/Confusion-Matrix-Usage-and-Examples--VmlldzozMDg1NTM
+Weights & Biases Documentation: 
+    1. https://docs.wandb.ai/guides/sweeps/sweep-config-keys/
+    2. https://docs.wandb.ai/tutorials/sweeps/
+    3. Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W&B.ipynb :: https://colab.research.google.com/github/wandb/examples/blob/master/colabs/pytorch/Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W%26B.ipynb#scrollTo=_gLTrexkdUfL
+    4. https://wandb.ai/wandb/plots/reports/Confusion-Matrix-Usage-and-Examples--VmlldzozMDg1NTM

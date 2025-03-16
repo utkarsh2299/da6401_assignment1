@@ -13,7 +13,7 @@ class CrossEntropyLoss:
         Returns:
         - Cross-entropy loss value
         """
-        loss = -np.sum(y_true * np.log(y_pred + 1e-10)) / X_batch.shape[0]
+        loss = -np.sum(y_true * np.log(y_pred + 1e-10)) / X_batch.shape[0] #Add 1e-10 to prevent log of zero
         return loss
 
 class MeanSquaredError:

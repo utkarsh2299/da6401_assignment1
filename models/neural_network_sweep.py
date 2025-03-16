@@ -2,7 +2,7 @@ import numpy as np
 import time
 import wandb
 from utils.activations import get_activation_function, get_activation_derivative
-from utils.losses import get_loss_function, CrossEntropyLoss, MeanSquaredError, BinaryCrossEntropy
+from utils.losses import get_loss_function
 
 class FeedforwardNeuralNetwork:
     def __init__(self, input_size, hidden_layers, output_size, activation='relu', weight_init='xavier', weight_decay=0, loss="cross_entropy_loss", learning_rate=0.001, beta1=0.9, beta2=0.999, epsilon=1e-8, decay_rate=0.5):
@@ -129,7 +129,7 @@ class FeedforwardNeuralNetwork:
         a = self.activation_fn(z)
         activations.append(a)
         
-        # Hidden layers
+        # Hiddens layers
         for i in range(1, len(self.hidden_layers)):
             z = np.dot(activations[-1], self.weights[i]) + self.biases[i]
             layer_inputs.append(z)
@@ -342,29 +342,29 @@ class FeedforwardNeuralNetwork:
         
         return history
     
-    def predict(self, X):
-        """
-        Make predictions.
+    # def predict(self, X):
+    #     """
+    #     Make predictions.
         
-        Parameters:
-        - X: Input data
+    #     Parameters:
+    #     - X: Input data
         
-        Returns:
-        - predictions: Predicted class indices
-        """
-        activations, _ = self.forward(X)
-        return np.argmax(activations[-1], axis=1)
+    #     Returns:
+    #     - predictions: Predicted class indices
+    #     """
+    #     activations, _ = self.forward(X)
+    #     return np.argmax(activations[-1], axis=1)
     
-    def evaluate(self, X, y):
-        """
-        Evaluate the model.
+    # def evaluate(self, X, y):
+    #     """
+    #     Evaluate the model.
         
-        Parameters:
-        - X: Input data
-        - y: Target labels
+    #     Parameters:
+    #     - X: Input data
+    #     - y: Target labels
         
-        Returns:
-        - accuracy: Classification accuracy
-        """
-        predictions = self.predict(X)
-        return np.mean(predictions == y)
+    #     Returns:
+    #     - accuracy: Classification accuracy
+    #     """
+    #     predictions = self.predict(X)
+    #     return np.mean(predictions == y)

@@ -146,7 +146,7 @@ if __name__ == "__main__":
                         help="Pick a dataset for training: ['mnist' or 'fashion_mnist']")
 
     # Training parameters
-    parser.add_argument("-e", "--epochs", type=int, default=1,
+    parser.add_argument("-e", "--epochs", type=int, default=5,
                         help="How many times to go through the entire training dataset")
 
     parser.add_argument("-b", "--batch_size", type=int, default=4,
@@ -195,7 +195,7 @@ if __name__ == "__main__":
 
     # Activation function
     parser.add_argument("-a", "--activation", type=str, default="sigmoid",
-                        help="Activation function to use: ['identity', 'sigmoid', 'tanh', 'ReLU']")
+                        help="Activation function to use: ['sigmoid', 'tanh', 'ReLU']")
 
     args = parser.parse_args()
     main(args)

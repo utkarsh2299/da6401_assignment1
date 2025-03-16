@@ -45,7 +45,7 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 #### **Training Parameters**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-e`, `--epochs` | int | 1 | Number of training epochs. |
+| `-e`, `--epochs` | int | 5 | Number of training epochs. |
 | `-b`, `--batch_size` | int | 4 | Number of samples per training batch. |
 
 #### **Loss Function**
@@ -77,13 +77,13 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 #### **Network Architecture**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-n_hl`, `--hidden_layers_count` | int | 1 | Number of hidden layers. |
+| `-n_hl`, `--hidden_layers_count` | int | 2 | Number of hidden layers. |
 | `-sz`, `--hidden_layer_size` | int | 4 | Number of neurons per hidden layer. |
 
 #### **Activation Function**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-a`, `--activation` | str | "sigmoid" | Activation function. Options: `identity`, `sigmoid`, `tanh`, `ReLU`. |
+| `-a`, `--activation` | str | "sigmoid" | Activation function. Options: `sigmoid`, `tanh`, `ReLU`. |
 
 ## Example Commands
 

@@ -99,7 +99,7 @@ python train_nn.py --epochs 30 --batch_size 32 --optimizer momentum --momentum 0
 
 ### Train Using WandB and WandB Sweeps for Experiment Tracking
 ```bash
-python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_project" --wandb_entity "my_username"
+python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_nn_project" --wandb_entity "musername"
 ```
 
 

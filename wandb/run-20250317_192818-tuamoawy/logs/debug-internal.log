@@ -1,0 +1,15 @@
+{"time":"2025-03-17T19:28:18.737669023+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250317_192818-tuamoawy/logs/debug-core.log"}
+{"time":"2025-03-17T19:28:18.950483395+05:30","level":"INFO","msg":"created new stream","id":"tuamoawy"}
+{"time":"2025-03-17T19:28:18.950518265+05:30","level":"INFO","msg":"stream: started","id":"tuamoawy"}
+{"time":"2025-03-17T19:28:18.950584795+05:30","level":"INFO","msg":"handler: started","stream_id":"tuamoawy"}
+{"time":"2025-03-17T19:28:18.950577325+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tuamoawy"}
+{"time":"2025-03-17T19:28:18.950671826+05:30","level":"INFO","msg":"sender: started","stream_id":"tuamoawy"}
+{"time":"2025-03-17T19:28:19.345274606+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T19:31:28.833742421+05:30","level":"INFO","msg":"stream: closing","id":"tuamoawy"}
+{"time":"2025-03-17T19:31:28.833777321+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T19:31:28.834342983+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T19:31:30.520379671+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T19:31:30.836372738+05:30","level":"INFO","msg":"handler: closed","stream_id":"tuamoawy"}
+{"time":"2025-03-17T19:31:30.836396228+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tuamoawy"}
+{"time":"2025-03-17T19:31:30.836402408+05:30","level":"INFO","msg":"sender: closed","stream_id":"tuamoawy"}
+{"time":"2025-03-17T19:31:30.836475438+05:30","level":"INFO","msg":"stream: closed","id":"tuamoawy"}

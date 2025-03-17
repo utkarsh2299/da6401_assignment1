@@ -14,13 +14,16 @@ def preprocess_data(dataset="fashion_mnist"):
     - X_test: Test data
     - y_test: Test labels
     """
-    # Load Fashion-MNIST data
-    if dataset=="fashion_mnist":
-        (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
-    elif dataset=="mnist":
-        (X_train, y_train), (X_test, y_test) = mnist.load_data()
-    else:
-        print("Choose from MNIST or FMNIST dataset. Try again!")
+    try:
+        # Load Fashion-MNIST data
+        if dataset=="fashion_mnist":
+            (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
+        elif dataset=="mnist":
+            (X_train, y_train), (X_test, y_test) = mnist.load_data()
+        else:
+            raise Exception()
+    except:
+        print("**************Choose from mnist or fashion_mnist dataset. Try again!****************")
     # Reshape and normalize data
     X_train = X_train.reshape(X_train.shape[0], -1).astype('float32') / 255.0
     X_test = X_test.reshape(X_test.shape[0], -1).astype('float32') / 255.0

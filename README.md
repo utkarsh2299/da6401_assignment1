@@ -46,8 +46,8 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 #### **Training Parameters**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-e`, `--epochs` | int | 5 | Number of training epochs. |
-| `-b`, `--batch_size` | int | 4 | Number of samples per training batch. |
+| `-e`, `--epochs` | int | 40 | Number of training epochs. |
+| `-b`, `--batch_size` | int | 32 | Number of samples per training batch. |
 
 #### **Loss Function**
 | Argument | Type | Default | Description |
@@ -58,34 +58,35 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
 | `-o`, `--optimizer` | str | "sgd" | Optimizer choice. Options: `sgd`, `momentum`, `nag`, `rmsprop`, `adam`, `nadam`. |
-| `-lr`, `--learning_rate` | float | 0.1 | Learning rate for optimization. |
-| `-m`, `--momentum` | float | 0.5 | Momentum value (applicable for momentum-based optimizers). |
-| `-beta`, `--decay_rate` | float | 0.5 | Decay rate for RMSprop. |
-| `-beta1`, `--beta1` | float | 0.5 | Beta1 parameter for Adam/Nadam. |
-| `-beta2`, `--beta2` | float | 0.5 | Beta2 parameter for Adam/Nadam. |
+| `-lr`, `--learning_rate` | float | 0.001 | Learning rate for optimization. |
+| `-m`, `--momentum` | float | 0.9 | Momentum value (applicable for momentum-based optimizers). |
+| `-beta`, `--decay_rate` | float | 0.9 | Decay rate for RMSprop. |
+| `-beta1`, `--beta1` | float | 0.9 | Beta1 parameter for Adam/Nadam. |
+| `-beta2`, `--beta2` | float | 0.999 | Beta2 parameter for Adam/Nadam. |
 | `-eps`, `--epsilon` | float | 1e-6 | Small constant to prevent division by zero. |
 
 #### **Regularization**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-w_d`, `--weight_decay` | float | 0.0 | L2 weight decay for regularization. |
+| `-w_d`, `--weight_decay` | float | 0.0005 | L2 weight decay for regularization. |
 
 #### **Weight Initialization**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-w_i`, `--weight_init` | str | "random" | Weight initialization method. Options: `random`, `Xavier`. |
+| `-w_i`, `--weight_init` | str | "random" | Weight initialization method. Options: `he`, `random`, `Xavier`. |
 
 #### **Network Architecture**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-n_hl`, `--hidden_layers_count` | int | 2 | Number of hidden layers. |
-| `-sz`, `--hidden_layer_size` | int | 4 | Number of neurons per hidden layer. |
+| `-n_hl`, `--hidden_layers_count` | int | 4 | Number of hidden layers. |
+| `-sz`, `--hidden_layer_size` | int | 128 | Number of neurons per hidden layer. |
 
 #### **Activation Function**
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `-a`, `--activation` | str | "sigmoid" | Activation function. Options: `sigmoid`, `tanh`, `ReLU`. |
+| `-a`, `--activation` | str | "relu" | Activation function. Options: `sigmoid`, `tanh`, `ReLU`. |
 
+<br>
 ## Example Commands to try:
 
 ### Train with Adam Optimizer and ReLU Activation

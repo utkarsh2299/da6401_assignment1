@@ -9,8 +9,8 @@ from configs.sweep_config import sweep_config  # Import sweep configuration
 
 def main(args: argparse.Namespace):
 
-    # Convert hidden_layers string to list of integers
-    # hidden_layers = [int(size) for size in args.hidden_layers.split(',')]
+    
+    X_train, y_train, X_val, y_val, X_test, y_test = preprocess_data(args.dataset)
     
     if args.dataset == "fashion_mnist":
         print(args.dataset)
@@ -20,14 +20,14 @@ def main(args: argparse.Namespace):
         print(args.dataset)
         class_names = ["0", "1", "2", "3", "4","5","6","7","8","9"] # Digit-MNIST class names
         
-    X_train, y_train, X_val, y_val, X_test, y_test = preprocess_data(args.dataset)
+    
     
     # Print dataset shapes
     print(f"Training set: {X_train.shape}, {y_train.shape}")
     print(f"Validation set: {X_val.shape}, {y_val.shape}")
     print(f"Test set: {X_test.shape}, {y_test.shape}")
     
-    # Define model architecture
+    # model architecture
     input_size = 784  # 28x28 pixels
     output_size = 10  # 10 classes in MNIST/ F-MNIST
     
@@ -163,19 +163,19 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--optimizer", type=str, default="sgd",
                         help="Choose which optimizer to use: ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']")
 
-    parser.add_argument("-lr", "--learning_rate", type=float, default=0.01,
+    parser.add_argument("-lr", "--learning_rate", type=float, default=0.001,
                         help="How fast the model should learn (too high may be unstable, too low may be slow)")
 
-    parser.add_argument("-m", "--momentum", type=float, default=0.5,
+    parser.add_argument("-m", "--momentum", type=float, default=0.9,
                         help="Momentum value (only useful if using momentum-based optimizers)")
 
-    parser.add_argument("-beta", "--decay_rate", type=float, default=0.5,
+    parser.add_argument("-beta", "--decay_rate", type=float, default=0.9,
                         help="Beta parameter (only used for RMSprop optimizer)")
 
-    parser.add_argument("-beta1", "--beta1", type=float, default=0.5,
+    parser.add_argument("-beta1", "--beta1", type=float, default=0.9,
                         help="Beta1 parameter for Adam/Nadam optimizers (helps control moving averages)")
 
-    parser.add_argument("-beta2", "--beta2", type=float, default=0.5,
+    parser.add_argument("-beta2", "--beta2", type=float, default=0.999,
                         help="Beta2 parameter for Adam/Nadam (controls second moment estimation)")
 
     parser.add_argument("-eps", "--epsilon", type=float, default=1e-6,

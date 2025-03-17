@@ -32,6 +32,45 @@ You can customize training by specifying different arguments. Here is the argume
 python3 train.py --learning_rate 0.001 --activation relu --hidden_layers_count 4 --hidden_layer_size 128 --optimizer sgd --weight_init he -epochs 40 --weight_decay 0.0005 -dataset fashion_mnist
 ```
 
+### Train Using WandB and WandB Sweeps for Experiment Tracking
+```bash
+python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_nn_project" --wandb_entity "musername"
+```
+
+# Project Structure
+
+## `/configs`
+Configuration files for experiments and model parameters.
+- `sweep_config.py`: Configuration for hyperparameter sweeps
+
+## `/models`
+Neural network model definitions.
+- `neural_network_sweep.py`: Model architecture definitions for sweep experiments
+
+## `/optimizers`
+Optimization-related components.
+- `__init__.py`: Initializes the optimizers package
+- `optimizers.py`: Custom optimizers and learning rate schedulers
+
+## `/utils`
+Utility functions and helper modules.
+- `__init__.py`: Initializes the utils package
+- `activations.py`: Custom activation functions
+- `data_utils.py`: Data loading, preprocessing, and augmentation utilities
+- `losses.py`: Custom loss functions
+
+## `/wandb`
+Weight & Biases integration for experiment tracking.
+- `fmnist.png`: Fashion MNIST dataset visualization
+
+## Root Files
+- `question1.py`: Main script for question 1 implementation
+- `README.md`: Project documentation (this file)
+- `references.txt`: Citations and references
+- `requirements.txt`: Project dependencies
+- `train.py`: Main training script
+
+---
 ### Arguments Explanation
 
 #### **Weights & Biases Integration**
@@ -91,18 +130,20 @@ python3 train.py --learning_rate 0.001 --activation relu --hidden_layers_count 4
 | `-a`, `--activation` | str | "relu" | Activation function. Options: `sigmoid`, `tanh`, `ReLU`. |
 
 <br>
+
 ## Example Commands to try:
 
 ### Train with Adam Optimizer and ReLU Activation
 ```bash
 python train_nn.py --epochs 10 --batch_size 64 --optimizer adam --activation relu --learning_rate 0.001
-```
 
-### Train Using WandB and WandB Sweeps for Experiment Tracking
-```bash
-python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_nn_project" --wandb_entity "musername"
 ```
----
+### Custom Training with MNIST Digit Dataset
+You can customize training by specifying different arguments. Here is the arguments that gave good scores:
+
+```bash
+python3 train.py --learning_rate 0.001 --activation relu --hidden_layers_count 4 --hidden_layer_size 128 --optimizer sgd --weight_init he -epochs 40 --weight_decay 0.0005 -dataset mnist
+```
 
 **Work done for the course `Introduction to Deep Learning`. Please raise an issue if the code doesn't work propely for any case.**
 

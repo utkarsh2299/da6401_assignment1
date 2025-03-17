@@ -127,13 +127,7 @@ Utility functions and helper modules.
 
 <br>
 
-## Example Commands to try:
 
-### Train with Adam Optimizer and ReLU Activation
-```bash
-python train_nn.py --epochs 10 --batch_size 64 --optimizer adam --activation relu --learning_rate 0.001
-
-```
 ### Custom Training with MNIST Digit Dataset
 You can customize training by specifying different arguments. Here is the arguments that gave good scores:
 

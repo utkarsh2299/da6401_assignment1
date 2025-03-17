@@ -1,0 +1,16 @@
+{"time":"2025-03-17T18:01:18.725184619+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250317_180118-vaerli0y/logs/debug-core.log"}
+{"time":"2025-03-17T18:01:18.94193221+05:30","level":"INFO","msg":"created new stream","id":"vaerli0y"}
+{"time":"2025-03-17T18:01:18.9419892+05:30","level":"INFO","msg":"stream: started","id":"vaerli0y"}
+{"time":"2025-03-17T18:01:18.942156511+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vaerli0y"}
+{"time":"2025-03-17T18:01:18.942311891+05:30","level":"INFO","msg":"handler: started","stream_id":"vaerli0y"}
+{"time":"2025-03-17T18:01:18.942344231+05:30","level":"INFO","msg":"sender: started","stream_id":"vaerli0y"}
+{"time":"2025-03-17T18:01:19.253171875+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T18:01:28.773104662+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T18:01:28.773810473+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T18:01:29.77578868+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vaerli0y-confusion_matrix_table","runtime_seconds":1.010496718},{"desc":"uploading config.yaml","runtime_seconds":0.374449678,"progress":"2.2KB/2.2KB"}],"total_operations":2}}
+{"time":"2025-03-17T18:01:31.434358474+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T18:01:31.760157599+05:30","level":"INFO","msg":"stream: closing","id":"vaerli0y"}
+{"time":"2025-03-17T18:01:31.760173369+05:30","level":"INFO","msg":"handler: closed","stream_id":"vaerli0y"}
+{"time":"2025-03-17T18:01:31.760181339+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vaerli0y"}
+{"time":"2025-03-17T18:01:31.760191619+05:30","level":"INFO","msg":"sender: closed","stream_id":"vaerli0y"}
+{"time":"2025-03-17T18:01:31.760259179+05:30","level":"INFO","msg":"stream: closed","id":"vaerli0y"}

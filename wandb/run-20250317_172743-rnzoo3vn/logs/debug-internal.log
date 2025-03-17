@@ -1,0 +1,7 @@
+{"time":"2025-03-17T17:27:43.128490673+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250317_172743-rnzoo3vn/logs/debug-core.log"}
+{"time":"2025-03-17T17:27:43.340211526+05:30","level":"INFO","msg":"created new stream","id":"rnzoo3vn"}
+{"time":"2025-03-17T17:27:43.340242916+05:30","level":"INFO","msg":"stream: started","id":"rnzoo3vn"}
+{"time":"2025-03-17T17:27:43.340290016+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rnzoo3vn"}
+{"time":"2025-03-17T17:27:43.340343296+05:30","level":"INFO","msg":"handler: started","stream_id":"rnzoo3vn"}
+{"time":"2025-03-17T17:27:43.340294006+05:30","level":"INFO","msg":"sender: started","stream_id":"rnzoo3vn"}
+{"time":"2025-03-17T17:27:43.711935982+05:30","level":"INFO","msg":"Starting system monitor"}

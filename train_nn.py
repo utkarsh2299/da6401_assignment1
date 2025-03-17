@@ -9,14 +9,15 @@ from configs.sweep_config import sweep_config  # Import sweep configuration
 
 def main(args: argparse.Namespace):
 
-
     # Convert hidden_layers string to list of integers
     # hidden_layers = [int(size) for size in args.hidden_layers.split(',')]
     
     if args.dataset == "fashion_mnist":
+        print(args.dataset)
         class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                    'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot'] # Fashion-MNIST class names
     elif args.dataset == "mnist":
+        print(args.dataset)
         class_names = ["0", "1", "2", "3", "4","5","6","7","8","9"] # Digit-MNIST class names
         
     X_train, y_train, X_val, y_val, X_test, y_test = preprocess_data(args.dataset)
@@ -33,13 +34,13 @@ def main(args: argparse.Namespace):
     # print(args.use_wandb)
     
     def train():
-        print("inside train")
+        # print("inside train")
         with wandb.init() as run:
         # Access all hyperparameters through wandb.config
             config = wandb.config
             # Create hidden layers configuration based on count and size
             hidden_layers = [config.hidden_layer_size] * config.hidden_layers_count
-            
+            # wandb.entity = config.wandb_entity
             # model name for tracking
             #ep_{epochs}_hl_{hidden_layers_count}_sz_{hidden_layer_size}_bs_{batch_size}_act_{activation}_opt_{optimizer}_lr_{learning_rate}_wd_{weight_decay}_init_{weight_init}
             model_name = f"ep_{config.epochs}_hl_{config.hidden_layers_count}_sz_{config.hidden_layer_size}_bs_{config.batch_size}_act_{config.activation}_opt_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_init_{config.weight_init}"
@@ -53,7 +54,8 @@ def main(args: argparse.Namespace):
                 output_size,
                 activation=config.activation,
                 weight_init=config.weight_init,
-                weight_decay=config.weight_decay
+                weight_decay=config.weight_decay,
+                loss=config.loss
             )
             
             # Train the model
@@ -81,12 +83,13 @@ def main(args: argparse.Namespace):
     if args.use_wandb_sweep == "True": 
         wandb.login()
         # print("In if con")
+        
         # Initialize the sweep
         # sweep_id = wandb.sweep(sweep_config, project="fashion-mnist-hyperparameter-sweep")
         sweep_id = wandb.sweep(sweep_config, project=args.wandb_project)
 
         # Run the sweep
-        wandb.agent(sweep_id, train, count=100)  # Run 50 trials
+        wandb.agent(sweep_id, train, count=50)  # Run 100 trials wit hdifferent combination
         wandb.finish()
         
     else:
@@ -139,17 +142,17 @@ if __name__ == "__main__":
                         help="Name of the WandB project where training details will be logged")
 
     parser.add_argument("-we", "--wandb_entity", type=str, default="utkarsh",
-                        help="Your WandB entity name (kind of like your username for logging experiments)")
+                        help="Your WandB entity name (kind of like username for logging experiments)")
 
     # Dataset selection
     parser.add_argument("-d", "--dataset", type=str, default="fashion_mnist",
                         help="Pick a dataset for training: ['mnist' or 'fashion_mnist']")
 
     # Training parameters
-    parser.add_argument("-e", "--epochs", type=int, default=5,
+    parser.add_argument("-e", "--epochs", type=int, default=40,
                         help="How many times to go through the entire training dataset")
 
-    parser.add_argument("-b", "--batch_size", type=int, default=4,
+    parser.add_argument("-b", "--batch_size", type=int, default=32,
                         help="How many samples to process at once during training")
 
     # Loss function
@@ -160,7 +163,7 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--optimizer", type=str, default="sgd",
                         help="Choose which optimizer to use: ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']")
 
-    parser.add_argument("-lr", "--learning_rate", type=float, default=0.1,
+    parser.add_argument("-lr", "--learning_rate", type=float, default=0.01,
                         help="How fast the model should learn (too high may be unstable, too low may be slow)")
 
     parser.add_argument("-m", "--momentum", type=float, default=0.5,
@@ -179,22 +182,22 @@ if __name__ == "__main__":
                         help="A tiny number added to avoid division by zero in optimizers")
 
     # Regularization
-    parser.add_argument("-w_d", "--weight_decay", type=float, default=0.0,
+    parser.add_argument("-w_d", "--weight_decay", type=float, default=0.0005,
                         help="Weight decay (L2 regularization) to prevent overfitting")
 
     # Weight initialization
     parser.add_argument("-w_i", "--weight_init", type=str, default="random",
-                        help="Choose how to initialize weights: ['random' or 'Xavier']")
+                        help="Choose how to initialize weights: ['He', 'random' or 'Xavier']")
 
     # Network architecture
-    parser.add_argument("-n_hl", "--hidden_layers_count", type=int, default=1,
+    parser.add_argument("-n_hl", "--hidden_layers_count", type=int, default=4,
                         help="Number of hidden layers in the neural network")
 
-    parser.add_argument("-sz", "--hidden_layer_size", type=int, default=4,
+    parser.add_argument("-sz", "--hidden_layer_size", type=int, default=128,
                         help="Number of neurons in each hidden layer")
 
     # Activation function
-    parser.add_argument("-a", "--activation", type=str, default="sigmoid",
+    parser.add_argument("-a", "--activation", type=str, default="relu",
                         help="Activation function to use: ['sigmoid', 'tanh', 'ReLU']")
 
     args = parser.parse_args()

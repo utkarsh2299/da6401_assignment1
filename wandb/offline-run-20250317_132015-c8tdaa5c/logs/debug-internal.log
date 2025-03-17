@@ -1,0 +1,15 @@
+{"time":"2025-03-17T13:20:16.176047172+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/offline-run-20250317_132015-c8tdaa5c/logs/debug-core.log"}
+{"time":"2025-03-17T13:20:16.387946045+05:30","level":"INFO","msg":"created new stream","id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.388005766+05:30","level":"INFO","msg":"stream: started","id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.388056146+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.388074486+05:30","level":"INFO","msg":"handler: started","stream_id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.388070296+05:30","level":"INFO","msg":"sender: started","stream_id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.393592968+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:20:16.533099104+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:20:16.53911277+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:20:16.539960878+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-17T13:20:16.54232655+05:30","level":"INFO","msg":"stream: closing","id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.542366041+05:30","level":"INFO","msg":"handler: closed","stream_id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.542381131+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.542432301+05:30","level":"INFO","msg":"sender: closed","stream_id":"c8tdaa5c"}
+{"time":"2025-03-17T13:20:16.542471552+05:30","level":"INFO","msg":"stream: closed","id":"c8tdaa5c"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T18:00:01.915904465+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250317_180001-wzex6orj/logs/debug-core.log"}
+{"time":"2025-03-17T18:00:02.129069123+05:30","level":"INFO","msg":"created new stream","id":"wzex6orj"}
+{"time":"2025-03-17T18:00:02.129133303+05:30","level":"INFO","msg":"stream: started","id":"wzex6orj"}
+{"time":"2025-03-17T18:00:02.130812475+05:30","level":"INFO","msg":"handler: started","stream_id":"wzex6orj"}
+{"time":"2025-03-17T18:00:02.130863095+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wzex6orj"}
+{"time":"2025-03-17T18:00:02.131276215+05:30","level":"INFO","msg":"sender: started","stream_id":"wzex6orj"}
+{"time":"2025-03-17T18:00:02.460748838+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T18:00:19.054918728+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T18:00:19.055970499+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T18:00:20.056650464+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wzex6orj-confusion_matrix_table","runtime_seconds":1.011933489}],"total_operations":1}}
+{"time":"2025-03-17T18:00:21.813131535+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T18:00:22.1252862+05:30","level":"INFO","msg":"stream: closing","id":"wzex6orj"}
+{"time":"2025-03-17T18:00:22.12532135+05:30","level":"INFO","msg":"handler: closed","stream_id":"wzex6orj"}
+{"time":"2025-03-17T18:00:22.12533632+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wzex6orj"}
+{"time":"2025-03-17T18:00:22.12535015+05:30","level":"INFO","msg":"sender: closed","stream_id":"wzex6orj"}
+{"time":"2025-03-17T18:00:22.12546374+05:30","level":"INFO","msg":"stream: closed","id":"wzex6orj"}

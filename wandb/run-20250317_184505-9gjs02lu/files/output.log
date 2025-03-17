@@ -1,0 +1,9 @@
+Epoch 1/5 - 15.02s - loss: 0.3297 - acc: 0.9188 - val_loss: 0.1623 - val_acc: 0.9535
+Epoch 2/5 - 15.25s - loss: 0.1743 - acc: 0.9641 - val_loss: 0.1127 - val_acc: 0.9687
+Epoch 3/5 - 14.22s - loss: 0.1385 - acc: 0.9741 - val_loss: 0.1032 - val_acc: 0.9715
+Epoch 4/5 - 14.35s - loss: 0.1171 - acc: 0.9783 - val_loss: 0.1053 - val_acc: 0.9720
+Epoch 5/5 - 14.81s - loss: 0.1014 - acc: 0.9827 - val_loss: 0.0882 - val_acc: 0.9758
+Training completed in 73.65s
+{'train_loss': [np.float64(0.32965562130571074), np.float64(0.17430147260307247), np.float64(0.13853087740175943), np.float64(0.1170525526691977), np.float64(0.10143333183498333)], 'train_acc': [np.float64(0.9187592592592593), np.float64(0.9641296296296297), np.float64(0.9740555555555556), np.float64(0.9782962962962963), np.float64(0.9826851851851852)], 'val_loss': [np.float64(0.16232965019518966), np.float64(0.11268669608960832), np.float64(0.1031799927128976), np.float64(0.10532831537090537), np.float64(0.08821477987835576)], 'val_acc': [np.float64(0.9535), np.float64(0.9686666666666667), np.float64(0.9715), np.float64(0.972), np.float64(0.9758333333333333)]}
+
+Test accuracy with sgd: 0.9731

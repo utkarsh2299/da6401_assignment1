@@ -1,0 +1,13 @@
+Epoch 1/5 - 31.55s - loss: 0.2856 - acc: 0.9238 - val_loss: 0.1689 - val_acc: 0.9512
+Epoch 2/5 - 34.15s - loss: 0.1785 - acc: 0.9561 - val_loss: 0.1493 - val_acc: 0.9582
+Epoch 3/5 - 33.86s - loss: 0.1598 - acc: 0.9611 - val_loss: 0.1428 - val_acc: 0.9603
+Epoch 4/5 - 33.81s - loss: 0.1484 - acc: 0.9645 - val_loss: 0.1443 - val_acc: 0.9600
+Epoch 5/5 - 32.95s - loss: 0.1398 - acc: 0.9655 - val_loss: 0.1230 - val_acc: 0.9618
+Training completed in 166.32s
+{'train_loss': [np.float64(0.28558298992039277), np.float64(0.17845629381641848), np.float64(0.15983024543614627), np.float64(0.1484338673975947), np.float64(0.1398151811480004)], 'train_acc': [np.float64(0.9237592592592593), np.float64(0.9561296296296297), np.float64(0.9610555555555556), np.float64(0.9645), np.float64(0.9654814814814815)], 'val_loss': [np.float64(0.16890337843281217), np.float64(0.14931676354740406), np.float64(0.14277457805347252), np.float64(0.1442700575620591), np.float64(0.12295031270803382)], 'val_acc': [np.float64(0.9511666666666667), np.float64(0.9581666666666667), np.float64(0.9603333333333334), np.float64(0.96), np.float64(0.9618333333333333)]}
+Traceback (most recent call last):
+  File "/speech/utkarsh/da6401_assignment1/train_nn.py", line 202, in <module>
+    main(args)
+  File "/speech/utkarsh/da6401_assignment1/train_nn.py", line 123, in main
+    test_acc = model.evaluate(X_test, y_test)
+AttributeError: 'FeedforwardNeuralNetwork' object has no attribute 'evaluate'

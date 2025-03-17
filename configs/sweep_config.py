@@ -23,7 +23,8 @@ sweep_config = {
             'values': [0, 0.0005, 0.005]
         },
         'loss':{
-            'values':['mean_squared_error']
+            'values':['cross_entropy_loss']
+            # 'values':['mean_squared_error', 'cross_entropy_loss']
         },
         'learning_rate': {
             'values': [1e-1,1e-2,1e-3]

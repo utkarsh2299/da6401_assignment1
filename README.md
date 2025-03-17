@@ -2,6 +2,7 @@
 
 ## Overview
 This repository provides a neural network training framework for the Fashion-MNIST dataset, with support for various hyperparameter configurations, optimizer choices, weight initializations, and logging with Weights & Biases (WandB). The training script allows users to fine-tune models through command-line arguments.
+The goal of this assignment is twofold: (i) implement and use gradient descent (and its variants) with backpropagation for a classification task (ii) get familiar with Wandb which is a cool tool for running and keeping track of a large number of experiments.
 
 ## Installation
 Ensure you have Python installed. To set up the environment and install dependencies, run:

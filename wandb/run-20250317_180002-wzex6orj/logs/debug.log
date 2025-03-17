@@ -1,0 +1,243 @@
+2025-03-17 18:00:02,595 INFO    Thread-133 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180002-wzex6orj/logs/debug.log
+2025-03-17 18:00:02,596 INFO    Thread-133 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180002-wzex6orj/logs/debug-internal.log
+2025-03-17 18:00:02,597 INFO    Thread-133 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:00:02,598 INFO    Thread-133 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:00:02,598 INFO    Thread-133 (_run_job):3867771 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:00:18,744 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 18:00:19,050 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/wzex6orj
+2025-03-17 18:00:19,051 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-17 18:00:19,052 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_restore():2322] restore
+2025-03-17 18:00:19,053 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_restore():2328] restore done
+2025-03-17 18:00:22,119 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-17 18:00:22,121 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-17 18:00:22,123 INFO    Thread-133 (_run_job):3867771 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-17 18:00:33,126 INFO    MsgRouterThr:3867771 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-17 18:00:33,879 INFO    Thread-136 (_run_job):3867771 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-17 18:00:33,880 INFO    Thread-136 (_run_job):3867771 [wandb_setup.py:_flush():67] Configure stats pid to 3867771
+2025-03-17 18:00:33,881 INFO    Thread-136 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-17 18:00:33,881 INFO    Thread-136 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-17 18:00:33,882 INFO    Thread-136 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-17 18:00:33,883 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180033-pv73d2n7/logs/debug.log
+2025-03-17 18:00:33,883 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180033-pv73d2n7/logs/debug-internal.log
+2025-03-17 18:00:33,884 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:00:33,885 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 32, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:00:33,885 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():784] starting backend
+2025-03-17 18:00:33,886 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 18:00:33,887 INFO    Thread-136 (_run_job):3867771 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-17 18:00:33,888 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():798] backend started and connected
+2025-03-17 18:00:33,889 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'tanh', 'batch_size': 32, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'he'}
+2025-03-17 18:00:33,891 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():891] updated telemetry
+2025-03-17 18:00:33,898 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 18:00:34,449 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 18:00:34,568 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 18:00:34,569 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 18:00:34,570 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 18:00:34,570 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 18:00:34,571 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 18:00:34,576 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180034-pv73d2n7/logs/debug.log
+2025-03-17 18:00:34,576 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180034-pv73d2n7/logs/debug-internal.log
+2025-03-17 18:00:34,577 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:00:34,577 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 32, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:00:34,578 INFO    Thread-136 (_run_job):3867771 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:00:42,842 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 18:00:43,130 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/pv73d2n7
+2025-03-17 18:00:43,131 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-17 18:00:43,132 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_restore():2322] restore
+2025-03-17 18:00:43,133 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_restore():2328] restore done
+2025-03-17 18:00:47,446 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-17 18:00:47,447 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-17 18:00:47,448 INFO    Thread-136 (_run_job):3867771 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-17 18:00:50,447 INFO    MsgRouterThr:3867771 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-17 18:00:51,223 INFO    Thread-139 (_run_job):3867771 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-17 18:00:51,224 INFO    Thread-139 (_run_job):3867771 [wandb_setup.py:_flush():67] Configure stats pid to 3867771
+2025-03-17 18:00:51,224 INFO    Thread-139 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-17 18:00:51,225 INFO    Thread-139 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-17 18:00:51,225 INFO    Thread-139 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-17 18:00:51,226 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180051-ktt1pd80/logs/debug.log
+2025-03-17 18:00:51,226 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180051-ktt1pd80/logs/debug-internal.log
+2025-03-17 18:00:51,227 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:00:51,227 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:00:51,228 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():784] starting backend
+2025-03-17 18:00:51,228 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 18:00:51,230 INFO    Thread-139 (_run_job):3867771 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-17 18:00:51,230 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():798] backend started and connected
+2025-03-17 18:00:51,231 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'he'}
+2025-03-17 18:00:51,232 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():891] updated telemetry
+2025-03-17 18:00:51,238 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 18:00:51,774 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 18:00:51,893 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 18:00:51,894 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 18:00:51,895 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 18:00:51,896 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 18:00:51,897 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 18:00:51,901 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180051-ktt1pd80/logs/debug.log
+2025-03-17 18:00:51,901 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180051-ktt1pd80/logs/debug-internal.log
+2025-03-17 18:00:51,902 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:00:51,903 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 3, 'learning_rate': 0.01, 'loss': 'cross_entropy_loss', 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:00:51,903 INFO    Thread-139 (_run_job):3867771 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:01:10,672 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 18:01:10,958 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/ktt1pd80
+2025-03-17 18:01:10,960 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-17 18:01:10,961 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_restore():2322] restore
+2025-03-17 18:01:10,962 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_restore():2328] restore done
+2025-03-17 18:01:13,959 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-17 18:01:13,960 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-17 18:01:13,961 INFO    Thread-139 (_run_job):3867771 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-17 18:01:17,963 INFO    MsgRouterThr:3867771 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-17 18:01:18,709 INFO    Thread-142 (_run_job):3867771 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-17 18:01:18,710 INFO    Thread-142 (_run_job):3867771 [wandb_setup.py:_flush():67] Configure stats pid to 3867771
+2025-03-17 18:01:18,711 INFO    Thread-142 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-17 18:01:18,712 INFO    Thread-142 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-17 18:01:18,713 INFO    Thread-142 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-17 18:01:18,714 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180118-vaerli0y/logs/debug.log
+2025-03-17 18:01:18,716 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180118-vaerli0y/logs/debug-internal.log
+2025-03-17 18:01:18,717 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:01:18,718 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:01:18,719 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():784] starting backend
+2025-03-17 18:01:18,720 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 18:01:18,725 INFO    Thread-142 (_run_job):3867771 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-17 18:01:18,726 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():798] backend started and connected
+2025-03-17 18:01:18,727 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'he'}
+2025-03-17 18:01:18,729 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():891] updated telemetry
+2025-03-17 18:01:18,736 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 18:01:19,246 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 18:01:19,404 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 18:01:19,405 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 18:01:19,406 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 18:01:19,407 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 18:01:19,408 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 18:01:19,413 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180119-vaerli0y/logs/debug.log
+2025-03-17 18:01:19,414 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180119-vaerli0y/logs/debug-internal.log
+2025-03-17 18:01:19,415 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:01:19,416 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'nesterov', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:01:19,417 INFO    Thread-142 (_run_job):3867771 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:01:28,492 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 18:01:28,768 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/vaerli0y
+2025-03-17 18:01:28,770 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-17 18:01:28,771 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_restore():2322] restore
+2025-03-17 18:01:28,772 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_restore():2328] restore done
+2025-03-17 18:01:31,757 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-17 18:01:31,758 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-17 18:01:31,759 INFO    Thread-142 (_run_job):3867771 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-17 18:01:34,760 INFO    MsgRouterThr:3867771 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-17 18:01:35,499 INFO    Thread-145 (_run_job):3867771 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-17 18:01:35,501 INFO    Thread-145 (_run_job):3867771 [wandb_setup.py:_flush():67] Configure stats pid to 3867771
+2025-03-17 18:01:35,501 INFO    Thread-145 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-17 18:01:35,502 INFO    Thread-145 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-17 18:01:35,503 INFO    Thread-145 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-17 18:01:35,503 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180135-w3cu3xcs/logs/debug.log
+2025-03-17 18:01:35,504 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180135-w3cu3xcs/logs/debug-internal.log
+2025-03-17 18:01:35,505 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:01:35,506 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'adam', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:01:35,506 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():784] starting backend
+2025-03-17 18:01:35,507 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 18:01:35,509 INFO    Thread-145 (_run_job):3867771 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-17 18:01:35,510 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():798] backend started and connected
+2025-03-17 18:01:35,511 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 32, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'adam', 'weight_decay': 0, 'weight_init': 'he'}
+2025-03-17 18:01:35,515 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():891] updated telemetry
+2025-03-17 18:01:35,521 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 18:01:36,066 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 18:01:36,207 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 18:01:36,208 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 18:01:36,209 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 18:01:36,210 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 18:01:36,211 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 18:01:36,214 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180136-w3cu3xcs/logs/debug.log
+2025-03-17 18:01:36,215 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180136-w3cu3xcs/logs/debug-internal.log
+2025-03-17 18:01:36,215 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:01:36,216 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 5, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'adam', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:01:36,217 INFO    Thread-145 (_run_job):3867771 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:01:46,769 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 18:01:47,039 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/w3cu3xcs
+2025-03-17 18:01:47,040 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-17 18:01:47,041 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_restore():2322] restore
+2025-03-17 18:01:47,042 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_restore():2328] restore done
+2025-03-17 18:01:50,087 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-17 18:01:50,089 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-17 18:01:50,090 INFO    Thread-145 (_run_job):3867771 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-17 18:02:01,092 INFO    MsgRouterThr:3867771 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-17 18:02:01,862 INFO    Thread-148 (_run_job):3867771 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-17 18:02:01,863 INFO    Thread-148 (_run_job):3867771 [wandb_setup.py:_flush():67] Configure stats pid to 3867771
+2025-03-17 18:02:01,864 INFO    Thread-148 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-17 18:02:01,865 INFO    Thread-148 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-17 18:02:01,866 INFO    Thread-148 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-17 18:02:01,866 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180201-3ivnd0sz/logs/debug.log
+2025-03-17 18:02:01,867 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180201-3ivnd0sz/logs/debug-internal.log
+2025-03-17 18:02:01,868 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:02:01,869 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'sgd', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:02:01,870 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():784] starting backend
+2025-03-17 18:02:01,871 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 18:02:01,873 INFO    Thread-148 (_run_job):3867771 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-17 18:02:01,874 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():798] backend started and connected
+2025-03-17 18:02:01,875 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'sgd', 'weight_decay': 0.0005, 'weight_init': 'he'}
+2025-03-17 18:02:01,876 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():891] updated telemetry
+2025-03-17 18:02:01,883 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 18:02:02,393 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 18:02:02,549 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 18:02:02,556 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 18:02:02,557 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 18:02:02,558 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 18:02:02,559 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 18:02:02,563 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180202-3ivnd0sz/logs/debug.log
+2025-03-17 18:02:02,564 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180202-3ivnd0sz/logs/debug-internal.log
+2025-03-17 18:02:02,565 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:02:02,566 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'sgd', 'weight_decay': 0.0005, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:02:02,567 INFO    Thread-148 (_run_job):3867771 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:02:21,965 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 18:02:22,272 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/3ivnd0sz
+2025-03-17 18:02:22,273 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-17 18:02:22,274 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_restore():2322] restore
+2025-03-17 18:02:22,274 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_restore():2328] restore done
+2025-03-17 18:02:25,252 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-17 18:02:25,254 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-17 18:02:25,255 INFO    Thread-148 (_run_job):3867771 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-17 18:02:28,254 INFO    MsgRouterThr:3867771 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-17 18:02:29,003 INFO    Thread-151 (_run_job):3867771 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-17 18:02:29,004 INFO    Thread-151 (_run_job):3867771 [wandb_setup.py:_flush():67] Configure stats pid to 3867771
+2025-03-17 18:02:29,005 INFO    Thread-151 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/.config/wandb/settings
+2025-03-17 18:02:29,006 INFO    Thread-151 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from /speech/utkarsh/da6401_assignment1/wandb/settings
+2025-03-17 18:02:29,006 INFO    Thread-151 (_run_job):3867771 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-17 18:02:29,007 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180229-4uiwgshk/logs/debug.log
+2025-03-17 18:02:29,008 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180229-4uiwgshk/logs/debug-internal.log
+2025-03-17 18:02:29,009 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:02:29,009 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'nadam', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:02:29,010 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():784] starting backend
+2025-03-17 18:02:29,011 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 18:02:29,018 INFO    Thread-151 (_run_job):3867771 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-17 18:02:29,019 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():798] backend started and connected
+2025-03-17 18:02:29,020 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'relu', 'batch_size': 32, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'nadam', 'weight_decay': 0, 'weight_init': 'he'}
+2025-03-17 18:02:29,024 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():891] updated telemetry
+2025-03-17 18:02:29,031 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 18:02:29,733 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 18:02:29,856 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 18:02:29,858 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 18:02:29,859 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 18:02:29,860 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 18:02:29,860 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 18:02:29,864 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180229-4uiwgshk/logs/debug.log
+2025-03-17 18:02:29,865 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /speech/utkarsh/da6401_assignment1/wandb/run-20250317_180229-4uiwgshk/logs/debug-internal.log
+2025-03-17 18:02:29,866 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():761] calling init triggers
+2025-03-17 18:02:29,867 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 10, 'hidden_layer_size': 32, 'hidden_layers_count': 2, 'learning_rate': 0.001, 'loss': 'cross_entropy_loss', 'optimizer': 'nadam', 'weight_decay': 0, 'weight_init': 'he'}
+config: {'_wandb': {}}
+2025-03-17 18:02:29,868 INFO    Thread-151 (_run_job):3867771 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:02:51,067 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 18:02:51,349 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_finish():2112] finishing run da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/4uiwgshk
+2025-03-17 18:02:51,350 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-17 18:02:51,351 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_restore():2322] restore
+2025-03-17 18:02:51,352 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_restore():2328] restore done
+2025-03-17 18:02:54,289 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-17 18:02:54,291 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-17 18:02:54,292 INFO    Thread-151 (_run_job):3867771 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-17 18:02:55,289 INFO    MsgRouterThr:3867771 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

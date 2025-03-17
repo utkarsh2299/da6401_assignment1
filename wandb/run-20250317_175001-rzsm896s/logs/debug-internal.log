@@ -1,0 +1,16 @@
+{"time":"2025-03-17T17:50:01.869985569+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250317_175001-rzsm896s/logs/debug-core.log"}
+{"time":"2025-03-17T17:50:02.08263057+05:30","level":"INFO","msg":"created new stream","id":"rzsm896s"}
+{"time":"2025-03-17T17:50:02.0826765+05:30","level":"INFO","msg":"stream: started","id":"rzsm896s"}
+{"time":"2025-03-17T17:50:02.08269966+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rzsm896s"}
+{"time":"2025-03-17T17:50:02.08272584+05:30","level":"INFO","msg":"sender: started","stream_id":"rzsm896s"}
+{"time":"2025-03-17T17:50:02.08272695+05:30","level":"INFO","msg":"handler: started","stream_id":"rzsm896s"}
+{"time":"2025-03-17T17:50:02.422654567+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T17:50:11.701227452+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T17:50:11.701864043+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T17:50:12.702907565+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rzsm896s-confusion_matrix_table","runtime_seconds":1.006519456},{"desc":"uploading config.yaml","runtime_seconds":0.358923625,"progress":"2.3KB/2.3KB"}],"total_operations":2}}
+{"time":"2025-03-17T17:50:14.192225146+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T17:50:14.513466212+05:30","level":"INFO","msg":"stream: closing","id":"rzsm896s"}
+{"time":"2025-03-17T17:50:14.513502102+05:30","level":"INFO","msg":"handler: closed","stream_id":"rzsm896s"}
+{"time":"2025-03-17T17:50:14.513515862+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rzsm896s"}
+{"time":"2025-03-17T17:50:14.513567252+05:30","level":"INFO","msg":"sender: closed","stream_id":"rzsm896s"}
+{"time":"2025-03-17T17:50:14.513651422+05:30","level":"INFO","msg":"stream: closed","id":"rzsm896s"}

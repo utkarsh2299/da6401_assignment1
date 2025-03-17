@@ -1,0 +1,19 @@
+{
+  "os": "Linux-6.5.0-18-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.13",
+  "startedAt": "2025-03-17T07:50:16.163533Z",
+  "args": [
+    "-uw_s",
+    "True"
+  ],
+  "program": "/speech/utkarsh/da6401_assignment1/train_nn.py",
+  "codePath": "train_nn.py",
+  "git": {
+    "remote": "https://github.com/utkarsh2299/da6401_assignment1.git",
+    "commit": "6aba5fc890724463d16f88cad92cd48647be307c"
+  },
+  "root": "/speech/utkarsh/da6401_assignment1",
+  "host": "gpu19",
+  "executable": "/speech/utkarsh/miniconda3/envs/utk/bin/python3",
+  "codePathLocal": "train_nn.py"
+}

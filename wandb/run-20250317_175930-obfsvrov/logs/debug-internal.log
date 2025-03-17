@@ -1,0 +1,16 @@
+{"time":"2025-03-17T17:59:30.638257546+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/utkarsh/da6401_assignment1/wandb/run-20250317_175930-obfsvrov/logs/debug-core.log"}
+{"time":"2025-03-17T17:59:30.851546658+05:30","level":"INFO","msg":"created new stream","id":"obfsvrov"}
+{"time":"2025-03-17T17:59:30.851607708+05:30","level":"INFO","msg":"stream: started","id":"obfsvrov"}
+{"time":"2025-03-17T17:59:30.851634999+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"obfsvrov"}
+{"time":"2025-03-17T17:59:30.851824329+05:30","level":"INFO","msg":"handler: started","stream_id":"obfsvrov"}
+{"time":"2025-03-17T17:59:30.851827239+05:30","level":"INFO","msg":"sender: started","stream_id":"obfsvrov"}
+{"time":"2025-03-17T17:59:31.168435639+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T17:59:55.902300724+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T17:59:55.902893835+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T17:59:56.904365436+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-obfsvrov-confusion_matrix_table","runtime_seconds":1.00864848}],"total_operations":1}}
+{"time":"2025-03-17T17:59:58.850662699+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T17:59:59.149720223+05:30","level":"INFO","msg":"stream: closing","id":"obfsvrov"}
+{"time":"2025-03-17T17:59:59.149742453+05:30","level":"INFO","msg":"handler: closed","stream_id":"obfsvrov"}
+{"time":"2025-03-17T17:59:59.149760603+05:30","level":"INFO","msg":"sender: closed","stream_id":"obfsvrov"}
+{"time":"2025-03-17T17:59:59.149754953+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"obfsvrov"}
+{"time":"2025-03-17T17:59:59.149875843+05:30","level":"INFO","msg":"stream: closed","id":"obfsvrov"}

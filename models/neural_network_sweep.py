@@ -342,29 +342,29 @@ class FeedforwardNeuralNetwork:
         
         return history
     
-    # def predict(self, X):
-    #     """
-    #     Make predictions.
+    def predict(self, X):
+        """
+        Make predictions.
         
-    #     Parameters:
-    #     - X: Input data
+        Parameters:
+        - X: Input data
         
-    #     Returns:
-    #     - predictions: Predicted class indices
-    #     """
-    #     activations, _ = self.forward(X)
-    #     return np.argmax(activations[-1], axis=1)
+        Returns:
+        - predictions: Predicted class indices
+        """
+        activations, _ = self.forward(X)
+        return np.argmax(activations[-1], axis=1)
     
-    # def evaluate(self, X, y):
-    #     """
-    #     Evaluate the model.
+    def evaluate(self, X, y):
+        """
+        Evaluate the model.
         
-    #     Parameters:
-    #     - X: Input data
-    #     - y: Target labels
+        Parameters:
+        - X: Input data
+        - y: Target labels
         
-    #     Returns:
-    #     - accuracy: Classification accuracy
-    #     """
-    #     predictions = self.predict(X)
-    #     return np.mean(predictions == y)
+        Returns:
+        - accuracy: Classification accuracy
+        """
+        predictions = self.predict(X)
+        return np.mean(predictions == y)

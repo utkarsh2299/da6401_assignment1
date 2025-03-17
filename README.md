@@ -1,8 +1,12 @@
 # Neural Network Training for Fashion-MNIST | DA6401 Assignment 1 | Introduction to Deep Learning
 
+![image info](fmnist.png)
+
 ## Overview
 This repository provides a neural network training framework for the Fashion-MNIST dataset, with support for various hyperparameter configurations, optimizer choices, weight initializations, and logging with Weights & Biases (WandB). The training script allows users to fine-tune models through command-line arguments.
 The goal of this assignment is twofold: (i) implement and use gradient descent (and its variants) with backpropagation for a classification task (ii) get familiar with Wandb which is a cool tool for running and keeping track of a large number of experiments.
+
+Report : [Report Link](https://wandb.ai/da24s011-indian-institute-of-technology-madras/neural-network-fashion-mnist/reports/DA24S011-DA6401-Assignment-1--VmlldzoxMTU3NTA0MA)
 
 ## Installation
 Ensure you have Python installed. To set up the environment and install dependencies, run:
@@ -18,14 +22,14 @@ The training script can be executed with various command-line arguments to confi
 Run the following command to train the neural network with default settings:
 
 ```bash
-python train_nn.py
+python train.py
 ```
 
 ### Custom Training with Arguments
-You can customize training by specifying different arguments:
+You can customize training by specifying different arguments. Here is the arguments that gave good scores:
 
 ```bash
-python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer adam --activation ReLU
+python3 train.py --learning_rate 0.001 --activation relu --hidden_layers_count 4 --hidden_layer_size 128 --optimizer sgd --weight_init he -epochs 40 --weight_decay 0.0005 -dataset fashion_mnist
 ```
 
 ### Arguments Explanation
@@ -91,12 +95,7 @@ python train_nn.py --epochs 10 --batch_size 32 --learning_rate 0.01 --optimizer 
 
 ### Train with Adam Optimizer and ReLU Activation
 ```bash
-python train_nn.py --epochs 20 --batch_size 64 --optimizer adam --activation ReLU --learning_rate 0.001
-```
-
-### Train with Momentum-based SGD and Xavier Initialization
-```bash
-python train_nn.py --epochs 30 --batch_size 32 --optimizer momentum --momentum 0.9 --weight_init Xavier
+python train_nn.py --epochs 10 --batch_size 64 --optimizer adam --activation relu --learning_rate 0.001
 ```
 
 ### Train Using WandB and WandB Sweeps for Experiment Tracking

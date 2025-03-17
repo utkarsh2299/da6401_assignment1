@@ -140,6 +140,6 @@ You can customize training by specifying different arguments. Here is the argume
 ```bash
 python3 train.py --learning_rate 0.001 --activation relu --hidden_layers_count 4 --hidden_layer_size 128 --optimizer sgd --weight_init he -epochs 40 --weight_decay 0.0005 -dataset mnist
 ```
-
+---
 **Work done for the course `Introduction to Deep Learning`. Please raise an issue if the code doesn't work propely for any case.**
 

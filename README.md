@@ -39,31 +39,27 @@ python train_nn.py --use_wandb True --use_wandb_sweep True --wandb_project "my_n
 
 # Project Structure
 
-## `/configs`
+### `/configs`
 Configuration files for experiments and model parameters.
 - `sweep_config.py`: Configuration for hyperparameter sweeps
 
-## `/models`
+### `/models`
 Neural network model definitions.
 - `neural_network_sweep.py`: Model architecture definitions for sweep experiments
 
-## `/optimizers`
+### `/optimizers`
 Optimization-related components.
 - `__init__.py`: Initializes the optimizers package
 - `optimizers.py`: Custom optimizers and learning rate schedulers
 
-## `/utils`
+### `/utils`
 Utility functions and helper modules.
 - `__init__.py`: Initializes the utils package
 - `activations.py`: Custom activation functions
 - `data_utils.py`: Data loading, preprocessing, and augmentation utilities
 - `losses.py`: Custom loss functions
 
-## `/wandb`
-Weight & Biases integration for experiment tracking.
-- `fmnist.png`: Fashion MNIST dataset visualization
-
-## Root Files
+### Root Files
 - `question1.py`: Main script for question 1 implementation
 - `README.md`: Project documentation (this file)
 - `references.txt`: Citations and references

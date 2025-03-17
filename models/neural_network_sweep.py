@@ -78,7 +78,7 @@ class FeedforwardNeuralNetwork:
         Initialize weights and biases for the network using He, Xavier, or Random initialization.
 
         Parameters:
-        - weight_init (str): The initialization method. Options are:
+        - weight_init (str): The initialization method. Options aree:
             'he'      -> He initialization (recommended for ReLU activations)
             'xavier'  -> Xavier initialization (recommended for Tanh activations)
             'random'  -> Small random values (not recommended for deep networks)
@@ -191,12 +191,13 @@ class FeedforwardNeuralNetwork:
                 weight_gradients[l] += self.weight_decay * self.weights[l]
         
    
-        clip_value=5.0
+        clip_value=5.0  #gradient clip to prevent exploding gradients and overflow
         for l in range(num_layers):
             weight_gradients[l] = np.clip(weight_gradients[l], -clip_value, clip_value)
             bias_gradients[l] = np.clip(bias_gradients[l], -clip_value, clip_value)
         
         from optimizers.optimizers import get_optimizer
+        
         optimizer_func = get_optimizer(optimizer)
         optimizer_func(
             self.weights, self.biases,  # Parameters to update
@@ -244,7 +245,7 @@ class FeedforwardNeuralNetwork:
         n_samples = X_train.shape[0]
         n_batches = int(np.ceil(n_samples / batch_size))
         
-        # Training loop
+        # Training
         start_time = time.time()
         for epoch in range(epochs):
             epoch_start_time = time.time()
@@ -272,6 +273,7 @@ class FeedforwardNeuralNetwork:
                 
                 # Calculate loss
                 y_pred = activations[-1]
+                
                 # batch_loss = -np.sum(y_batch * np.log(y_pred + 1e-10)) / X_batch.shape[0]
                 batch_loss = self.loss_function(y_pred, y_batch, X_batch)
                 # Add L2 regularization to loss
@@ -284,10 +286,10 @@ class FeedforwardNeuralNetwork:
                 # Calculate accuracy
                 batch_correct = np.sum(np.argmax(y_pred, axis=1) == np.argmax(y_batch, axis=1))
                 
-                # Backward pass
+                #backward pass
                 self.backward(X_batch, y_batch, activations, layer_inputs, optimizer, learning_rate)
                 
-                # Update epoch metrics
+                #update epoch metrics
                 epoch_loss += batch_loss * (end_idx - start_idx)
                 epoch_correct += batch_correct
             
@@ -295,7 +297,7 @@ class FeedforwardNeuralNetwork:
             epoch_loss /= n_samples
             epoch_acc = epoch_correct / n_samples
             
-            # Validation
+            #Validation 
             val_activations, _ = self.forward(X_val)
             val_y_pred = val_activations[-1]
             val_y_true = one_hot_encode(y_val, self.output_size)
